@@ -48,6 +48,22 @@ femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config
 femic run --run-config config/run_profile.k3z.yaml
 ```
 
+4. Run the full reproducible K3Z rebuild sequence:
+
+```bash
+femic instance rebuild \
+  --run-config config/run_profile.k3z.yaml \
+  --patchworks-config config/patchworks.runtime.windows.yaml \
+  --with-patchworks \
+  --run-id k3z_rebuild
+```
+
+5. Rebuild-spec source of truth:
+
+```text
+config/rebuild.spec.yaml
+```
+
 ## Standalone Docs
 
 This repository now includes a standalone Sphinx docs site under `docs/`.

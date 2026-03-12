@@ -4,11 +4,40 @@ Rebuild and QA
 Deterministic Rebuild Script
 ----------------------------
 
-Use instance-local FEMIC commands for reproducible K3Z rebuild checks:
+Primary source of truth for K3Z rebuild sequence and invariants:
+
+- ``config/rebuild.spec.yaml``
+
+Use instance-local FEMIC rebuild orchestration for reproducible K3Z checks:
 
 .. code-block:: bash
 
+   femic instance rebuild \
+     --run-config config/run_profile.k3z.yaml \
+     --patchworks-config config/patchworks.runtime.windows.yaml \
+     --with-patchworks \
+     --run-id k3z_rebuild_check
+
+Preview planned step order without mutation:
+
+.. code-block:: bash
+
+   femic instance rebuild \
+     --run-config config/run_profile.k3z.yaml \
+     --patchworks-config config/patchworks.runtime.windows.yaml \
+     --with-patchworks \
+     --dry-run \
+     --run-id k3z_rebuild_plan
+
+Manual equivalent command sequence (mirrors rebuild spec):
+
+.. code-block:: bash
+
+   femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
+   femic prep geospatial-preflight
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_rebuild_check
+   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_rebuild_check
+   femic patchworks preflight --config config/patchworks.runtime.windows.yaml
    femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_rebuild_check
 
@@ -16,7 +45,7 @@ Outputs
 -------
 
 - Rebuild report:
-  instance workflow report artifact (if configured for your deployment)
+  ``vdyp_io/logs/instance_rebuild_report-<run_id>.json``
 - Matrix logs:
   ``vdyp_io/logs/patchworks_matrixbuilder_{stdout,stderr,manifest}-<run_id>.log``
 
