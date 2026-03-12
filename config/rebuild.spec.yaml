@@ -9,6 +9,13 @@ runtime:
   tipsy_config_dir: "config/tipsy"
   patchworks_config: "config/patchworks.runtime.windows.yaml"
   log_dir: "vdyp_io/logs"
+  species_account_policy:
+    required_present:
+      - "product.Yield.managed.PLC"
+      - "product.HarvestedVolume.managed.PLC.CC"
+    expected_absent:
+      - "product.Yield.managed.PL"
+      - "product.HarvestedVolume.managed.PL.CC"
 
 steps:
   - step_id: "validate_case"
@@ -109,34 +116,6 @@ invariants:
     comparator: "gt"
     target: 0
     remediation: "Re-export ForestModel XML and rerun matrix build."
-
-  - invariant_id: "plc_managed_yield_account_present"
-    severity: "fatal"
-    metric: "accounts.list"
-    comparator: "contains"
-    target: "product.Yield.managed.PLC"
-    remediation: "Rebuild tracks and verify species account promotion policy."
-
-  - invariant_id: "plc_managed_harvest_account_present"
-    severity: "fatal"
-    metric: "accounts.list"
-    comparator: "contains"
-    target: "product.HarvestedVolume.managed.PLC.CC"
-    remediation: "Rebuild tracks and verify managed harvested-volume account generation."
-
-  - invariant_id: "pl_managed_yield_account_absent"
-    severity: "fatal"
-    metric: "accounts.list"
-    comparator: "not_contains"
-    target: "product.Yield.managed.PL"
-    remediation: "Re-run matrix build and ensure PL exclusion policy is active for K3Z."
-
-  - invariant_id: "pl_managed_harvest_account_absent"
-    severity: "fatal"
-    metric: "accounts.list"
-    comparator: "not_contains"
-    target: "product.HarvestedVolume.managed.PL.CC"
-    remediation: "Re-run matrix build and ensure PL exclusion policy is active for K3Z."
 
   - invariant_id: "baseline_structure_match"
     severity: "warn"
