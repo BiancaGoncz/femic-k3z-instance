@@ -4,17 +4,19 @@ Rebuild and QA
 Deterministic Rebuild Script
 ----------------------------
 
-Use FEMIC repository helper script for reproducible K3Z rebuild checks:
+Use instance-local FEMIC commands for reproducible K3Z rebuild checks:
 
 .. code-block:: bash
 
-   python scripts/k3z/rebuild_k3z_instance.py --run-id k3z_rebuild_check
+   femic run --run-config config/run_profile.k3z.yaml --run-id k3z_rebuild_check
+   femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
+   femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_rebuild_check
 
 Outputs
 -------
 
 - Rebuild report:
-  ``vdyp_io/logs/k3z_rebuild_report-<run_id>.json``
+  instance workflow report artifact (if configured for your deployment)
 - Matrix logs:
   ``vdyp_io/logs/patchworks_matrixbuilder_{stdout,stderr,manifest}-<run_id>.log``
 
@@ -29,14 +31,16 @@ Key Invariants
 Baseline Workflow
 -----------------
 
-Initialize baseline (once per accepted model state):
+Initialize accepted baseline evidence (once per accepted model state):
 
 .. code-block:: bash
 
-   python scripts/k3z/rebuild_k3z_instance.py --run-id k3z_baseline --write-baseline
+   femic run --run-config config/run_profile.k3z.yaml --run-id k3z_baseline
+   femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_baseline
 
 Validate against baseline:
 
 .. code-block:: bash
 
-   python scripts/k3z/rebuild_k3z_instance.py --run-id k3z_compare
+   femic run --run-config config/run_profile.k3z.yaml --run-id k3z_compare
+   femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_compare

@@ -14,5 +14,8 @@ This documentation site is the standalone operator guide for the
    land-base-and-netdown
    assumptions-registry
    base-case-analysis
+   metadata-and-lineage
+   operator-runbook
+   edit-policy-and-scenarios
    rebuild-and-qa
    troubleshooting

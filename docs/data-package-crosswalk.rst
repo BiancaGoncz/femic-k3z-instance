@@ -36,6 +36,6 @@ Section Crosswalk
 Reference Exemplars
 -------------------
 
-- ``reference/TFL26_Information_Package_Sept-2018_v1.1.pdf``
-- ``reference/CFA_Analysis_Report.pdf``
-- ``reference/FNWL_Analysis_Report.pdf``
+- TFL26 Timber Supply Analysis Information Package (Version 1.1)
+- CFA Timber Supply Analysis Data Package and Base Case Results
+- FNWL Timber Supply Analysis Data Package and Base Case Results
