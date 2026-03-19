@@ -28,6 +28,12 @@ Regenerate instead of hand-edit:
 - ``models/k3z_patchworks_model/tracks/*.csv``
 - ``models/k3z_patchworks_model/yield/forestmodel.xml``
 
+Seral account surfaces:
+
+- Global compatibility surface: ``feature.Seral.<stage>``
+- AU-specific inventory-state surface: ``feature.Seral.<au_id>.<stage>``
+- Treatment consequence surface: ``product.Seral.area.<stage>.<au_id>.CC``
+
 Use caution:
 
 - ``models/k3z_patchworks_model/analysis/base.pin`` (runtime wiring)

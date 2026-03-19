@@ -50620,16 +50620,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501000.regenerating">
+        <curve idref="au_985501000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501000.young">
         <curve idref="au_985501000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501000.immature">
+        <curve idref="au_985501000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501000.mature">
+        <curve idref="au_985501000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501000.overmature">
         <curve idref="au_985501000_seral_overmature" />
       </attribute>
     </features>
@@ -50664,16 +50679,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501000.regenerating">
+        <curve idref="au_985501000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501000.young">
         <curve idref="au_985501000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501000.immature">
+        <curve idref="au_985501000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501000.mature">
+        <curve idref="au_985501000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501000.overmature">
         <curve idref="au_985501000_seral_overmature" />
       </attribute>
     </features>
@@ -50763,16 +50793,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501001.regenerating">
+        <curve idref="au_985501001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501001.young">
         <curve idref="au_985501001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501001.immature">
+        <curve idref="au_985501001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501001.mature">
+        <curve idref="au_985501001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501001.overmature">
         <curve idref="au_985501001_seral_overmature" />
       </attribute>
     </features>
@@ -50807,16 +50852,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501001.regenerating">
+        <curve idref="au_985501001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501001.young">
         <curve idref="au_985501001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501001.immature">
+        <curve idref="au_985501001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501001.mature">
+        <curve idref="au_985501001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501001.overmature">
         <curve idref="au_985501001_seral_overmature" />
       </attribute>
     </features>
@@ -50906,16 +50966,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501002.regenerating">
+        <curve idref="au_985501002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501002.young">
         <curve idref="au_985501002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501002.immature">
+        <curve idref="au_985501002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501002.mature">
+        <curve idref="au_985501002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501002.overmature">
         <curve idref="au_985501002_seral_overmature" />
       </attribute>
     </features>
@@ -50944,16 +51019,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501002.regenerating">
+        <curve idref="au_985501002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501002.young">
         <curve idref="au_985501002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501002.immature">
+        <curve idref="au_985501002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501002.mature">
+        <curve idref="au_985501002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501002.overmature">
         <curve idref="au_985501002_seral_overmature" />
       </attribute>
     </features>
@@ -51034,16 +51124,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501003.regenerating">
+        <curve idref="au_985501003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501003.young">
         <curve idref="au_985501003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501003.immature">
+        <curve idref="au_985501003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501003.mature">
+        <curve idref="au_985501003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501003.overmature">
         <curve idref="au_985501003_seral_overmature" />
       </attribute>
     </features>
@@ -51072,16 +51177,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501003.regenerating">
+        <curve idref="au_985501003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501003.young">
         <curve idref="au_985501003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501003.immature">
+        <curve idref="au_985501003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501003.mature">
+        <curve idref="au_985501003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501003.overmature">
         <curve idref="au_985501003_seral_overmature" />
       </attribute>
     </features>
@@ -51162,16 +51282,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501004.regenerating">
+        <curve idref="au_985501004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501004.young">
         <curve idref="au_985501004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501004.immature">
+        <curve idref="au_985501004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501004.mature">
+        <curve idref="au_985501004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501004.overmature">
         <curve idref="au_985501004_seral_overmature" />
       </attribute>
     </features>
@@ -51200,16 +51335,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501004.regenerating">
+        <curve idref="au_985501004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501004.young">
         <curve idref="au_985501004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501004.immature">
+        <curve idref="au_985501004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501004.mature">
+        <curve idref="au_985501004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501004.overmature">
         <curve idref="au_985501004_seral_overmature" />
       </attribute>
     </features>
@@ -51290,16 +51440,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501005.regenerating">
+        <curve idref="au_985501005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501005.young">
         <curve idref="au_985501005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501005.immature">
+        <curve idref="au_985501005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501005.mature">
+        <curve idref="au_985501005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501005.overmature">
         <curve idref="au_985501005_seral_overmature" />
       </attribute>
     </features>
@@ -51328,16 +51493,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501005.regenerating">
+        <curve idref="au_985501005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501005.young">
         <curve idref="au_985501005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501005.immature">
+        <curve idref="au_985501005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501005.mature">
+        <curve idref="au_985501005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501005.overmature">
         <curve idref="au_985501005_seral_overmature" />
       </attribute>
     </features>
@@ -51424,16 +51604,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501006.regenerating">
+        <curve idref="au_985501006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501006.young">
         <curve idref="au_985501006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501006.immature">
+        <curve idref="au_985501006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501006.mature">
+        <curve idref="au_985501006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501006.overmature">
         <curve idref="au_985501006_seral_overmature" />
       </attribute>
     </features>
@@ -51468,16 +51663,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501006.regenerating">
+        <curve idref="au_985501006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501006.young">
         <curve idref="au_985501006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501006.immature">
+        <curve idref="au_985501006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501006.mature">
+        <curve idref="au_985501006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501006.overmature">
         <curve idref="au_985501006_seral_overmature" />
       </attribute>
     </features>
@@ -51567,16 +51777,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501007.regenerating">
+        <curve idref="au_985501007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501007.young">
         <curve idref="au_985501007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501007.immature">
+        <curve idref="au_985501007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501007.mature">
+        <curve idref="au_985501007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501007.overmature">
         <curve idref="au_985501007_seral_overmature" />
       </attribute>
     </features>
@@ -51605,16 +51830,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501007.regenerating">
+        <curve idref="au_985501007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501007.young">
         <curve idref="au_985501007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501007.immature">
+        <curve idref="au_985501007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501007.mature">
+        <curve idref="au_985501007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501007.overmature">
         <curve idref="au_985501007_seral_overmature" />
       </attribute>
     </features>
@@ -51707,16 +51947,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501008.regenerating">
+        <curve idref="au_985501008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501008.young">
         <curve idref="au_985501008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501008.immature">
+        <curve idref="au_985501008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501008.mature">
+        <curve idref="au_985501008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501008.overmature">
         <curve idref="au_985501008_seral_overmature" />
       </attribute>
     </features>
@@ -51757,16 +52012,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985501008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985501008.regenerating">
+        <curve idref="au_985501008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985501008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985501008.young">
         <curve idref="au_985501008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985501008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985501008.immature">
+        <curve idref="au_985501008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985501008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985501008.mature">
+        <curve idref="au_985501008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985501008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985501008.overmature">
         <curve idref="au_985501008_seral_overmature" />
       </attribute>
     </features>
@@ -51865,16 +52135,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502000.regenerating">
+        <curve idref="au_985502000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502000.young">
         <curve idref="au_985502000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502000.immature">
+        <curve idref="au_985502000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502000.mature">
+        <curve idref="au_985502000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502000.overmature">
         <curve idref="au_985502000_seral_overmature" />
       </attribute>
     </features>
@@ -51903,16 +52188,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502000.regenerating">
+        <curve idref="au_985502000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502000.young">
         <curve idref="au_985502000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502000.immature">
+        <curve idref="au_985502000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502000.mature">
+        <curve idref="au_985502000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502000.overmature">
         <curve idref="au_985502000_seral_overmature" />
       </attribute>
     </features>
@@ -51993,16 +52293,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502001.regenerating">
+        <curve idref="au_985502001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502001.young">
         <curve idref="au_985502001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502001.immature">
+        <curve idref="au_985502001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502001.mature">
+        <curve idref="au_985502001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502001.overmature">
         <curve idref="au_985502001_seral_overmature" />
       </attribute>
     </features>
@@ -52037,16 +52352,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502001.regenerating">
+        <curve idref="au_985502001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502001.young">
         <curve idref="au_985502001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502001.immature">
+        <curve idref="au_985502001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502001.mature">
+        <curve idref="au_985502001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502001.overmature">
         <curve idref="au_985502001_seral_overmature" />
       </attribute>
     </features>
@@ -52136,16 +52466,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502002.regenerating">
+        <curve idref="au_985502002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502002.young">
         <curve idref="au_985502002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502002.immature">
+        <curve idref="au_985502002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502002.mature">
+        <curve idref="au_985502002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502002.overmature">
         <curve idref="au_985502002_seral_overmature" />
       </attribute>
     </features>
@@ -52174,16 +52519,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502002.regenerating">
+        <curve idref="au_985502002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502002.young">
         <curve idref="au_985502002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502002.immature">
+        <curve idref="au_985502002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502002.mature">
+        <curve idref="au_985502002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502002.overmature">
         <curve idref="au_985502002_seral_overmature" />
       </attribute>
     </features>
@@ -52264,16 +52624,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502003.regenerating">
+        <curve idref="au_985502003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502003.young">
         <curve idref="au_985502003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502003.immature">
+        <curve idref="au_985502003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502003.mature">
+        <curve idref="au_985502003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502003.overmature">
         <curve idref="au_985502003_seral_overmature" />
       </attribute>
     </features>
@@ -52302,16 +52677,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502003.regenerating">
+        <curve idref="au_985502003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502003.young">
         <curve idref="au_985502003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502003.immature">
+        <curve idref="au_985502003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502003.mature">
+        <curve idref="au_985502003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502003.overmature">
         <curve idref="au_985502003_seral_overmature" />
       </attribute>
     </features>
@@ -52392,16 +52782,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502004.regenerating">
+        <curve idref="au_985502004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502004.young">
         <curve idref="au_985502004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502004.immature">
+        <curve idref="au_985502004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502004.mature">
+        <curve idref="au_985502004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502004.overmature">
         <curve idref="au_985502004_seral_overmature" />
       </attribute>
     </features>
@@ -52436,16 +52841,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502004.regenerating">
+        <curve idref="au_985502004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502004.young">
         <curve idref="au_985502004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502004.immature">
+        <curve idref="au_985502004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502004.mature">
+        <curve idref="au_985502004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502004.overmature">
         <curve idref="au_985502004_seral_overmature" />
       </attribute>
     </features>
@@ -52535,16 +52955,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502005.regenerating">
+        <curve idref="au_985502005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502005.young">
         <curve idref="au_985502005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502005.immature">
+        <curve idref="au_985502005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502005.mature">
+        <curve idref="au_985502005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502005.overmature">
         <curve idref="au_985502005_seral_overmature" />
       </attribute>
     </features>
@@ -52579,16 +53014,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502005.regenerating">
+        <curve idref="au_985502005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502005.young">
         <curve idref="au_985502005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502005.immature">
+        <curve idref="au_985502005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502005.mature">
+        <curve idref="au_985502005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502005.overmature">
         <curve idref="au_985502005_seral_overmature" />
       </attribute>
     </features>
@@ -52684,16 +53134,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502006.regenerating">
+        <curve idref="au_985502006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502006.young">
         <curve idref="au_985502006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502006.immature">
+        <curve idref="au_985502006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502006.mature">
+        <curve idref="au_985502006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502006.overmature">
         <curve idref="au_985502006_seral_overmature" />
       </attribute>
     </features>
@@ -52728,16 +53193,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502006.regenerating">
+        <curve idref="au_985502006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502006.young">
         <curve idref="au_985502006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502006.immature">
+        <curve idref="au_985502006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502006.mature">
+        <curve idref="au_985502006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502006.overmature">
         <curve idref="au_985502006_seral_overmature" />
       </attribute>
     </features>
@@ -52827,16 +53307,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502007.regenerating">
+        <curve idref="au_985502007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502007.young">
         <curve idref="au_985502007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502007.immature">
+        <curve idref="au_985502007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502007.mature">
+        <curve idref="au_985502007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502007.overmature">
         <curve idref="au_985502007_seral_overmature" />
       </attribute>
     </features>
@@ -52871,16 +53366,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502007.regenerating">
+        <curve idref="au_985502007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502007.young">
         <curve idref="au_985502007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502007.immature">
+        <curve idref="au_985502007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502007.mature">
+        <curve idref="au_985502007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502007.overmature">
         <curve idref="au_985502007_seral_overmature" />
       </attribute>
     </features>
@@ -52982,16 +53492,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502008.regenerating">
+        <curve idref="au_985502008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502008.young">
         <curve idref="au_985502008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502008.immature">
+        <curve idref="au_985502008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502008.mature">
+        <curve idref="au_985502008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502008.overmature">
         <curve idref="au_985502008_seral_overmature" />
       </attribute>
     </features>
@@ -53032,16 +53557,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985502008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985502008.regenerating">
+        <curve idref="au_985502008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985502008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985502008.young">
         <curve idref="au_985502008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985502008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985502008.immature">
+        <curve idref="au_985502008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985502008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985502008.mature">
+        <curve idref="au_985502008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985502008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985502008.overmature">
         <curve idref="au_985502008_seral_overmature" />
       </attribute>
     </features>
@@ -53140,16 +53680,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503000.regenerating">
+        <curve idref="au_985503000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503000.young">
         <curve idref="au_985503000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503000.immature">
+        <curve idref="au_985503000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503000.mature">
+        <curve idref="au_985503000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503000.overmature">
         <curve idref="au_985503000_seral_overmature" />
       </attribute>
     </features>
@@ -53184,16 +53739,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503000_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503000.regenerating">
+        <curve idref="au_985503000_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503000_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503000.young">
         <curve idref="au_985503000_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503000_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503000.immature">
+        <curve idref="au_985503000_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503000_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503000.mature">
+        <curve idref="au_985503000_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503000_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503000.overmature">
         <curve idref="au_985503000_seral_overmature" />
       </attribute>
     </features>
@@ -53283,16 +53853,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503001.regenerating">
+        <curve idref="au_985503001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503001.young">
         <curve idref="au_985503001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503001.immature">
+        <curve idref="au_985503001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503001.mature">
+        <curve idref="au_985503001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503001.overmature">
         <curve idref="au_985503001_seral_overmature" />
       </attribute>
     </features>
@@ -53327,16 +53912,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503001_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503001.regenerating">
+        <curve idref="au_985503001_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503001_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503001.young">
         <curve idref="au_985503001_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503001_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503001.immature">
+        <curve idref="au_985503001_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503001_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503001.mature">
+        <curve idref="au_985503001_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503001_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503001.overmature">
         <curve idref="au_985503001_seral_overmature" />
       </attribute>
     </features>
@@ -53426,16 +54026,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503002.regenerating">
+        <curve idref="au_985503002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503002.young">
         <curve idref="au_985503002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503002.immature">
+        <curve idref="au_985503002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503002.mature">
+        <curve idref="au_985503002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503002.overmature">
         <curve idref="au_985503002_seral_overmature" />
       </attribute>
     </features>
@@ -53464,16 +54079,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503002_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503002.regenerating">
+        <curve idref="au_985503002_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503002_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503002.young">
         <curve idref="au_985503002_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503002_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503002.immature">
+        <curve idref="au_985503002_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503002_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503002.mature">
+        <curve idref="au_985503002_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503002_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503002.overmature">
         <curve idref="au_985503002_seral_overmature" />
       </attribute>
     </features>
@@ -53554,16 +54184,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503003.regenerating">
+        <curve idref="au_985503003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503003.young">
         <curve idref="au_985503003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503003.immature">
+        <curve idref="au_985503003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503003.mature">
+        <curve idref="au_985503003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503003.overmature">
         <curve idref="au_985503003_seral_overmature" />
       </attribute>
     </features>
@@ -53592,16 +54237,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503003_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503003.regenerating">
+        <curve idref="au_985503003_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503003_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503003.young">
         <curve idref="au_985503003_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503003_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503003.immature">
+        <curve idref="au_985503003_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503003_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503003.mature">
+        <curve idref="au_985503003_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503003_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503003.overmature">
         <curve idref="au_985503003_seral_overmature" />
       </attribute>
     </features>
@@ -53682,16 +54342,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503004.regenerating">
+        <curve idref="au_985503004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503004.young">
         <curve idref="au_985503004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503004.immature">
+        <curve idref="au_985503004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503004.mature">
+        <curve idref="au_985503004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503004.overmature">
         <curve idref="au_985503004_seral_overmature" />
       </attribute>
     </features>
@@ -53720,16 +54395,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503004_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503004.regenerating">
+        <curve idref="au_985503004_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503004_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503004.young">
         <curve idref="au_985503004_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503004_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503004.immature">
+        <curve idref="au_985503004_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503004_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503004.mature">
+        <curve idref="au_985503004_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503004_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503004.overmature">
         <curve idref="au_985503004_seral_overmature" />
       </attribute>
     </features>
@@ -53810,16 +54500,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503005.regenerating">
+        <curve idref="au_985503005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503005.young">
         <curve idref="au_985503005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503005.immature">
+        <curve idref="au_985503005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503005.mature">
+        <curve idref="au_985503005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503005.overmature">
         <curve idref="au_985503005_seral_overmature" />
       </attribute>
     </features>
@@ -53848,16 +54553,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503005_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503005.regenerating">
+        <curve idref="au_985503005_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503005_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503005.young">
         <curve idref="au_985503005_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503005_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503005.immature">
+        <curve idref="au_985503005_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503005_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503005.mature">
+        <curve idref="au_985503005_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503005_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503005.overmature">
         <curve idref="au_985503005_seral_overmature" />
       </attribute>
     </features>
@@ -53944,16 +54664,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503006.regenerating">
+        <curve idref="au_985503006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503006.young">
         <curve idref="au_985503006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503006.immature">
+        <curve idref="au_985503006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503006.mature">
+        <curve idref="au_985503006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503006.overmature">
         <curve idref="au_985503006_seral_overmature" />
       </attribute>
     </features>
@@ -53988,16 +54723,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503006_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503006.regenerating">
+        <curve idref="au_985503006_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503006_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503006.young">
         <curve idref="au_985503006_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503006_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503006.immature">
+        <curve idref="au_985503006_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503006_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503006.mature">
+        <curve idref="au_985503006_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503006_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503006.overmature">
         <curve idref="au_985503006_seral_overmature" />
       </attribute>
     </features>
@@ -54087,16 +54837,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503007.regenerating">
+        <curve idref="au_985503007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503007.young">
         <curve idref="au_985503007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503007.immature">
+        <curve idref="au_985503007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503007.mature">
+        <curve idref="au_985503007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503007.overmature">
         <curve idref="au_985503007_seral_overmature" />
       </attribute>
     </features>
@@ -54125,16 +54890,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503007_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503007.regenerating">
+        <curve idref="au_985503007_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503007_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503007.young">
         <curve idref="au_985503007_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503007_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503007.immature">
+        <curve idref="au_985503007_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503007_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503007.mature">
+        <curve idref="au_985503007_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503007_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503007.overmature">
         <curve idref="au_985503007_seral_overmature" />
       </attribute>
     </features>
@@ -54227,16 +55007,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503008.regenerating">
+        <curve idref="au_985503008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503008.young">
         <curve idref="au_985503008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503008.immature">
+        <curve idref="au_985503008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503008.mature">
+        <curve idref="au_985503008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503008.overmature">
         <curve idref="au_985503008_seral_overmature" />
       </attribute>
     </features>
@@ -54277,16 +55072,31 @@
       <attribute label="feature.Seral.regenerating">
         <curve idref="au_985503008_seral_regenerating" />
       </attribute>
+      <attribute label="feature.Seral.985503008.regenerating">
+        <curve idref="au_985503008_seral_regenerating" />
+      </attribute>
       <attribute label="feature.Seral.young">
+        <curve idref="au_985503008_seral_young" />
+      </attribute>
+      <attribute label="feature.Seral.985503008.young">
         <curve idref="au_985503008_seral_young" />
       </attribute>
       <attribute label="feature.Seral.immature">
         <curve idref="au_985503008_seral_immature" />
       </attribute>
+      <attribute label="feature.Seral.985503008.immature">
+        <curve idref="au_985503008_seral_immature" />
+      </attribute>
       <attribute label="feature.Seral.mature">
         <curve idref="au_985503008_seral_mature" />
       </attribute>
+      <attribute label="feature.Seral.985503008.mature">
+        <curve idref="au_985503008_seral_mature" />
+      </attribute>
       <attribute label="feature.Seral.overmature">
+        <curve idref="au_985503008_seral_overmature" />
+      </attribute>
+      <attribute label="feature.Seral.985503008.overmature">
         <curve idref="au_985503008_seral_overmature" />
       </attribute>
     </features>
