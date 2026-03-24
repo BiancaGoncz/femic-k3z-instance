@@ -14,11 +14,19 @@ build:
     --output-dir output/patchworks_k3z_pctct_validated --seral-stage-config config/seral.k3z.yaml
     --silviculture-config config/silviculture.k3z.pctct.yaml
   publish_forestmodel_note: >-
-    After export, copy output/patchworks_k3z_pctct_validated/forestmodel.xml to
-    models/k3z_patchworks_model/yield/forestmodel_pctct.xml before matrix build.
+    Treat the export primarily as the canonical PCT->CT ForestModel refresh.
+    The accepted PCT->CT fragments surface must stay aligned to the baseline
+    218-fragment teaching footprint exactly; unlike CT/fert, this variant does
+    not apply any variant-specific fragment retention overrides on top of that
+    shared geometry surface. Before matrix build, confirm the checked-in
+    output/patchworks_k3z_pctct_validated/fragments/ surface still matches the
+    baseline geometry footprint with no AU/IFM/RETENTION/ORIGIN/SILV_STATE
+    drift, then copy the fresh forestmodel.xml to
+    models/k3z_patchworks_model/yield/forestmodel_pctct.xml.
   matrix_build_command: >-
     femic patchworks matrix-build --instance-root external/femic-k3z-instance
     --config config/patchworks.runtime.pctct.windows.yaml --run-id k3z_pctct
 notes:
   - "Use this variant when a PCT gate is required before CT."
   - "Patchworks launch entrypoint: analysis/pctct.pin"
+  - "Canonical rebuild contract: refresh ForestModel from current bundle/checkpoint inputs, then matrix-build against the accepted 218-fragment PCT->CT surface."

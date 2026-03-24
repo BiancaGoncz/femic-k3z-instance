@@ -115,6 +115,8 @@ Variant review points:
 - ``models/k3z_patchworks_model/tracks_pctct/treatments.csv`` should materialize ``PCT`` and ``CT``.
 - ``models/k3z_patchworks_model/tracks_pctct/accounts.csv`` / ``products.csv`` should include
   ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
+- ``output/patchworks_k3z_pctct_validated/fragments/`` should preserve the
+  accepted baseline 218-fragment geometry footprint exactly.
 - Patchworks smoke expectation: pulling on the ``CT`` treated-area target should
   induce the upstream chain ``PCT`` -> ``CC``.
 - ``models/k3z_patchworks_model/tracks_pctct/accounts.csv`` / ``products.csv``

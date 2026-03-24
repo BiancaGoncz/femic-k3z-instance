@@ -133,6 +133,15 @@ Variant-specific expectations:
 - ``SILV_STATE``-specific tracknames/strata materialize for:
   - ``cc_pl_pct``
   - ``cc_pl_pct_ct``
+- The accepted PCT->CT fragments surface preserves the baseline 218-fragment
+  geometry footprint exactly.
+- PCT->CT fragment differences are limited to treatment-path consequences in
+  the exported ForestModel/tracks surface; the checked-in fragments surface
+  itself should not diverge from baseline in
+  ``AU`` / ``IFM`` / ``RETENTION`` / ``ORIGIN`` / ``SILV_STATE``.
+- Refresh the PCT->CT ForestModel from canonical bundle/checkpoint inputs, but
+  do not replace the checked-in PCT->CT fragments surface blindly with raw
+  export fragments unless the baseline-footprint invariants still hold.
 - ``tracks_pctct`` retains species-wise managed yield / harvested-volume
   accounts in addition to the ``Total`` surfaces.
 - Live Patchworks smoke should show that pulling on a minimum ``CT``
