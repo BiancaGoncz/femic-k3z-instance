@@ -99,6 +99,14 @@ Variant-specific expectations:
   surfaces.
 - ``SILV_STATE``-specific tracknames/strata materialize for the CT/fert
   sequence.
+- The accepted CT/fert fragments surface preserves the baseline 218-fragment
+  geometry footprint exactly.
+- CT/fert fragment differences are limited to the low-yield AUs ``985502006``
+  and ``985502008``, where 9 fragments are retained out of THLB via
+  ``RETENTION = 1.0``.
+- Refresh the CT/fert ForestModel from canonical bundle/checkpoint inputs, but
+  do not replace the checked-in CT/fert fragments surface blindly with raw
+  export fragments unless the baseline-footprint invariants still hold.
 - Live Patchworks smoke should show that pulling on a minimum ``F3``
   treated-area target induces upstream ``F2`` -> ``F1`` -> ``CT`` -> ``CC``.
 
