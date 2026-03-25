@@ -5,7 +5,7 @@ Purpose
 -------
 
 K3Z now ships as one instance checkout with two coexisting top-level
-Patchworks variants, three PCT->CT teaching subvariants, and four
+Patchworks variants, three PCT-only teaching subvariants, and four
 baseline-derived overlay subvariants.
 
 Use this page as the canonical launch and interpretation map.
@@ -25,15 +25,15 @@ Quick Launch Selector
    * - "What changes if we add CT plus repeated fertilization?"
      - ``ctfert``
      - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
-   * - "What changes if CT is gated behind a light earlier PCT?"
-     - ``pctct_light``
-     - ``config/patchworks.runtime.pctct_light.windows.yaml`` + ``analysis/pctct_light.pin``
-   * - "What changes if CT is gated behind a moderate earlier PCT?"
-     - ``pctct_moderate``
-     - ``config/patchworks.runtime.pctct_moderate.windows.yaml`` + ``analysis/pctct_moderate.pin``
-   * - "What changes if CT is gated behind a heavy earlier PCT?"
-     - ``pctct_heavy``
-     - ``config/patchworks.runtime.pctct_heavy.windows.yaml`` + ``analysis/pctct_heavy.pin``
+   * - "What changes if we apply light PCT at age 10?"
+     - ``pct_light``
+     - ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
+   * - "What changes if we apply moderate PCT at age 10?"
+     - ``pct_moderate``
+     - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
+   * - "What changes if we apply heavy PCT at age 10?"
+     - ``pct_heavy``
+     - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
    * - "What changes if retained area follows the student overlay table?"
      - one of the four baseline overlay subvariants
      - the matching ``config/patchworks.runtime.overlay.*.windows.yaml`` + ``analysis/overlay_*.pin``
@@ -62,23 +62,23 @@ Variant Matrix
      - Adds ``SILV_STATE``, CT, synthetic QMD, and the ``F1 -> F2 -> F3`` treatment chain.
      - CT/F1/F2/F3 treated products plus variant-specific managed account surfaces.
      - Intensive-silviculture teaching scaffold with fertilization.
-   * - ``pctct_light``
-     - ``config/patchworks.runtime.pctct_light.windows.yaml`` + ``analysis/pctct_light.pin``
-     - ``tracks_pctct_light/`` + ``yield/forestmodel_pctct_light.xml`` + ``output/patchworks_k3z_pctct_light_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only light PCT gate ahead of CT, but no fertilization chain.
-     - ``PCT`` and ``CT`` treated products on the ``PCT -> CT`` path, plus species-wise managed yield / harvest-volume surfaces.
+   * - ``pct_light``
+     - ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
+     - ``tracks_pct_light/`` + ``yield/forestmodel_pct_light.xml`` + ``output/patchworks_k3z_pct_light_validated/fragments/fragments.shp``
+     - Adds ``SILV_STATE`` plus a planted-only light PCT gate, but no CT or fertilization chain.
+     - ``PCT`` treated products plus species-wise managed yield / harvest-volume surfaces.
      - Light-intensity stand-tending teaching scaffold.
-   * - ``pctct_moderate``
-     - ``config/patchworks.runtime.pctct_moderate.windows.yaml`` + ``analysis/pctct_moderate.pin``
-     - ``tracks_pctct_moderate/`` + ``yield/forestmodel_pctct_moderate.xml`` + ``output/patchworks_k3z_pctct_moderate_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only moderate PCT gate ahead of CT, but no fertilization chain.
-     - ``PCT`` and ``CT`` treated products on the ``PCT -> CT`` path, plus species-wise managed yield / harvest-volume surfaces.
+   * - ``pct_moderate``
+     - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
+     - ``tracks_pct_moderate/`` + ``yield/forestmodel_pct_moderate.xml`` + ``output/patchworks_k3z_pct_moderate_validated/fragments/fragments.shp``
+     - Adds ``SILV_STATE`` plus a planted-only moderate PCT gate, but no CT or fertilization chain.
+     - ``PCT`` treated products plus species-wise managed yield / harvest-volume surfaces.
      - Moderate-intensity stand-tending teaching scaffold.
-   * - ``pctct_heavy``
-     - ``config/patchworks.runtime.pctct_heavy.windows.yaml`` + ``analysis/pctct_heavy.pin``
-     - ``tracks_pctct_heavy/`` + ``yield/forestmodel_pctct_heavy.xml`` + ``output/patchworks_k3z_pctct_heavy_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE`` plus a planted-only heavy PCT gate ahead of CT, but no fertilization chain.
-     - ``PCT`` and ``CT`` treated products on the ``PCT -> CT`` path, plus species-wise managed yield / harvest-volume surfaces.
+   * - ``pct_heavy``
+     - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
+     - ``tracks_pct_heavy/`` + ``yield/forestmodel_pct_heavy.xml`` + ``output/patchworks_k3z_pct_heavy_validated/fragments/fragments.shp``
+     - Adds ``SILV_STATE`` plus a planted-only heavy PCT gate, but no CT or fertilization chain.
+     - ``PCT`` treated products plus species-wise managed yield / harvest-volume surfaces.
      - Heavy-intensity stand-tending teaching scaffold.
    * - ``basecase_riparian``
      - ``config/patchworks.runtime.overlay.basecase_riparian.windows.yaml`` + ``analysis/overlay_basecase_riparian.pin``
@@ -111,8 +111,8 @@ How to Choose a Surface
 1. Start with ``base`` unless you explicitly need a treatment scaffold or an
    overlay sensitivity surface.
 2. Choose ``ctfert`` when the class exercise needs ``CT -> F1 -> F2 -> F3``.
-3. Choose one of ``pctct_light``, ``pctct_moderate``, or ``pctct_heavy`` when
-   the class exercise needs ``PCT -> CT`` without fertilization.
+3. Choose one of ``pct_light``, ``pct_moderate``, or ``pct_heavy`` when
+   the class exercise needs PCT intensity comparison without CT or fertilization.
 4. Choose one of the four overlay subvariants only when the exercise is about
    alternative retained-area policy on top of the accepted baseline.
 

@@ -69,12 +69,12 @@ Surface Selection Cheatsheet
      - ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
    * - CT plus fertilization
      - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
-   * - light PCT gated ahead of CT
-     - ``config/patchworks.runtime.pctct_light.windows.yaml`` + ``analysis/pctct_light.pin``
-   * - moderate PCT gated ahead of CT
-     - ``config/patchworks.runtime.pctct_moderate.windows.yaml`` + ``analysis/pctct_moderate.pin``
-   * - heavy PCT gated ahead of CT
-     - ``config/patchworks.runtime.pctct_heavy.windows.yaml`` + ``analysis/pctct_heavy.pin``
+   * - light PCT-only surface
+     - ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
+   * - moderate PCT-only surface
+     - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
+   * - heavy PCT-only surface
+     - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
    * - retained-area sensitivity only
      - one of the overlay runtime configs + the matching ``analysis/overlay_*.pin``
 
@@ -101,43 +101,43 @@ Variant review points:
   induce the upstream chain ``F2`` -> ``F1`` -> ``CT`` -> ``CC``.
 - Deep reference: :doc:`silviculture-logic`
 
-Optional PCT->CT Subvariant Workflow
-------------------------------------
+Optional PCT-Only Subvariant Workflow
+-------------------------------------
 
 Use this only if you intentionally want the teaching variant with
-pre-commercial thinning ahead of CT, but no fertilization.
+pre-commercial thinning only.
 
 .. code-block:: bash
 
-   femic patchworks matrix-build --config config/patchworks.runtime.pctct_light.windows.yaml --run-id k3z_pctct_light
-   femic patchworks matrix-build --config config/patchworks.runtime.pctct_moderate.windows.yaml --run-id k3z_pctct_moderate
-   femic patchworks matrix-build --config config/patchworks.runtime.pctct_heavy.windows.yaml --run-id k3z_pctct_heavy
+   femic patchworks matrix-build --config config/patchworks.runtime.pct_light.windows.yaml --run-id k3z_pct_light
+   femic patchworks matrix-build --config config/patchworks.runtime.pct_moderate.windows.yaml --run-id k3z_pct_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.pct_heavy.windows.yaml --run-id k3z_pct_heavy
 
 Variant review points:
 
-- `pctct_light`:
-  - variant spec: ``config/patchworks.variant.pctct_light.yaml``
-  - silviculture config: ``config/silviculture.k3z.pctct_light.yaml``
-  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pctct_light.pin``
-  - tracks surface: ``models/k3z_patchworks_model/tracks_pctct_light/``
-- `pctct_moderate`:
-  - variant spec: ``config/patchworks.variant.pctct_moderate.yaml``
-  - silviculture config: ``config/silviculture.k3z.pctct_moderate.yaml``
-  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pctct_moderate.pin``
-  - tracks surface: ``models/k3z_patchworks_model/tracks_pctct_moderate/``
-- `pctct_heavy`:
-  - variant spec: ``config/patchworks.variant.pctct_heavy.yaml``
-  - silviculture config: ``config/silviculture.k3z.pctct_heavy.yaml``
-  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pctct_heavy.pin``
-  - tracks surface: ``models/k3z_patchworks_model/tracks_pctct_heavy/``
-- Each ``tracks_pctct_*`` surface should materialize ``PCT`` and ``CT``.
-- Each ``tracks_pctct_*`` ``accounts.csv`` / ``products.csv`` should include
-  ``product.Treated.managed.PCT`` and ``product.Treated.managed.CT``.
-- Each ``output/patchworks_k3z_pctct_*_validated/fragments/`` surface should
+- `pct_light`:
+  - variant spec: ``config/patchworks.variant.pct_light.yaml``
+  - silviculture config: ``config/silviculture.k3z.pct_light.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pct_light.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_pct_light/``
+- `pct_moderate`:
+  - variant spec: ``config/patchworks.variant.pct_moderate.yaml``
+  - silviculture config: ``config/silviculture.k3z.pct_moderate.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pct_moderate.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_pct_moderate/``
+- `pct_heavy`:
+  - variant spec: ``config/patchworks.variant.pct_heavy.yaml``
+  - silviculture config: ``config/silviculture.k3z.pct_heavy.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pct_heavy.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_pct_heavy/``
+- Each ``tracks_pct_*`` surface should materialize ``PCT`` and not ``CT``.
+- Each ``tracks_pct_*`` ``accounts.csv`` / ``products.csv`` should include
+  ``product.Treated.managed.PCT`` and exclude ``product.Treated.managed.CT``.
+- Each ``output/patchworks_k3z_pct_*_validated/fragments/`` surface should
   preserve the accepted baseline 218-fragment geometry footprint exactly.
-- Patchworks smoke expectation: pulling on the ``CT`` treated-area target
-  should induce the upstream chain ``PCT`` -> ``CC``.
-- Each ``tracks_pctct_*`` ``accounts.csv`` / ``products.csv`` should also
+- Patchworks smoke expectation: pulling on the ``PCT`` treated-area target
+  should induce the upstream chain ``CC``.
+- Each ``tracks_pct_*`` ``accounts.csv`` / ``products.csv`` should also
   retain species-wise managed yield / harvest-volume surfaces, not just
   ``Total``.
 - Deep reference: :doc:`silviculture-logic`
@@ -193,9 +193,9 @@ Troubleshooting Workflow
 3. Account anomalies: trace curves -> attributes/products -> accounts.
 4. Optional variant anomalies: confirm you launched the intended PIN/runtime pair and that
    ``config/silviculture.k3z.ctfert.yaml`` matches the expected treatment-path build.
-5. On the selected ``pctct_*`` subvariant, confirm the matching
-   ``config/silviculture.k3z.pctct_*.yaml`` matches the expected treatment-path
-   build and that the corresponding ``tracks_pctct_*`` surface is active.
+5. On the selected ``pct_*`` subvariant, confirm the matching
+   ``config/silviculture.k3z.pct_*.yaml`` matches the expected treatment-path
+   build and that the corresponding ``tracks_pct_*`` surface is active.
 
 Release Checklist
 -----------------
@@ -206,8 +206,8 @@ Release Checklist
 - Published docs navigation resolves and includes current pages.
 - If releasing the optional CT/fert variant, confirm the variant spec, runtime config,
   and ``ctfert.pin`` launch instructions are documented for student groups.
-- If releasing the optional PCT->CT subvariants, confirm the light/moderate/
-  heavy variant specs, runtime configs, and ``pctct_*.pin`` launch
+- If releasing the optional PCT-only subvariants, confirm the light/moderate/
+  heavy variant specs, runtime configs, and ``pct_*.pin`` launch
   instructions are documented for student groups.
 
 Publication Checklist

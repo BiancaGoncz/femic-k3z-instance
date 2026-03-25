@@ -76,7 +76,7 @@ defaults:
     GW_age_5: null
 
 rules:
-  - id: "k3z_pctct_high_si_cw_target_pathway"
+  - id: "k3z_pct_high_si_cw_target_pathway"
     when:
       au_id_in: [985502000, 985503000, 985502001, 985503001]
     assign:
