@@ -77,7 +77,9 @@ Treatment parameter table:
    * - SI-profiled fert growth speedup
      - ``ctfert_l15h5`` = ``L=0.15``, ``M=0.10``, ``H=0.05``; ``ctfert_l20h0`` = ``L=0.20``, ``M=0.10``, and no fert on ``H`` AUs
    * - QMD source
-     - synthetic placeholder
+     - reverse-engineered approximation from accepted stand yield, BatchTIPSY
+       height/TPH where available, and linear site-index height plus VDYP-side
+       stems-per-hectare proxies otherwise
 
 SI-profile notes:
 

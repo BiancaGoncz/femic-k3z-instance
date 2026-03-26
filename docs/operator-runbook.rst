@@ -84,8 +84,8 @@ Optional CT/Fert Variant Workflow
 ---------------------------------
 
 Use this only if you intentionally want one of the teaching surfaces with
-commercial thinning, provisional QMD, and provisional ``F1`` / ``F2`` /
-``F3`` fertilization.
+commercial thinning, approximate QMD, and ``F1`` / ``F2`` / ``F3``
+fertilization.
 
 .. code-block:: bash
 

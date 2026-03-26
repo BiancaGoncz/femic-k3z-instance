@@ -47,37 +47,37 @@
     <point x="299" y="537.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_managed_cc_pl_ct_qmd">
-    <point x="4" y="10.9" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="24.7" />
-    <point x="60" y="26.9" />
-    <point x="70" y="29.1" />
-    <point x="80" y="31.2" />
-    <point x="90" y="33.2" />
-    <point x="100" y="35.2" />
-    <point x="110" y="37.2" />
-    <point x="120" y="39.1" />
-    <point x="130" y="41.0" />
-    <point x="140" y="42.9" />
-    <point x="150" y="44.8" />
-    <point x="160" y="46.6" />
-    <point x="170" y="48.5" />
-    <point x="180" y="50.3" />
-    <point x="190" y="52.1" />
-    <point x="200" y="53.9" />
-    <point x="210" y="55.6" />
-    <point x="220" y="57.4" />
-    <point x="230" y="59.2" />
-    <point x="240" y="60.9" />
-    <point x="250" y="62.7" />
-    <point x="260" y="64.4" />
-    <point x="270" y="66.1" />
-    <point x="280" y="67.8" />
-    <point x="290" y="69.6" />
-    <point x="299" y="71.1" />
+    <point x="4" y="0.0" />
+    <point x="10" y="1.9" />
+    <point x="20" y="6.1" />
+    <point x="30" y="10.7" />
+    <point x="40" y="14.8" />
+    <point x="50" y="19.9" />
+    <point x="60" y="22.7" />
+    <point x="70" y="24.6" />
+    <point x="80" y="25.8" />
+    <point x="90" y="26.6" />
+    <point x="100" y="26.9" />
+    <point x="110" y="26.9" />
+    <point x="120" y="26.7" />
+    <point x="130" y="26.3" />
+    <point x="140" y="25.7" />
+    <point x="150" y="25.1" />
+    <point x="160" y="24.3" />
+    <point x="170" y="23.6" />
+    <point x="180" y="22.7" />
+    <point x="190" y="21.9" />
+    <point x="200" y="21.0" />
+    <point x="210" y="20.3" />
+    <point x="220" y="19.8" />
+    <point x="230" y="19.2" />
+    <point x="240" y="18.7" />
+    <point x="250" y="18.1" />
+    <point x="260" y="17.6" />
+    <point x="270" y="17.2" />
+    <point x="280" y="16.7" />
+    <point x="290" y="16.3" />
+    <point x="299" y="15.9" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_managed_cc_pl_ct_yield_CW">
     <point x="4" y="0.0" />
@@ -278,37 +278,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_managed_qmd">
-    <point x="4" y="10.9" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="4" y="0.0" />
+    <point x="10" y="1.9" />
+    <point x="20" y="6.1" />
+    <point x="30" y="10.7" />
+    <point x="40" y="14.8" />
+    <point x="50" y="18.1" />
+    <point x="60" y="20.7" />
+    <point x="70" y="22.4" />
+    <point x="80" y="23.5" />
+    <point x="90" y="24.1" />
+    <point x="100" y="24.4" />
+    <point x="110" y="24.4" />
+    <point x="120" y="24.2" />
+    <point x="130" y="23.9" />
+    <point x="140" y="23.4" />
+    <point x="150" y="22.8" />
+    <point x="160" y="22.1" />
+    <point x="170" y="21.4" />
+    <point x="180" y="20.7" />
+    <point x="190" y="19.9" />
+    <point x="200" y="19.1" />
+    <point x="210" y="18.5" />
+    <point x="220" y="18.0" />
+    <point x="230" y="17.5" />
+    <point x="240" y="17.0" />
+    <point x="250" y="16.5" />
+    <point x="260" y="16.0" />
+    <point x="270" y="15.6" />
+    <point x="280" y="15.2" />
+    <point x="290" y="14.8" />
+    <point x="299" y="14.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_og1">
     <point x="110" y="0.0" />
@@ -626,37 +626,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_H_unmanaged_qmd">
-    <point x="4" y="10.9" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="4" y="0.0" />
+    <point x="10" y="1.9" />
+    <point x="20" y="6.1" />
+    <point x="30" y="10.7" />
+    <point x="40" y="14.8" />
+    <point x="50" y="18.1" />
+    <point x="60" y="20.7" />
+    <point x="70" y="22.4" />
+    <point x="80" y="23.5" />
+    <point x="90" y="24.1" />
+    <point x="100" y="24.4" />
+    <point x="110" y="24.4" />
+    <point x="120" y="24.2" />
+    <point x="130" y="23.9" />
+    <point x="140" y="23.4" />
+    <point x="150" y="22.8" />
+    <point x="160" y="22.1" />
+    <point x="170" y="21.4" />
+    <point x="180" y="20.7" />
+    <point x="190" y="19.9" />
+    <point x="200" y="19.1" />
+    <point x="210" y="18.5" />
+    <point x="220" y="18.0" />
+    <point x="230" y="17.5" />
+    <point x="240" y="17.0" />
+    <point x="250" y="16.5" />
+    <point x="260" y="16.0" />
+    <point x="270" y="15.6" />
+    <point x="280" y="15.2" />
+    <point x="290" y="14.8" />
+    <point x="299" y="14.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_cc_pl_ct_harvest_CW">
     <point x="4" y="8.8" />
@@ -800,37 +800,37 @@
     <point x="299" y="537.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_f3_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="29.3" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="299" y="72.8" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="25.4" />
+    <point x="50" y="34.7" />
+    <point x="60" y="41.0" />
+    <point x="70" y="45.9" />
+    <point x="80" y="49.3" />
+    <point x="90" y="56.9" />
+    <point x="100" y="61.5" />
+    <point x="110" y="61.3" />
+    <point x="120" y="60.5" />
+    <point x="130" y="59.4" />
+    <point x="140" y="58.0" />
+    <point x="150" y="56.4" />
+    <point x="160" y="54.6" />
+    <point x="170" y="52.7" />
+    <point x="180" y="50.8" />
+    <point x="190" y="48.9" />
+    <point x="200" y="47.1" />
+    <point x="210" y="45.7" />
+    <point x="220" y="44.4" />
+    <point x="230" y="43.1" />
+    <point x="240" y="41.8" />
+    <point x="250" y="40.6" />
+    <point x="260" y="39.5" />
+    <point x="270" y="38.4" />
+    <point x="280" y="37.4" />
+    <point x="290" y="36.4" />
+    <point x="299" y="35.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_f3_yield_CW">
     <point x="4" y="0.0" />
@@ -899,37 +899,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="27.3" />
-    <point x="90" y="31.4" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="299" y="72.8" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="25.4" />
+    <point x="50" y="34.7" />
+    <point x="60" y="41.0" />
+    <point x="70" y="45.9" />
+    <point x="80" y="54.6" />
+    <point x="90" y="60.1" />
+    <point x="100" y="60.8" />
+    <point x="110" y="60.9" />
+    <point x="120" y="60.2" />
+    <point x="130" y="59.2" />
+    <point x="140" y="57.9" />
+    <point x="150" y="56.4" />
+    <point x="160" y="54.7" />
+    <point x="170" y="52.8" />
+    <point x="180" y="50.9" />
+    <point x="190" y="49.0" />
+    <point x="200" y="47.2" />
+    <point x="210" y="45.7" />
+    <point x="220" y="44.5" />
+    <point x="230" y="43.2" />
+    <point x="240" y="41.9" />
+    <point x="250" y="40.7" />
+    <point x="260" y="39.6" />
+    <point x="270" y="38.5" />
+    <point x="280" y="37.5" />
+    <point x="290" y="36.5" />
+    <point x="299" y="35.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_yield_CW">
     <point x="4" y="0.0" />
@@ -998,37 +998,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="25.1" />
-    <point x="80" y="29.2" />
-    <point x="90" y="31.4" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="299" y="72.8" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="25.4" />
+    <point x="50" y="34.7" />
+    <point x="60" y="41.0" />
+    <point x="70" y="50.5" />
+    <point x="80" y="57.3" />
+    <point x="90" y="59.2" />
+    <point x="100" y="60.2" />
+    <point x="110" y="60.4" />
+    <point x="120" y="59.9" />
+    <point x="130" y="59.0" />
+    <point x="140" y="57.8" />
+    <point x="150" y="56.3" />
+    <point x="160" y="54.7" />
+    <point x="170" y="52.9" />
+    <point x="180" y="51.0" />
+    <point x="190" y="49.1" />
+    <point x="200" y="47.3" />
+    <point x="210" y="45.7" />
+    <point x="220" y="44.6" />
+    <point x="230" y="43.2" />
+    <point x="240" y="42.0" />
+    <point x="250" y="40.8" />
+    <point x="260" y="39.6" />
+    <point x="270" y="38.6" />
+    <point x="280" y="37.5" />
+    <point x="290" y="36.5" />
+    <point x="299" y="35.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_yield_CW">
     <point x="4" y="0.0" />
@@ -1097,37 +1097,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="20.3" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.7" />
-    <point x="80" y="26.8" />
-    <point x="90" y="28.8" />
-    <point x="100" y="30.8" />
-    <point x="110" y="32.8" />
-    <point x="120" y="34.7" />
-    <point x="130" y="36.6" />
-    <point x="140" y="38.5" />
-    <point x="150" y="40.4" />
-    <point x="160" y="42.2" />
-    <point x="170" y="44.1" />
-    <point x="180" y="45.9" />
-    <point x="190" y="47.7" />
-    <point x="200" y="49.5" />
-    <point x="210" y="51.2" />
-    <point x="220" y="53.0" />
-    <point x="230" y="54.8" />
-    <point x="240" y="56.5" />
-    <point x="250" y="58.3" />
-    <point x="260" y="60.0" />
-    <point x="270" y="61.7" />
-    <point x="280" y="63.4" />
-    <point x="290" y="65.2" />
-    <point x="299" y="66.7" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="30.4" />
+    <point x="50" y="41.1" />
+    <point x="60" y="46.8" />
+    <point x="70" y="50.7" />
+    <point x="80" y="53.2" />
+    <point x="90" y="54.7" />
+    <point x="100" y="55.4" />
+    <point x="110" y="55.4" />
+    <point x="120" y="54.9" />
+    <point x="130" y="54.1" />
+    <point x="140" y="53.0" />
+    <point x="150" y="51.6" />
+    <point x="160" y="50.1" />
+    <point x="170" y="48.5" />
+    <point x="180" y="46.8" />
+    <point x="190" y="45.0" />
+    <point x="200" y="43.3" />
+    <point x="210" y="41.9" />
+    <point x="220" y="40.9" />
+    <point x="230" y="39.6" />
+    <point x="240" y="38.5" />
+    <point x="250" y="37.4" />
+    <point x="260" y="36.3" />
+    <point x="270" y="35.3" />
+    <point x="280" y="34.4" />
+    <point x="290" y="33.5" />
+    <point x="299" y="32.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_cc_pl_ct_yield_CW">
     <point x="4" y="0.0" />
@@ -1328,37 +1328,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_managed_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="30.4" />
+    <point x="50" y="37.3" />
+    <point x="60" y="42.6" />
+    <point x="70" y="46.1" />
+    <point x="80" y="48.4" />
+    <point x="90" y="49.7" />
+    <point x="100" y="50.3" />
+    <point x="110" y="50.4" />
+    <point x="120" y="49.9" />
+    <point x="130" y="49.2" />
+    <point x="140" y="48.2" />
+    <point x="150" y="47.0" />
+    <point x="160" y="45.6" />
+    <point x="170" y="44.1" />
+    <point x="180" y="42.5" />
+    <point x="190" y="40.9" />
+    <point x="200" y="39.4" />
+    <point x="210" y="38.1" />
+    <point x="220" y="37.1" />
+    <point x="230" y="36.0" />
+    <point x="240" y="35.0" />
+    <point x="250" y="34.0" />
+    <point x="260" y="33.0" />
+    <point x="270" y="32.1" />
+    <point x="280" y="31.3" />
+    <point x="290" y="30.5" />
+    <point x="299" y="29.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_og1">
     <point x="110" y="0.0" />
@@ -1676,37 +1676,37 @@
     <point x="299" y="327.6" />
   </curve>
   <curve id="au_CWHvm_CW_HW_L_unmanaged_qmd">
-    <point x="4" y="6.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="4" y="0.0" />
+    <point x="10" y="3.8" />
+    <point x="20" y="12.7" />
+    <point x="30" y="22.0" />
+    <point x="40" y="30.4" />
+    <point x="50" y="37.3" />
+    <point x="60" y="42.6" />
+    <point x="70" y="46.1" />
+    <point x="80" y="48.4" />
+    <point x="90" y="49.7" />
+    <point x="100" y="50.3" />
+    <point x="110" y="50.4" />
+    <point x="120" y="49.9" />
+    <point x="130" y="49.2" />
+    <point x="140" y="48.2" />
+    <point x="150" y="47.0" />
+    <point x="160" y="45.6" />
+    <point x="170" y="44.1" />
+    <point x="180" y="42.5" />
+    <point x="190" y="40.9" />
+    <point x="200" y="39.4" />
+    <point x="210" y="38.1" />
+    <point x="220" y="37.1" />
+    <point x="230" y="36.0" />
+    <point x="240" y="35.0" />
+    <point x="250" y="34.0" />
+    <point x="260" y="33.0" />
+    <point x="270" y="32.1" />
+    <point x="280" y="31.3" />
+    <point x="290" y="30.5" />
+    <point x="299" y="29.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_cc_pl_ct_harvest_CW">
     <point x="0" y="1.3" />
@@ -1841,42 +1841,34 @@
     <point x="290" y="657.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_f3_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="29.3" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="20" y="0.0" />
+    <point x="30" y="2.6" />
+    <point x="40" y="9.0" />
+    <point x="50" y="15.7" />
+    <point x="60" y="19.4" />
+    <point x="70" y="22.3" />
+    <point x="80" y="24.4" />
+    <point x="90" y="27.0" />
+    <point x="100" y="30.0" />
+    <point x="110" y="31.1" />
+    <point x="120" y="32.2" />
+    <point x="130" y="33.0" />
+    <point x="140" y="33.6" />
+    <point x="150" y="34.3" />
+    <point x="160" y="35.0" />
+    <point x="170" y="35.7" />
+    <point x="180" y="36.2" />
+    <point x="190" y="36.7" />
+    <point x="200" y="37.2" />
+    <point x="210" y="37.7" />
+    <point x="220" y="38.2" />
+    <point x="230" y="38.7" />
+    <point x="240" y="39.1" />
+    <point x="250" y="39.4" />
+    <point x="260" y="39.8" />
+    <point x="270" y="40.1" />
+    <point x="280" y="40.4" />
+    <point x="290" y="40.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_f3_yield_CW">
     <point x="20" y="0.0" />
@@ -1969,42 +1961,34 @@
     <point x="290" y="460.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="27.4" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="20" y="0.0" />
+    <point x="30" y="2.6" />
+    <point x="40" y="9.0" />
+    <point x="50" y="15.7" />
+    <point x="60" y="19.4" />
+    <point x="70" y="22.3" />
+    <point x="80" y="25.3" />
+    <point x="90" y="28.3" />
+    <point x="100" y="29.8" />
+    <point x="110" y="31.0" />
+    <point x="120" y="32.0" />
+    <point x="130" y="32.8" />
+    <point x="140" y="33.5" />
+    <point x="150" y="34.2" />
+    <point x="160" y="34.9" />
+    <point x="170" y="35.6" />
+    <point x="180" y="36.2" />
+    <point x="190" y="36.7" />
+    <point x="200" y="37.1" />
+    <point x="210" y="37.7" />
+    <point x="220" y="38.2" />
+    <point x="230" y="38.6" />
+    <point x="240" y="39.0" />
+    <point x="250" y="39.4" />
+    <point x="260" y="39.8" />
+    <point x="270" y="40.1" />
+    <point x="280" y="40.4" />
+    <point x="290" y="40.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_yield_CW">
     <point x="20" y="0.0" />
@@ -2097,42 +2081,34 @@
     <point x="290" y="460.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="25.4" />
-    <point x="80" y="29.0" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="20" y="0.0" />
+    <point x="30" y="2.6" />
+    <point x="40" y="9.0" />
+    <point x="50" y="15.7" />
+    <point x="60" y="19.4" />
+    <point x="70" y="23.0" />
+    <point x="80" y="26.5" />
+    <point x="90" y="28.0" />
+    <point x="100" y="29.6" />
+    <point x="110" y="30.8" />
+    <point x="120" y="31.9" />
+    <point x="130" y="32.7" />
+    <point x="140" y="33.4" />
+    <point x="150" y="34.1" />
+    <point x="160" y="34.8" />
+    <point x="170" y="35.5" />
+    <point x="180" y="36.1" />
+    <point x="190" y="36.6" />
+    <point x="200" y="37.1" />
+    <point x="210" y="37.6" />
+    <point x="220" y="38.1" />
+    <point x="230" y="38.6" />
+    <point x="240" y="39.0" />
+    <point x="250" y="39.4" />
+    <point x="260" y="39.8" />
+    <point x="270" y="40.1" />
+    <point x="280" y="40.4" />
+    <point x="290" y="40.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_yield_CW">
     <point x="20" y="0.0" />
@@ -2225,42 +2201,34 @@
     <point x="290" y="460.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.7" />
-    <point x="70" y="26.9" />
-    <point x="80" y="29.0" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="20" y="0.0" />
+    <point x="30" y="2.6" />
+    <point x="40" y="10.8" />
+    <point x="50" y="18.1" />
+    <point x="60" y="21.9" />
+    <point x="70" y="24.6" />
+    <point x="80" y="26.7" />
+    <point x="90" y="28.2" />
+    <point x="100" y="29.6" />
+    <point x="110" y="30.9" />
+    <point x="120" y="31.9" />
+    <point x="130" y="32.7" />
+    <point x="140" y="33.4" />
+    <point x="150" y="34.1" />
+    <point x="160" y="34.8" />
+    <point x="170" y="35.5" />
+    <point x="180" y="36.1" />
+    <point x="190" y="36.6" />
+    <point x="200" y="37.1" />
+    <point x="210" y="37.6" />
+    <point x="220" y="38.1" />
+    <point x="230" y="38.6" />
+    <point x="240" y="39.0" />
+    <point x="250" y="39.4" />
+    <point x="260" y="39.8" />
+    <point x="270" y="40.1" />
+    <point x="280" y="40.4" />
+    <point x="290" y="40.7" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_cc_pl_ct_yield_CW">
     <point x="20" y="0.0" />
@@ -2503,42 +2471,34 @@
     <point x="290" y="460.4" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="20" y="0.0" />
+    <point x="30" y="2.6" />
+    <point x="40" y="10.8" />
+    <point x="50" y="16.4" />
+    <point x="60" y="19.9" />
+    <point x="70" y="22.4" />
+    <point x="80" y="24.3" />
+    <point x="90" y="25.6" />
+    <point x="100" y="26.9" />
+    <point x="110" y="28.0" />
+    <point x="120" y="29.0" />
+    <point x="130" y="29.8" />
+    <point x="140" y="30.3" />
+    <point x="150" y="31.0" />
+    <point x="160" y="31.6" />
+    <point x="170" y="32.3" />
+    <point x="180" y="32.8" />
+    <point x="190" y="33.3" />
+    <point x="200" y="33.7" />
+    <point x="210" y="34.2" />
+    <point x="220" y="34.7" />
+    <point x="230" y="35.1" />
+    <point x="240" y="35.4" />
+    <point x="250" y="35.8" />
+    <point x="260" y="36.1" />
+    <point x="270" y="36.4" />
+    <point x="280" y="36.7" />
+    <point x="290" y="37.0" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_og1">
     <point x="110" y="0.0" />
@@ -2928,37 +2888,37 @@
     <point x="299" y="375.9" />
   </curve>
   <curve id="au_CWHvm_CW_HW_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="4.3" />
+    <point x="20" y="13.3" />
+    <point x="30" y="23.1" />
+    <point x="40" y="31.9" />
+    <point x="50" y="39.2" />
+    <point x="60" y="44.7" />
+    <point x="70" y="48.4" />
+    <point x="80" y="50.8" />
+    <point x="90" y="52.2" />
+    <point x="100" y="52.8" />
+    <point x="110" y="52.8" />
+    <point x="120" y="52.4" />
+    <point x="130" y="51.6" />
+    <point x="140" y="50.6" />
+    <point x="150" y="49.3" />
+    <point x="160" y="47.8" />
+    <point x="170" y="46.3" />
+    <point x="180" y="44.6" />
+    <point x="190" y="43.0" />
+    <point x="200" y="41.3" />
+    <point x="210" y="40.0" />
+    <point x="220" y="39.0" />
+    <point x="230" y="37.8" />
+    <point x="240" y="36.7" />
+    <point x="250" y="35.7" />
+    <point x="260" y="34.7" />
+    <point x="270" y="33.7" />
+    <point x="280" y="32.8" />
+    <point x="290" y="32.0" />
+    <point x="299" y="31.2" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_H_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -3225,37 +3185,7 @@
     <point x="299" y="32.3" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_H_managed_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_H_og1">
     <point x="110" y="0.0" />
@@ -3745,37 +3675,7 @@
     <point x="299" y="32.3" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -4042,37 +3942,37 @@
     <point x="299" y="32.3" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_managed_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="14.2" />
+    <point x="20" y="18.2" />
+    <point x="30" y="20.5" />
+    <point x="40" y="22.1" />
+    <point x="50" y="23.2" />
+    <point x="60" y="24.1" />
+    <point x="70" y="24.6" />
+    <point x="80" y="25.0" />
+    <point x="90" y="25.3" />
+    <point x="100" y="25.4" />
+    <point x="110" y="25.4" />
+    <point x="120" y="25.4" />
+    <point x="130" y="25.3" />
+    <point x="140" y="25.1" />
+    <point x="150" y="24.9" />
+    <point x="160" y="24.7" />
+    <point x="170" y="24.4" />
+    <point x="180" y="24.1" />
+    <point x="190" y="23.8" />
+    <point x="200" y="23.4" />
+    <point x="210" y="23.1" />
+    <point x="220" y="22.7" />
+    <point x="230" y="22.3" />
+    <point x="240" y="21.9" />
+    <point x="250" y="21.5" />
+    <point x="260" y="21.1" />
+    <point x="270" y="20.6" />
+    <point x="280" y="20.2" />
+    <point x="290" y="19.8" />
+    <point x="299" y="19.5" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_og1">
     <point x="110" y="0.0" />
@@ -4562,75 +4462,40 @@
     <point x="299" y="32.3" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="14.2" />
+    <point x="20" y="18.2" />
+    <point x="30" y="20.5" />
+    <point x="40" y="22.1" />
+    <point x="50" y="23.2" />
+    <point x="60" y="24.1" />
+    <point x="70" y="24.6" />
+    <point x="80" y="25.0" />
+    <point x="90" y="25.3" />
+    <point x="100" y="25.4" />
+    <point x="110" y="25.4" />
+    <point x="120" y="25.4" />
+    <point x="130" y="25.3" />
+    <point x="140" y="25.1" />
+    <point x="150" y="24.9" />
+    <point x="160" y="24.7" />
+    <point x="170" y="24.4" />
+    <point x="180" y="24.1" />
+    <point x="190" y="23.8" />
+    <point x="200" y="23.4" />
+    <point x="210" y="23.1" />
+    <point x="220" y="22.7" />
+    <point x="230" y="22.3" />
+    <point x="240" y="21.9" />
+    <point x="250" y="21.5" />
+    <point x="260" y="21.1" />
+    <point x="270" y="20.6" />
+    <point x="280" y="20.2" />
+    <point x="290" y="19.8" />
+    <point x="299" y="19.5" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="0" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_og1">
     <point x="110" y="0.0" />
@@ -4914,37 +4779,7 @@
     <point x="299" y="132.9" />
   </curve>
   <curve id="au_CWHvm_CW_PLC_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_H_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -5145,37 +4980,7 @@
     <point x="299" y="29.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_H_managed_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_H_og1">
     <point x="120" y="0.0" />
@@ -5599,37 +5404,7 @@
     <point x="299" y="29.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_L_managed_natural_yield_CW">
     <point x="1" y="0.0" />
@@ -5830,37 +5605,37 @@
     <point x="299" y="29.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_L_managed_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="14.8" />
+    <point x="20" y="18.0" />
+    <point x="30" y="20.0" />
+    <point x="40" y="21.5" />
+    <point x="50" y="22.5" />
+    <point x="60" y="23.2" />
+    <point x="70" y="23.8" />
+    <point x="80" y="24.2" />
+    <point x="90" y="24.5" />
+    <point x="100" y="24.6" />
+    <point x="110" y="24.7" />
+    <point x="120" y="24.8" />
+    <point x="130" y="24.8" />
+    <point x="140" y="24.7" />
+    <point x="150" y="24.6" />
+    <point x="160" y="24.4" />
+    <point x="170" y="24.2" />
+    <point x="180" y="24.0" />
+    <point x="190" y="23.8" />
+    <point x="200" y="23.6" />
+    <point x="210" y="23.3" />
+    <point x="220" y="23.0" />
+    <point x="230" y="22.7" />
+    <point x="240" y="22.4" />
+    <point x="250" y="22.1" />
+    <point x="260" y="21.8" />
+    <point x="270" y="21.5" />
+    <point x="280" y="21.1" />
+    <point x="290" y="20.8" />
+    <point x="299" y="20.5" />
   </curve>
   <curve id="au_CWHvm_CW_YC_L_og1">
     <point x="120" y="0.0" />
@@ -6284,37 +6059,37 @@
     <point x="299" y="29.0" />
   </curve>
   <curve id="au_CWHvm_CW_YC_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="14.8" />
+    <point x="20" y="18.0" />
+    <point x="30" y="20.0" />
+    <point x="40" y="21.5" />
+    <point x="50" y="22.5" />
+    <point x="60" y="23.2" />
+    <point x="70" y="23.8" />
+    <point x="80" y="24.2" />
+    <point x="90" y="24.5" />
+    <point x="100" y="24.6" />
+    <point x="110" y="24.7" />
+    <point x="120" y="24.8" />
+    <point x="130" y="24.8" />
+    <point x="140" y="24.7" />
+    <point x="150" y="24.6" />
+    <point x="160" y="24.4" />
+    <point x="170" y="24.2" />
+    <point x="180" y="24.0" />
+    <point x="190" y="23.8" />
+    <point x="200" y="23.6" />
+    <point x="210" y="23.3" />
+    <point x="220" y="23.0" />
+    <point x="230" y="22.7" />
+    <point x="240" y="22.4" />
+    <point x="250" y="22.1" />
+    <point x="260" y="21.8" />
+    <point x="270" y="21.5" />
+    <point x="280" y="21.1" />
+    <point x="290" y="20.8" />
+    <point x="299" y="20.5" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_managed_natural_yield_CW">
     <point x="40" y="0.0" />
@@ -6483,42 +6258,32 @@
     <point x="290" y="75.5" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="40" y="0.0" />
+    <point x="50" y="1.3" />
+    <point x="60" y="7.8" />
+    <point x="70" y="13.1" />
+    <point x="80" y="17.0" />
+    <point x="90" y="19.7" />
+    <point x="100" y="21.8" />
+    <point x="110" y="23.8" />
+    <point x="120" y="25.4" />
+    <point x="130" y="26.5" />
+    <point x="140" y="27.4" />
+    <point x="150" y="28.3" />
+    <point x="160" y="29.2" />
+    <point x="170" y="30.1" />
+    <point x="180" y="30.9" />
+    <point x="190" y="31.5" />
+    <point x="200" y="32.2" />
+    <point x="210" y="32.7" />
+    <point x="220" y="33.1" />
+    <point x="230" y="33.5" />
+    <point x="240" y="33.8" />
+    <point x="250" y="34.2" />
+    <point x="260" y="34.6" />
+    <point x="270" y="35.1" />
+    <point x="280" y="35.5" />
+    <point x="290" y="35.9" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_og1">
     <point x="120" y="0.0" />
@@ -6953,37 +6718,37 @@
     <point x="299" y="20.7" />
   </curve>
   <curve id="au_CWHvm_CW_YC_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="11.8" />
+    <point x="20" y="14.4" />
+    <point x="30" y="16.1" />
+    <point x="40" y="17.2" />
+    <point x="50" y="18.0" />
+    <point x="60" y="18.6" />
+    <point x="70" y="19.1" />
+    <point x="80" y="19.4" />
+    <point x="90" y="19.6" />
+    <point x="100" y="19.7" />
+    <point x="110" y="19.8" />
+    <point x="120" y="19.9" />
+    <point x="130" y="19.8" />
+    <point x="140" y="19.8" />
+    <point x="150" y="19.7" />
+    <point x="160" y="19.6" />
+    <point x="170" y="19.4" />
+    <point x="180" y="19.3" />
+    <point x="190" y="19.1" />
+    <point x="200" y="18.9" />
+    <point x="210" y="18.7" />
+    <point x="220" y="18.4" />
+    <point x="230" y="18.2" />
+    <point x="240" y="18.0" />
+    <point x="250" y="17.7" />
+    <point x="260" y="17.5" />
+    <point x="270" y="17.2" />
+    <point x="280" y="16.9" />
+    <point x="290" y="16.7" />
+    <point x="299" y="16.4" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_managed_natural_yield_DR">
     <point x="1" y="0.0" />
@@ -7118,37 +6883,37 @@
     <point x="299" y="70.1" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_managed_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
+    <point x="1" y="0.0" />
+    <point x="10" y="17.3" />
+    <point x="20" y="24.1" />
+    <point x="30" y="27.9" />
+    <point x="40" y="30.0" />
+    <point x="50" y="31.1" />
+    <point x="60" y="31.4" />
+    <point x="70" y="31.3" />
+    <point x="80" y="30.9" />
     <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="100" y="29.3" />
+    <point x="110" y="28.2" />
+    <point x="120" y="27.1" />
+    <point x="130" y="25.9" />
+    <point x="140" y="24.7" />
+    <point x="150" y="23.5" />
+    <point x="160" y="22.3" />
+    <point x="170" y="21.1" />
+    <point x="180" y="19.9" />
+    <point x="190" y="18.8" />
+    <point x="200" y="17.9" />
+    <point x="210" y="17.3" />
+    <point x="220" y="17.1" />
+    <point x="230" y="16.6" />
+    <point x="240" y="16.1" />
+    <point x="250" y="15.7" />
+    <point x="260" y="15.2" />
+    <point x="270" y="14.8" />
+    <point x="280" y="14.5" />
+    <point x="290" y="14.1" />
+    <point x="299" y="13.8" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_og1">
     <point x="60" y="0.0" />
@@ -7426,37 +7191,37 @@
     <point x="299" y="70.1" />
   </curve>
   <curve id="au_CWHvm_DR_HW_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
+    <point x="1" y="0.0" />
+    <point x="10" y="17.3" />
+    <point x="20" y="24.1" />
+    <point x="30" y="27.9" />
+    <point x="40" y="30.0" />
+    <point x="50" y="31.1" />
+    <point x="60" y="31.4" />
+    <point x="70" y="31.3" />
+    <point x="80" y="30.9" />
     <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="100" y="29.3" />
+    <point x="110" y="28.2" />
+    <point x="120" y="27.1" />
+    <point x="130" y="25.9" />
+    <point x="140" y="24.7" />
+    <point x="150" y="23.5" />
+    <point x="160" y="22.3" />
+    <point x="170" y="21.1" />
+    <point x="180" y="19.9" />
+    <point x="190" y="18.8" />
+    <point x="200" y="17.9" />
+    <point x="210" y="17.3" />
+    <point x="220" y="17.1" />
+    <point x="230" y="16.6" />
+    <point x="240" y="16.1" />
+    <point x="250" y="15.7" />
+    <point x="260" y="15.2" />
+    <point x="270" y="14.8" />
+    <point x="280" y="14.5" />
+    <point x="290" y="14.1" />
+    <point x="299" y="13.8" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_managed_natural_yield_DR">
     <point x="1" y="0.0" />
@@ -7591,37 +7356,37 @@
     <point x="299" y="70.1" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_managed_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="18.5" />
+    <point x="20" y="25.8" />
+    <point x="30" y="29.9" />
+    <point x="40" y="32.1" />
+    <point x="50" y="33.3" />
+    <point x="60" y="33.7" />
+    <point x="70" y="33.6" />
+    <point x="80" y="33.1" />
+    <point x="90" y="32.3" />
+    <point x="100" y="31.4" />
+    <point x="110" y="30.3" />
+    <point x="120" y="29.1" />
+    <point x="130" y="27.8" />
+    <point x="140" y="26.5" />
+    <point x="150" y="25.2" />
+    <point x="160" y="23.9" />
+    <point x="170" y="22.6" />
+    <point x="180" y="21.4" />
+    <point x="190" y="20.1" />
+    <point x="200" y="19.1" />
+    <point x="210" y="18.5" />
+    <point x="220" y="18.3" />
+    <point x="230" y="17.8" />
+    <point x="240" y="17.3" />
+    <point x="250" y="16.8" />
+    <point x="260" y="16.3" />
+    <point x="270" y="15.9" />
+    <point x="280" y="15.5" />
+    <point x="290" y="15.1" />
+    <point x="299" y="14.8" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_og1">
     <point x="60" y="0.0" />
@@ -7899,37 +7664,37 @@
     <point x="299" y="70.1" />
   </curve>
   <curve id="au_CWHvm_DR_HW_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="18.5" />
+    <point x="20" y="25.8" />
+    <point x="30" y="29.9" />
+    <point x="40" y="32.1" />
+    <point x="50" y="33.3" />
+    <point x="60" y="33.7" />
+    <point x="70" y="33.6" />
+    <point x="80" y="33.1" />
+    <point x="90" y="32.3" />
+    <point x="100" y="31.4" />
+    <point x="110" y="30.3" />
+    <point x="120" y="29.1" />
+    <point x="130" y="27.8" />
+    <point x="140" y="26.5" />
+    <point x="150" y="25.2" />
+    <point x="160" y="23.9" />
+    <point x="170" y="22.6" />
+    <point x="180" y="21.4" />
+    <point x="190" y="20.1" />
+    <point x="200" y="19.1" />
+    <point x="210" y="18.5" />
+    <point x="220" y="18.3" />
+    <point x="230" y="17.8" />
+    <point x="240" y="17.3" />
+    <point x="250" y="16.8" />
+    <point x="260" y="16.3" />
+    <point x="270" y="15.9" />
+    <point x="280" y="15.5" />
+    <point x="290" y="15.1" />
+    <point x="299" y="14.8" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_managed_natural_yield_DR">
     <point x="10" y="0.0" />
@@ -8012,42 +7777,20 @@
     <point x="140" y="179.0" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="4.6" />
+    <point x="30" y="13.4" />
+    <point x="40" y="18.1" />
+    <point x="50" y="21.2" />
+    <point x="60" y="23.6" />
+    <point x="70" y="25.4" />
+    <point x="80" y="27.0" />
+    <point x="90" y="28.4" />
+    <point x="100" y="29.7" />
+    <point x="110" y="30.8" />
+    <point x="120" y="31.9" />
+    <point x="130" y="33.0" />
+    <point x="140" y="34.1" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_og1">
     <point x="60" y="0.0" />
@@ -8378,37 +8121,37 @@
     <point x="299" y="66.7" />
   </curve>
   <curve id="au_CWHvm_DR_HW_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="18.3" />
+    <point x="20" y="25.5" />
+    <point x="30" y="29.5" />
+    <point x="40" y="31.7" />
+    <point x="50" y="32.8" />
+    <point x="60" y="33.3" />
+    <point x="70" y="33.2" />
+    <point x="80" y="32.7" />
+    <point x="90" y="31.9" />
+    <point x="100" y="31.0" />
+    <point x="110" y="29.9" />
+    <point x="120" y="28.7" />
+    <point x="130" y="27.4" />
+    <point x="140" y="26.2" />
+    <point x="150" y="24.9" />
+    <point x="160" y="23.6" />
+    <point x="170" y="22.3" />
+    <point x="180" y="21.1" />
+    <point x="190" y="19.9" />
+    <point x="200" y="18.9" />
+    <point x="210" y="18.3" />
+    <point x="220" y="18.1" />
+    <point x="230" y="17.5" />
+    <point x="240" y="17.0" />
+    <point x="250" y="16.6" />
+    <point x="260" y="16.1" />
+    <point x="270" y="15.7" />
+    <point x="280" y="15.3" />
+    <point x="290" y="14.9" />
+    <point x="299" y="14.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_cc_pl_ct_harvest_CW">
     <point x="0" y="14.4" />
@@ -8434,42 +8177,15 @@
     <point x="90" y="1086.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_ct_qmd">
-    <point x="0" y="8.0" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="24.7" />
-    <point x="60" y="26.9" />
-    <point x="70" y="29.1" />
-    <point x="80" y="31.2" />
-    <point x="90" y="33.2" />
-    <point x="100" y="35.2" />
-    <point x="110" y="37.2" />
-    <point x="120" y="39.1" />
-    <point x="130" y="41.0" />
-    <point x="140" y="42.9" />
-    <point x="150" y="44.8" />
-    <point x="160" y="46.6" />
-    <point x="170" y="48.5" />
-    <point x="180" y="50.3" />
-    <point x="190" y="52.1" />
-    <point x="200" y="53.9" />
-    <point x="210" y="55.6" />
-    <point x="220" y="57.4" />
-    <point x="230" y="59.2" />
-    <point x="240" y="60.9" />
-    <point x="250" y="62.7" />
-    <point x="260" y="64.4" />
-    <point x="270" y="66.1" />
-    <point x="280" y="67.8" />
-    <point x="290" y="69.6" />
-    <point x="300" y="71.3" />
-    <point x="310" y="73.0" />
-    <point x="320" y="74.7" />
-    <point x="330" y="76.3" />
-    <point x="340" y="78.0" />
-    <point x="350" y="79.7" />
+    <point x="10" y="0.0" />
+    <point x="20" y="12.1" />
+    <point x="30" y="19.7" />
+    <point x="40" y="24.1" />
+    <point x="50" y="29.9" />
+    <point x="60" y="32.9" />
+    <point x="70" y="35.5" />
+    <point x="80" y="38.2" />
+    <point x="90" y="41.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_cc_pl_ct_yield_CW">
     <point x="10" y="0.0" />
@@ -8560,42 +8276,15 @@
     <point x="90" y="271.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_managed_qmd">
-    <point x="0" y="8.0" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="300" y="64.8" />
-    <point x="310" y="66.3" />
-    <point x="320" y="67.9" />
-    <point x="330" y="69.4" />
-    <point x="340" y="70.9" />
-    <point x="350" y="72.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="12.1" />
+    <point x="30" y="19.7" />
+    <point x="40" y="24.1" />
+    <point x="50" y="27.2" />
+    <point x="60" y="29.9" />
+    <point x="70" y="32.2" />
+    <point x="80" y="34.7" />
+    <point x="90" y="37.3" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_og1">
     <point x="100" y="0.0" />
@@ -8877,37 +8566,37 @@
     <point x="299" y="358.4" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="13.4" />
+    <point x="20" y="19.8" />
+    <point x="30" y="24.0" />
+    <point x="40" y="27.0" />
+    <point x="50" y="29.0" />
+    <point x="60" y="30.5" />
+    <point x="70" y="31.5" />
+    <point x="80" y="32.0" />
+    <point x="90" y="32.3" />
+    <point x="100" y="32.3" />
+    <point x="110" y="32.1" />
+    <point x="120" y="31.8" />
+    <point x="130" y="31.3" />
+    <point x="140" y="30.7" />
+    <point x="150" y="30.0" />
+    <point x="160" y="29.3" />
+    <point x="170" y="28.5" />
+    <point x="180" y="27.6" />
+    <point x="190" y="26.8" />
+    <point x="200" y="26.0" />
+    <point x="210" y="25.3" />
+    <point x="220" y="24.8" />
+    <point x="230" y="24.2" />
+    <point x="240" y="23.7" />
+    <point x="250" y="23.2" />
+    <point x="260" y="22.7" />
+    <point x="270" y="22.3" />
+    <point x="280" y="21.8" />
+    <point x="290" y="21.4" />
+    <point x="299" y="21.1" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_cc_pl_ct_harvest_CW">
     <point x="0" y="4.6" />
@@ -8994,42 +8683,22 @@
     <point x="160" y="766.4" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_f3_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="31.4" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="300" y="72.9" />
-    <point x="310" y="74.8" />
-    <point x="320" y="76.6" />
-    <point x="330" y="78.5" />
-    <point x="340" y="80.3" />
-    <point x="350" y="82.1" />
+    <point x="10" y="0.0" />
+    <point x="20" y="3.5" />
+    <point x="30" y="13.0" />
+    <point x="40" y="15.2" />
+    <point x="50" y="19.6" />
+    <point x="60" y="23.0" />
+    <point x="70" y="25.7" />
+    <point x="80" y="29.8" />
+    <point x="90" y="34.9" />
+    <point x="100" y="36.4" />
+    <point x="110" y="37.7" />
+    <point x="120" y="38.8" />
+    <point x="130" y="39.8" />
+    <point x="140" y="40.9" />
+    <point x="150" y="41.9" />
+    <point x="160" y="42.7" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_f3_yield_CW">
     <point x="10" y="0.0" />
@@ -9086,42 +8755,22 @@
     <point x="160" y="191.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="24.2" />
-    <point x="80" y="29.2" />
-    <point x="90" y="31.4" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="300" y="72.9" />
-    <point x="310" y="74.8" />
-    <point x="320" y="76.6" />
-    <point x="330" y="78.5" />
-    <point x="340" y="80.3" />
-    <point x="350" y="82.1" />
+    <point x="10" y="0.0" />
+    <point x="20" y="3.5" />
+    <point x="30" y="13.0" />
+    <point x="40" y="15.2" />
+    <point x="50" y="19.6" />
+    <point x="60" y="23.0" />
+    <point x="70" y="27.6" />
+    <point x="80" y="32.6" />
+    <point x="90" y="34.4" />
+    <point x="100" y="36.0" />
+    <point x="110" y="37.4" />
+    <point x="120" y="38.6" />
+    <point x="130" y="39.6" />
+    <point x="140" y="40.7" />
+    <point x="150" y="41.8" />
+    <point x="160" y="42.7" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_yield_CW">
     <point x="10" y="0.0" />
@@ -9178,42 +8827,22 @@
     <point x="160" y="191.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="22.1" />
-    <point x="70" y="26.9" />
-    <point x="80" y="29.2" />
-    <point x="90" y="31.4" />
-    <point x="100" y="33.6" />
-    <point x="110" y="35.7" />
-    <point x="120" y="37.9" />
-    <point x="130" y="39.9" />
-    <point x="140" y="42.0" />
-    <point x="150" y="44.0" />
-    <point x="160" y="46.1" />
-    <point x="170" y="48.1" />
-    <point x="180" y="50.0" />
-    <point x="190" y="52.0" />
-    <point x="200" y="54.0" />
-    <point x="210" y="55.9" />
-    <point x="220" y="57.8" />
-    <point x="230" y="59.8" />
-    <point x="240" y="61.7" />
-    <point x="250" y="63.6" />
-    <point x="260" y="65.5" />
-    <point x="270" y="67.3" />
-    <point x="280" y="69.2" />
-    <point x="290" y="71.1" />
-    <point x="300" y="72.9" />
-    <point x="310" y="74.8" />
-    <point x="320" y="76.6" />
-    <point x="330" y="78.5" />
-    <point x="340" y="80.3" />
-    <point x="350" y="82.1" />
+    <point x="10" y="0.0" />
+    <point x="20" y="3.5" />
+    <point x="30" y="13.0" />
+    <point x="40" y="15.2" />
+    <point x="50" y="19.6" />
+    <point x="60" y="24.5" />
+    <point x="70" y="29.9" />
+    <point x="80" y="32.0" />
+    <point x="90" y="33.9" />
+    <point x="100" y="35.6" />
+    <point x="110" y="37.1" />
+    <point x="120" y="38.3" />
+    <point x="130" y="39.3" />
+    <point x="140" y="40.5" />
+    <point x="150" y="41.6" />
+    <point x="160" y="42.7" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_yield_CW">
     <point x="10" y="0.0" />
@@ -9270,42 +8899,22 @@
     <point x="160" y="191.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="20.3" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.7" />
-    <point x="80" y="26.8" />
-    <point x="90" y="28.8" />
-    <point x="100" y="30.8" />
-    <point x="110" y="32.8" />
-    <point x="120" y="34.7" />
-    <point x="130" y="36.6" />
-    <point x="140" y="38.5" />
-    <point x="150" y="40.4" />
-    <point x="160" y="42.2" />
-    <point x="170" y="44.1" />
-    <point x="180" y="45.9" />
-    <point x="190" y="47.7" />
-    <point x="200" y="49.5" />
-    <point x="210" y="51.2" />
-    <point x="220" y="53.0" />
-    <point x="230" y="54.8" />
-    <point x="240" y="56.5" />
-    <point x="250" y="58.3" />
-    <point x="260" y="60.0" />
-    <point x="270" y="61.7" />
-    <point x="280" y="63.4" />
-    <point x="290" y="65.2" />
-    <point x="300" y="66.9" />
-    <point x="310" y="68.6" />
-    <point x="320" y="70.3" />
-    <point x="330" y="71.9" />
-    <point x="340" y="73.6" />
-    <point x="350" y="75.3" />
+    <point x="10" y="0.0" />
+    <point x="20" y="3.5" />
+    <point x="30" y="13.0" />
+    <point x="40" y="18.1" />
+    <point x="50" y="23.4" />
+    <point x="60" y="26.1" />
+    <point x="70" y="28.2" />
+    <point x="80" y="29.8" />
+    <point x="90" y="31.4" />
+    <point x="100" y="32.8" />
+    <point x="110" y="34.0" />
+    <point x="120" y="35.1" />
+    <point x="130" y="36.1" />
+    <point x="140" y="37.1" />
+    <point x="150" y="38.1" />
+    <point x="160" y="39.1" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_yield_CW">
     <point x="10" y="0.0" />
@@ -9452,42 +9061,22 @@
     <point x="160" y="191.6" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_managed_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="300" y="60.8" />
-    <point x="310" y="62.3" />
-    <point x="320" y="63.9" />
-    <point x="330" y="65.4" />
-    <point x="340" y="66.9" />
-    <point x="350" y="68.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="3.5" />
+    <point x="30" y="13.0" />
+    <point x="40" y="18.1" />
+    <point x="50" y="21.3" />
+    <point x="60" y="23.8" />
+    <point x="70" y="25.7" />
+    <point x="80" y="27.1" />
+    <point x="90" y="28.6" />
+    <point x="100" y="29.8" />
+    <point x="110" y="30.9" />
+    <point x="120" y="31.9" />
+    <point x="130" y="32.8" />
+    <point x="140" y="33.7" />
+    <point x="150" y="34.7" />
+    <point x="160" y="35.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_og1">
     <point x="140" y="0.0" />
@@ -9833,37 +9422,37 @@
     <point x="299" y="191.1" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="0.5" />
+    <point x="20" y="3.1" />
+    <point x="30" y="7.7" />
+    <point x="40" y="13.0" />
+    <point x="50" y="18.2" />
+    <point x="60" y="22.9" />
+    <point x="70" y="26.7" />
+    <point x="80" y="29.7" />
+    <point x="90" y="31.9" />
+    <point x="100" y="33.6" />
+    <point x="110" y="34.8" />
+    <point x="120" y="35.6" />
+    <point x="130" y="36.0" />
+    <point x="140" y="36.2" />
+    <point x="150" y="36.2" />
+    <point x="160" y="35.9" />
+    <point x="170" y="35.5" />
+    <point x="180" y="35.0" />
+    <point x="190" y="34.3" />
+    <point x="200" y="33.5" />
+    <point x="210" y="32.6" />
+    <point x="220" y="31.7" />
+    <point x="230" y="30.9" />
+    <point x="240" y="30.2" />
+    <point x="250" y="29.5" />
+    <point x="260" y="28.9" />
+    <point x="270" y="28.3" />
+    <point x="280" y="27.7" />
+    <point x="290" y="27.2" />
+    <point x="299" y="26.7" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_cc_pl_ct_harvest_CW">
     <point x="0" y="12.7" />
@@ -9922,42 +9511,15 @@
     <point x="90" y="983.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_f3_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="28.7" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.1" />
+    <point x="30" y="18.9" />
+    <point x="40" y="19.4" />
+    <point x="50" y="24.1" />
+    <point x="60" y="28.0" />
+    <point x="70" y="31.0" />
+    <point x="80" y="36.4" />
+    <point x="90" y="39.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_f3_yield_CW">
     <point x="10" y="0.0" />
@@ -9993,42 +9555,15 @@
     <point x="90" y="245.9" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="26.6" />
-    <point x="80" y="29.0" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.1" />
+    <point x="30" y="18.9" />
+    <point x="40" y="19.4" />
+    <point x="50" y="24.1" />
+    <point x="60" y="28.0" />
+    <point x="70" y="33.5" />
+    <point x="80" y="36.4" />
+    <point x="90" y="39.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_yield_CW">
     <point x="10" y="0.0" />
@@ -10064,42 +9599,15 @@
     <point x="90" y="245.9" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.9" />
-    <point x="80" y="29.0" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.1" />
+    <point x="30" y="18.9" />
+    <point x="40" y="19.4" />
+    <point x="50" y="24.1" />
+    <point x="60" y="30.1" />
+    <point x="70" y="33.4" />
+    <point x="80" y="36.1" />
+    <point x="90" y="39.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_yield_CW">
     <point x="10" y="0.0" />
@@ -10135,42 +9643,15 @@
     <point x="90" y="245.9" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.7" />
-    <point x="70" y="26.9" />
-    <point x="80" y="29.0" />
-    <point x="90" y="31.0" />
-    <point x="100" y="33.0" />
-    <point x="110" y="35.0" />
-    <point x="120" y="36.9" />
-    <point x="130" y="38.8" />
-    <point x="140" y="40.7" />
-    <point x="150" y="42.6" />
-    <point x="160" y="44.4" />
-    <point x="170" y="46.3" />
-    <point x="180" y="48.1" />
-    <point x="190" y="49.9" />
-    <point x="200" y="51.7" />
-    <point x="210" y="53.4" />
-    <point x="220" y="55.2" />
-    <point x="230" y="57.0" />
-    <point x="240" y="58.7" />
-    <point x="250" y="60.5" />
-    <point x="260" y="62.2" />
-    <point x="270" y="63.9" />
-    <point x="280" y="65.6" />
-    <point x="290" y="67.4" />
-    <point x="300" y="69.1" />
-    <point x="310" y="70.8" />
-    <point x="320" y="72.5" />
-    <point x="330" y="74.1" />
-    <point x="340" y="75.8" />
-    <point x="350" y="77.5" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.1" />
+    <point x="30" y="18.9" />
+    <point x="40" y="23.2" />
+    <point x="50" y="28.9" />
+    <point x="60" y="31.8" />
+    <point x="70" y="34.2" />
+    <point x="80" y="36.5" />
+    <point x="90" y="39.0" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_yield_CW">
     <point x="10" y="0.0" />
@@ -10261,42 +9742,15 @@
     <point x="90" y="245.9" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.1" />
+    <point x="30" y="18.9" />
+    <point x="40" y="23.2" />
+    <point x="50" y="26.3" />
+    <point x="60" y="28.9" />
+    <point x="70" y="31.1" />
+    <point x="80" y="33.2" />
+    <point x="90" y="35.4" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_og1">
     <point x="100" y="0.0" />
@@ -10578,37 +10032,37 @@
     <point x="299" y="315.5" />
   </curve>
   <curve id="au_CWHvm_FDC_HW_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="13.9" />
+    <point x="20" y="20.3" />
+    <point x="30" y="24.5" />
+    <point x="40" y="27.5" />
+    <point x="50" y="29.5" />
+    <point x="60" y="31.0" />
+    <point x="70" y="32.0" />
+    <point x="80" y="32.6" />
+    <point x="90" y="32.9" />
+    <point x="100" y="32.9" />
+    <point x="110" y="32.8" />
+    <point x="120" y="32.4" />
+    <point x="130" y="32.0" />
+    <point x="140" y="31.4" />
+    <point x="150" y="30.8" />
+    <point x="160" y="30.1" />
+    <point x="170" y="29.3" />
+    <point x="180" y="28.5" />
+    <point x="190" y="27.6" />
+    <point x="200" y="26.8" />
+    <point x="210" y="26.1" />
+    <point x="220" y="25.6" />
+    <point x="230" y="25.0" />
+    <point x="240" y="24.4" />
+    <point x="250" y="23.9" />
+    <point x="260" y="23.4" />
+    <point x="270" y="23.0" />
+    <point x="280" y="22.5" />
+    <point x="290" y="22.1" />
+    <point x="299" y="21.7" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_managed_natural_yield_BA">
     <point x="2" y="0.0" />
@@ -10743,37 +10197,37 @@
     <point x="299" y="856.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_managed_qmd">
-    <point x="2" y="9.9" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="2" y="0.0" />
+    <point x="10" y="4.7" />
+    <point x="20" y="11.6" />
+    <point x="30" y="18.0" />
+    <point x="40" y="23.4" />
+    <point x="50" y="27.5" />
+    <point x="60" y="30.5" />
+    <point x="70" y="32.6" />
+    <point x="80" y="33.9" />
+    <point x="90" y="34.7" />
+    <point x="100" y="35.1" />
+    <point x="110" y="35.2" />
+    <point x="120" y="35.0" />
+    <point x="130" y="34.5" />
+    <point x="140" y="33.9" />
+    <point x="150" y="33.1" />
+    <point x="160" y="32.3" />
+    <point x="170" y="31.4" />
+    <point x="180" y="30.4" />
+    <point x="190" y="29.3" />
+    <point x="200" y="28.3" />
+    <point x="210" y="27.2" />
+    <point x="220" y="26.1" />
+    <point x="230" y="25.0" />
+    <point x="240" y="24.1" />
+    <point x="250" y="23.6" />
+    <point x="260" y="23.3" />
+    <point x="270" y="22.8" />
+    <point x="280" y="22.4" />
+    <point x="290" y="21.9" />
+    <point x="299" y="21.5" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_og1">
     <point x="110" y="0.0" />
@@ -11101,37 +10555,37 @@
     <point x="299" y="856.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_H_unmanaged_qmd">
-    <point x="2" y="9.9" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="2" y="0.0" />
+    <point x="10" y="4.7" />
+    <point x="20" y="11.6" />
+    <point x="30" y="18.0" />
+    <point x="40" y="23.4" />
+    <point x="50" y="27.5" />
+    <point x="60" y="30.5" />
+    <point x="70" y="32.6" />
+    <point x="80" y="33.9" />
+    <point x="90" y="34.7" />
+    <point x="100" y="35.1" />
+    <point x="110" y="35.2" />
+    <point x="120" y="35.0" />
+    <point x="130" y="34.5" />
+    <point x="140" y="33.9" />
+    <point x="150" y="33.1" />
+    <point x="160" y="32.3" />
+    <point x="170" y="31.4" />
+    <point x="180" y="30.4" />
+    <point x="190" y="29.3" />
+    <point x="200" y="28.3" />
+    <point x="210" y="27.2" />
+    <point x="220" y="26.1" />
+    <point x="230" y="25.0" />
+    <point x="240" y="24.1" />
+    <point x="250" y="23.6" />
+    <point x="260" y="23.3" />
+    <point x="270" y="22.8" />
+    <point x="280" y="22.4" />
+    <point x="290" y="21.9" />
+    <point x="299" y="21.5" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_managed_natural_yield_BA">
     <point x="2" y="0.0" />
@@ -11266,37 +10720,37 @@
     <point x="299" y="856.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_managed_qmd">
-    <point x="2" y="5.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="2" y="0.0" />
+    <point x="10" y="8.7" />
+    <point x="20" y="21.6" />
+    <point x="30" y="33.5" />
+    <point x="40" y="43.4" />
+    <point x="50" y="51.1" />
+    <point x="60" y="56.6" />
+    <point x="70" y="60.4" />
+    <point x="80" y="62.9" />
+    <point x="90" y="64.4" />
+    <point x="100" y="65.2" />
+    <point x="110" y="65.2" />
+    <point x="120" y="64.8" />
+    <point x="130" y="64.0" />
+    <point x="140" y="62.9" />
+    <point x="150" y="61.5" />
+    <point x="160" y="59.9" />
+    <point x="170" y="58.1" />
+    <point x="180" y="56.3" />
+    <point x="190" y="54.4" />
+    <point x="200" y="52.4" />
+    <point x="210" y="50.4" />
+    <point x="220" y="48.4" />
+    <point x="230" y="46.4" />
+    <point x="240" y="44.8" />
+    <point x="250" y="43.7" />
+    <point x="260" y="43.3" />
+    <point x="270" y="42.3" />
+    <point x="280" y="41.5" />
+    <point x="290" y="40.6" />
+    <point x="299" y="39.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_og1">
     <point x="110" y="0.0" />
@@ -11624,37 +11078,37 @@
     <point x="299" y="856.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_L_unmanaged_qmd">
-    <point x="2" y="5.9" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="2" y="0.0" />
+    <point x="10" y="8.7" />
+    <point x="20" y="21.6" />
+    <point x="30" y="33.5" />
+    <point x="40" y="43.4" />
+    <point x="50" y="51.1" />
+    <point x="60" y="56.6" />
+    <point x="70" y="60.4" />
+    <point x="80" y="62.9" />
+    <point x="90" y="64.4" />
+    <point x="100" y="65.2" />
+    <point x="110" y="65.2" />
+    <point x="120" y="64.8" />
+    <point x="130" y="64.0" />
+    <point x="140" y="62.9" />
+    <point x="150" y="61.5" />
+    <point x="160" y="59.9" />
+    <point x="170" y="58.1" />
+    <point x="180" y="56.3" />
+    <point x="190" y="54.4" />
+    <point x="200" y="52.4" />
+    <point x="210" y="50.4" />
+    <point x="220" y="48.4" />
+    <point x="230" y="46.4" />
+    <point x="240" y="44.8" />
+    <point x="250" y="43.7" />
+    <point x="260" y="43.3" />
+    <point x="270" y="42.3" />
+    <point x="280" y="41.5" />
+    <point x="290" y="40.6" />
+    <point x="299" y="39.9" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_managed_natural_yield_BA">
     <point x="10" y="0.0" />
@@ -11737,42 +11191,20 @@
     <point x="140" y="599.1" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="2.7" />
+    <point x="30" y="15.2" />
+    <point x="40" y="21.1" />
+    <point x="50" y="24.7" />
+    <point x="60" y="27.3" />
+    <point x="70" y="29.3" />
+    <point x="80" y="30.9" />
+    <point x="90" y="32.4" />
+    <point x="100" y="34.0" />
+    <point x="110" y="35.4" />
+    <point x="120" y="36.7" />
+    <point x="130" y="37.9" />
+    <point x="140" y="39.1" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_og1">
     <point x="110" y="0.0" />
@@ -12103,37 +11535,37 @@
     <point x="299" y="705.7" />
   </curve>
   <curve id="au_CWHvm_HW_BA_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="6.5" />
+    <point x="20" y="16.1" />
+    <point x="30" y="25.0" />
+    <point x="40" y="32.5" />
+    <point x="50" y="38.2" />
+    <point x="60" y="42.3" />
+    <point x="70" y="45.2" />
+    <point x="80" y="47.1" />
+    <point x="90" y="48.2" />
+    <point x="100" y="48.8" />
+    <point x="110" y="48.8" />
+    <point x="120" y="48.5" />
+    <point x="130" y="47.9" />
+    <point x="140" y="47.0" />
+    <point x="150" y="46.0" />
+    <point x="160" y="44.8" />
+    <point x="170" y="43.5" />
+    <point x="180" y="42.1" />
+    <point x="190" y="40.7" />
+    <point x="200" y="39.2" />
+    <point x="210" y="37.7" />
+    <point x="220" y="36.2" />
+    <point x="230" y="34.8" />
+    <point x="240" y="33.5" />
+    <point x="250" y="32.7" />
+    <point x="260" y="32.4" />
+    <point x="270" y="31.7" />
+    <point x="280" y="31.0" />
+    <point x="290" y="30.4" />
+    <point x="299" y="29.8" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_managed_natural_yield_CW">
     <point x="10" y="0.0" />
@@ -12211,42 +11643,19 @@
     <point x="130" y="650.0" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_managed_qmd">
-    <point x="0" y="8.0" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="300" y="64.8" />
-    <point x="310" y="66.3" />
-    <point x="320" y="67.9" />
-    <point x="330" y="69.4" />
-    <point x="340" y="70.9" />
-    <point x="350" y="72.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="5.1" />
+    <point x="30" y="16.7" />
+    <point x="40" y="22.3" />
+    <point x="50" y="25.6" />
+    <point x="60" y="28.3" />
+    <point x="70" y="30.2" />
+    <point x="80" y="31.9" />
+    <point x="90" y="33.6" />
+    <point x="100" y="35.3" />
+    <point x="110" y="36.8" />
+    <point x="120" y="38.3" />
+    <point x="130" y="39.7" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_og1">
     <point x="120" y="0.0" />
@@ -12565,37 +11974,37 @@
     <point x="299" y="624.2" />
   </curve>
   <curve id="au_CWHvm_HW_CW_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="2.5" />
+    <point x="20" y="8.2" />
+    <point x="30" y="14.8" />
+    <point x="40" y="21.1" />
+    <point x="50" y="26.5" />
+    <point x="60" y="30.8" />
+    <point x="70" y="33.9" />
+    <point x="80" y="36.2" />
+    <point x="90" y="37.8" />
+    <point x="100" y="38.8" />
+    <point x="110" y="39.4" />
+    <point x="120" y="39.6" />
+    <point x="130" y="39.6" />
+    <point x="140" y="39.3" />
+    <point x="150" y="38.8" />
+    <point x="160" y="38.2" />
+    <point x="170" y="37.4" />
+    <point x="180" y="36.6" />
+    <point x="190" y="35.7" />
+    <point x="200" y="34.7" />
+    <point x="210" y="33.7" />
+    <point x="220" y="32.8" />
+    <point x="230" y="32.0" />
+    <point x="240" y="31.2" />
+    <point x="250" y="30.5" />
+    <point x="260" y="29.8" />
+    <point x="270" y="29.1" />
+    <point x="280" y="28.5" />
+    <point x="290" y="27.9" />
+    <point x="299" y="27.4" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_managed_natural_yield_CW">
     <point x="20" y="0.0" />
@@ -12748,42 +12157,34 @@
     <point x="290" y="483.2" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_managed_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="300" y="60.8" />
-    <point x="310" y="62.3" />
-    <point x="320" y="63.9" />
-    <point x="330" y="65.4" />
-    <point x="340" y="66.9" />
-    <point x="350" y="68.4" />
+    <point x="20" y="0.0" />
+    <point x="30" y="3.0" />
+    <point x="40" y="11.3" />
+    <point x="50" y="16.9" />
+    <point x="60" y="20.3" />
+    <point x="70" y="22.7" />
+    <point x="80" y="24.5" />
+    <point x="90" y="25.9" />
+    <point x="100" y="27.2" />
+    <point x="110" y="28.3" />
+    <point x="120" y="29.3" />
+    <point x="130" y="30.0" />
+    <point x="140" y="30.6" />
+    <point x="150" y="31.3" />
+    <point x="160" y="32.0" />
+    <point x="170" y="32.6" />
+    <point x="180" y="33.1" />
+    <point x="190" y="33.6" />
+    <point x="200" y="34.0" />
+    <point x="210" y="34.5" />
+    <point x="220" y="35.0" />
+    <point x="230" y="35.4" />
+    <point x="240" y="35.8" />
+    <point x="250" y="36.1" />
+    <point x="260" y="36.5" />
+    <point x="270" y="36.8" />
+    <point x="280" y="37.1" />
+    <point x="290" y="37.3" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_og1">
     <point x="140" y="0.0" />
@@ -13166,37 +12567,36 @@
     <point x="299" y="366.5" />
   </curve>
   <curve id="au_CWHvm_HW_CW_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="10" y="0.0" />
+    <point x="20" y="0.9" />
+    <point x="30" y="4.2" />
+    <point x="40" y="9.1" />
+    <point x="50" y="14.6" />
+    <point x="60" y="19.9" />
+    <point x="70" y="24.6" />
+    <point x="80" y="28.2" />
+    <point x="90" y="30.9" />
+    <point x="100" y="32.8" />
+    <point x="110" y="34.1" />
+    <point x="120" y="34.9" />
+    <point x="130" y="35.3" />
+    <point x="140" y="35.4" />
+    <point x="150" y="35.3" />
+    <point x="160" y="34.9" />
+    <point x="170" y="34.4" />
+    <point x="180" y="33.7" />
+    <point x="190" y="33.0" />
+    <point x="200" y="32.2" />
+    <point x="210" y="31.3" />
+    <point x="220" y="30.3" />
+    <point x="230" y="29.4" />
+    <point x="240" y="28.4" />
+    <point x="250" y="27.5" />
+    <point x="260" y="26.9" />
+    <point x="270" y="26.5" />
+    <point x="280" y="25.9" />
+    <point x="290" y="25.4" />
+    <point x="299" y="24.9" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_managed_natural_yield_CW">
     <point x="20" y="0.0" />
@@ -13316,42 +12716,28 @@
     <point x="220" y="674.3" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
+    <point x="10" y="0.0" />
+    <point x="20" y="0.9" />
+    <point x="30" y="10.2" />
+    <point x="40" y="17.6" />
+    <point x="50" y="21.7" />
+    <point x="60" y="24.5" />
+    <point x="70" y="26.5" />
+    <point x="80" y="28.3" />
+    <point x="90" y="29.7" />
+    <point x="100" y="30.7" />
     <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="120" y="32.9" />
+    <point x="130" y="33.9" />
+    <point x="140" y="34.8" />
+    <point x="150" y="35.7" />
+    <point x="160" y="36.5" />
+    <point x="170" y="37.2" />
+    <point x="180" y="37.9" />
+    <point x="190" y="38.6" />
+    <point x="200" y="39.3" />
+    <point x="210" y="39.9" />
+    <point x="220" y="40.4" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_og1">
     <point x="130" y="0.0" />
@@ -13739,37 +13125,37 @@
     <point x="299" y="492.9" />
   </curve>
   <curve id="au_CWHvm_HW_CW_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="1.1" />
+    <point x="20" y="5.3" />
+    <point x="30" y="10.6" />
+    <point x="40" y="16.0" />
+    <point x="50" y="20.9" />
+    <point x="60" y="24.9" />
+    <point x="70" y="27.9" />
+    <point x="80" y="30.1" />
+    <point x="90" y="31.6" />
+    <point x="100" y="32.7" />
+    <point x="110" y="33.3" />
+    <point x="120" y="33.6" />
+    <point x="130" y="33.7" />
+    <point x="140" y="33.5" />
+    <point x="150" y="33.2" />
+    <point x="160" y="32.7" />
+    <point x="170" y="32.1" />
+    <point x="180" y="31.4" />
+    <point x="190" y="30.7" />
+    <point x="200" y="29.9" />
+    <point x="210" y="29.1" />
+    <point x="220" y="28.3" />
+    <point x="230" y="27.7" />
+    <point x="240" y="27.0" />
+    <point x="250" y="26.4" />
+    <point x="260" y="25.8" />
+    <point x="270" y="25.3" />
+    <point x="280" y="24.8" />
+    <point x="290" y="24.3" />
+    <point x="299" y="23.9" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -13827,42 +13213,15 @@
     <point x="90" y="807.4" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_managed_qmd">
-    <point x="0" y="8.0" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="300" y="64.8" />
-    <point x="310" y="66.3" />
-    <point x="320" y="67.9" />
-    <point x="330" y="69.4" />
-    <point x="340" y="70.9" />
-    <point x="350" y="72.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="11.6" />
+    <point x="30" y="21.3" />
+    <point x="40" y="25.9" />
+    <point x="50" y="29.3" />
+    <point x="60" y="31.8" />
+    <point x="70" y="34.5" />
+    <point x="80" y="37.0" />
+    <point x="90" y="39.6" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_og1">
     <point x="100" y="0.0" />
@@ -14144,37 +13503,37 @@
     <point x="299" y="876.9" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="13.9" />
+    <point x="20" y="20.4" />
+    <point x="30" y="24.7" />
+    <point x="40" y="27.7" />
+    <point x="50" y="29.8" />
+    <point x="60" y="31.3" />
+    <point x="70" y="32.3" />
+    <point x="80" y="32.9" />
+    <point x="90" y="33.2" />
+    <point x="100" y="33.2" />
+    <point x="110" y="33.1" />
+    <point x="120" y="32.8" />
+    <point x="130" y="32.3" />
+    <point x="140" y="31.8" />
+    <point x="150" y="31.1" />
+    <point x="160" y="30.4" />
+    <point x="170" y="29.6" />
+    <point x="180" y="28.8" />
+    <point x="190" y="28.0" />
+    <point x="200" y="27.1" />
+    <point x="210" y="26.4" />
+    <point x="220" y="25.7" />
+    <point x="230" y="25.1" />
+    <point x="240" y="24.5" />
+    <point x="250" y="23.9" />
+    <point x="260" y="23.4" />
+    <point x="270" y="22.9" />
+    <point x="280" y="22.4" />
+    <point x="290" y="21.9" />
+    <point x="299" y="21.5" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_managed_natural_yield_FDC">
     <point x="10" y="0.0" />
@@ -14257,42 +13616,20 @@
     <point x="140" y="717.4" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_managed_qmd">
-    <point x="0" y="4.0" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="300" y="60.8" />
-    <point x="310" y="62.3" />
-    <point x="320" y="63.9" />
-    <point x="330" y="65.4" />
-    <point x="340" y="66.9" />
-    <point x="350" y="68.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="2.7" />
+    <point x="30" y="15.2" />
+    <point x="40" y="21.1" />
+    <point x="50" y="24.7" />
+    <point x="60" y="27.3" />
+    <point x="70" y="29.3" />
+    <point x="80" y="30.9" />
+    <point x="90" y="32.4" />
+    <point x="100" y="33.9" />
+    <point x="110" y="35.4" />
+    <point x="120" y="36.7" />
+    <point x="130" y="37.9" />
+    <point x="140" y="39.1" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_og1">
     <point x="100" y="0.0" />
@@ -14623,37 +13960,37 @@
     <point x="299" y="633.7" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="14.9" />
+    <point x="20" y="21.5" />
+    <point x="30" y="25.7" />
+    <point x="40" y="28.6" />
+    <point x="50" y="30.6" />
+    <point x="60" y="32.0" />
+    <point x="70" y="32.9" />
+    <point x="80" y="33.5" />
+    <point x="90" y="33.8" />
+    <point x="100" y="33.8" />
+    <point x="110" y="33.7" />
+    <point x="120" y="33.3" />
+    <point x="130" y="32.9" />
+    <point x="140" y="32.4" />
+    <point x="150" y="31.7" />
+    <point x="160" y="31.0" />
+    <point x="170" y="30.3" />
+    <point x="180" y="29.5" />
+    <point x="190" y="28.7" />
+    <point x="200" y="27.8" />
+    <point x="210" y="27.1" />
+    <point x="220" y="26.4" />
+    <point x="230" y="25.7" />
+    <point x="240" y="25.1" />
+    <point x="250" y="24.5" />
+    <point x="260" y="24.0" />
+    <point x="270" y="23.5" />
+    <point x="280" y="23.0" />
+    <point x="290" y="22.5" />
+    <point x="299" y="22.1" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_natural_yield_FDC">
     <point x="1" y="0.0" />
@@ -14788,37 +14125,37 @@
     <point x="299" y="975.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_managed_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="12.6" />
+    <point x="20" y="18.4" />
+    <point x="30" y="22.3" />
+    <point x="40" y="25.0" />
+    <point x="50" y="26.9" />
+    <point x="60" y="28.3" />
+    <point x="70" y="29.2" />
+    <point x="80" y="29.8" />
+    <point x="90" y="30.1" />
+    <point x="100" y="30.2" />
+    <point x="110" y="30.1" />
+    <point x="120" y="29.8" />
+    <point x="130" y="29.4" />
+    <point x="140" y="28.9" />
+    <point x="150" y="28.4" />
+    <point x="160" y="27.7" />
+    <point x="170" y="27.0" />
+    <point x="180" y="26.3" />
+    <point x="190" y="25.6" />
+    <point x="200" y="24.8" />
+    <point x="210" y="24.1" />
+    <point x="220" y="23.6" />
+    <point x="230" y="23.0" />
+    <point x="240" y="22.4" />
+    <point x="250" y="21.9" />
+    <point x="260" y="21.4" />
+    <point x="270" y="21.0" />
+    <point x="280" y="20.5" />
+    <point x="290" y="20.1" />
+    <point x="299" y="19.8" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_og1">
     <point x="100" y="0.0" />
@@ -15156,37 +14493,37 @@
     <point x="299" y="975.0" />
   </curve>
   <curve id="au_CWHvm_HW_FDC_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="12.6" />
+    <point x="20" y="18.4" />
+    <point x="30" y="22.3" />
+    <point x="40" y="25.0" />
+    <point x="50" y="26.9" />
+    <point x="60" y="28.3" />
+    <point x="70" y="29.2" />
+    <point x="80" y="29.8" />
+    <point x="90" y="30.1" />
+    <point x="100" y="30.2" />
+    <point x="110" y="30.1" />
+    <point x="120" y="29.8" />
+    <point x="130" y="29.4" />
+    <point x="140" y="28.9" />
+    <point x="150" y="28.4" />
+    <point x="160" y="27.7" />
+    <point x="170" y="27.0" />
+    <point x="180" y="26.3" />
+    <point x="190" y="25.6" />
+    <point x="200" y="24.8" />
+    <point x="210" y="24.1" />
+    <point x="220" y="23.6" />
+    <point x="230" y="23.0" />
+    <point x="240" y="22.4" />
+    <point x="250" y="21.9" />
+    <point x="260" y="21.4" />
+    <point x="270" y="21.0" />
+    <point x="280" y="20.5" />
+    <point x="290" y="20.1" />
+    <point x="299" y="19.8" />
   </curve>
   <curve id="au_CWHvm_HW_SS_H_managed_natural_yield_HW">
     <point x="1" y="0.0" />
@@ -15321,37 +14658,7 @@
     <point x="299" y="303.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_H_managed_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_H_og1">
     <point x="100" y="0.0" />
@@ -15689,37 +14996,7 @@
     <point x="299" y="303.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_H_unmanaged_qmd">
-    <point x="1" y="9.3" />
-    <point x="10" y="13.0" />
-    <point x="20" y="15.8" />
-    <point x="30" y="18.2" />
-    <point x="40" y="20.4" />
-    <point x="50" y="22.5" />
-    <point x="60" y="24.5" />
-    <point x="70" y="26.4" />
-    <point x="80" y="28.3" />
-    <point x="90" y="30.2" />
-    <point x="100" y="32.0" />
-    <point x="110" y="33.8" />
-    <point x="120" y="35.5" />
-    <point x="130" y="37.3" />
-    <point x="140" y="39.0" />
-    <point x="150" y="40.7" />
-    <point x="160" y="42.4" />
-    <point x="170" y="44.0" />
-    <point x="180" y="45.7" />
-    <point x="190" y="47.3" />
-    <point x="200" y="49.0" />
-    <point x="210" y="50.6" />
-    <point x="220" y="52.2" />
-    <point x="230" y="53.8" />
-    <point x="240" y="55.4" />
-    <point x="250" y="57.0" />
-    <point x="260" y="58.5" />
-    <point x="270" y="60.1" />
-    <point x="280" y="61.7" />
-    <point x="290" y="63.2" />
-    <point x="299" y="64.6" />
+    <point x="1" y="0.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_L_managed_natural_yield_HW">
     <point x="1" y="0.0" />
@@ -15854,37 +15131,37 @@
     <point x="299" y="303.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_L_managed_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="13.9" />
+    <point x="20" y="20.5" />
+    <point x="30" y="24.8" />
+    <point x="40" y="27.9" />
+    <point x="50" y="30.1" />
+    <point x="60" y="31.6" />
+    <point x="70" y="32.6" />
+    <point x="80" y="33.3" />
+    <point x="90" y="33.6" />
+    <point x="100" y="33.7" />
+    <point x="110" y="33.6" />
+    <point x="120" y="33.3" />
+    <point x="130" y="32.9" />
+    <point x="140" y="32.3" />
+    <point x="150" y="31.7" />
+    <point x="160" y="31.0" />
+    <point x="170" y="30.2" />
+    <point x="180" y="29.4" />
+    <point x="190" y="28.6" />
+    <point x="200" y="27.7" />
+    <point x="210" y="27.0" />
+    <point x="220" y="26.3" />
+    <point x="230" y="25.7" />
+    <point x="240" y="25.0" />
+    <point x="250" y="24.5" />
+    <point x="260" y="23.9" />
+    <point x="270" y="23.4" />
+    <point x="280" y="22.9" />
+    <point x="290" y="22.4" />
+    <point x="299" y="22.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_L_og1">
     <point x="100" y="0.0" />
@@ -16222,37 +15499,37 @@
     <point x="299" y="303.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_L_unmanaged_qmd">
-    <point x="1" y="5.3" />
-    <point x="10" y="9.0" />
-    <point x="20" y="11.8" />
-    <point x="30" y="14.2" />
-    <point x="40" y="16.4" />
-    <point x="50" y="18.5" />
-    <point x="60" y="20.5" />
-    <point x="70" y="22.4" />
-    <point x="80" y="24.3" />
-    <point x="90" y="26.2" />
-    <point x="100" y="28.0" />
-    <point x="110" y="29.8" />
-    <point x="120" y="31.5" />
-    <point x="130" y="33.3" />
-    <point x="140" y="35.0" />
-    <point x="150" y="36.7" />
-    <point x="160" y="38.4" />
-    <point x="170" y="40.0" />
-    <point x="180" y="41.7" />
-    <point x="190" y="43.3" />
-    <point x="200" y="45.0" />
-    <point x="210" y="46.6" />
-    <point x="220" y="48.2" />
-    <point x="230" y="49.8" />
-    <point x="240" y="51.4" />
-    <point x="250" y="53.0" />
-    <point x="260" y="54.5" />
-    <point x="270" y="56.1" />
-    <point x="280" y="57.7" />
-    <point x="290" y="59.2" />
-    <point x="299" y="60.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="13.9" />
+    <point x="20" y="20.5" />
+    <point x="30" y="24.8" />
+    <point x="40" y="27.9" />
+    <point x="50" y="30.1" />
+    <point x="60" y="31.6" />
+    <point x="70" y="32.6" />
+    <point x="80" y="33.3" />
+    <point x="90" y="33.6" />
+    <point x="100" y="33.7" />
+    <point x="110" y="33.6" />
+    <point x="120" y="33.3" />
+    <point x="130" y="32.9" />
+    <point x="140" y="32.3" />
+    <point x="150" y="31.7" />
+    <point x="160" y="31.0" />
+    <point x="170" y="30.2" />
+    <point x="180" y="29.4" />
+    <point x="190" y="28.6" />
+    <point x="200" y="27.7" />
+    <point x="210" y="27.0" />
+    <point x="220" y="26.3" />
+    <point x="230" y="25.7" />
+    <point x="240" y="25.0" />
+    <point x="250" y="24.5" />
+    <point x="260" y="23.9" />
+    <point x="270" y="23.4" />
+    <point x="280" y="22.9" />
+    <point x="290" y="22.4" />
+    <point x="299" y="22.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_managed_natural_yield_HW">
     <point x="10" y="0.0" />
@@ -16315,42 +15592,16 @@
     <point x="100" y="811.9" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_managed_qmd">
-    <point x="0" y="6.0" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="300" y="62.8" />
-    <point x="310" y="64.3" />
-    <point x="320" y="65.9" />
-    <point x="330" y="67.4" />
-    <point x="340" y="68.9" />
-    <point x="350" y="70.4" />
+    <point x="10" y="0.0" />
+    <point x="20" y="9.2" />
+    <point x="30" y="19.8" />
+    <point x="40" y="24.8" />
+    <point x="50" y="28.1" />
+    <point x="60" y="30.6" />
+    <point x="70" y="32.8" />
+    <point x="80" y="35.1" />
+    <point x="90" y="37.2" />
+    <point x="100" y="39.4" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_og1">
     <point x="100" y="0.0" />
@@ -16642,37 +15893,37 @@
     <point x="299" y="925.0" />
   </curve>
   <curve id="au_CWHvm_HW_SS_M_unmanaged_qmd">
-    <point x="1" y="7.3" />
-    <point x="10" y="11.0" />
-    <point x="20" y="13.8" />
-    <point x="30" y="16.2" />
-    <point x="40" y="18.4" />
-    <point x="50" y="20.5" />
-    <point x="60" y="22.5" />
-    <point x="70" y="24.4" />
-    <point x="80" y="26.3" />
-    <point x="90" y="28.2" />
-    <point x="100" y="30.0" />
-    <point x="110" y="31.8" />
-    <point x="120" y="33.5" />
-    <point x="130" y="35.3" />
-    <point x="140" y="37.0" />
-    <point x="150" y="38.7" />
-    <point x="160" y="40.4" />
-    <point x="170" y="42.0" />
-    <point x="180" y="43.7" />
-    <point x="190" y="45.3" />
-    <point x="200" y="47.0" />
-    <point x="210" y="48.6" />
-    <point x="220" y="50.2" />
-    <point x="230" y="51.8" />
-    <point x="240" y="53.4" />
-    <point x="250" y="55.0" />
-    <point x="260" y="56.5" />
-    <point x="270" y="58.1" />
-    <point x="280" y="59.7" />
-    <point x="290" y="61.2" />
-    <point x="299" y="62.6" />
+    <point x="1" y="0.0" />
+    <point x="10" y="12.9" />
+    <point x="20" y="19.0" />
+    <point x="30" y="23.0" />
+    <point x="40" y="25.9" />
+    <point x="50" y="27.9" />
+    <point x="60" y="29.3" />
+    <point x="70" y="30.3" />
+    <point x="80" y="30.9" />
+    <point x="90" y="31.2" />
+    <point x="100" y="31.3" />
+    <point x="110" y="31.2" />
+    <point x="120" y="30.9" />
+    <point x="130" y="30.5" />
+    <point x="140" y="30.0" />
+    <point x="150" y="29.4" />
+    <point x="160" y="28.8" />
+    <point x="170" y="28.0" />
+    <point x="180" y="27.3" />
+    <point x="190" y="26.5" />
+    <point x="200" y="25.7" />
+    <point x="210" y="25.0" />
+    <point x="220" y="24.4" />
+    <point x="230" y="23.8" />
+    <point x="240" y="23.2" />
+    <point x="250" y="22.7" />
+    <point x="260" y="22.2" />
+    <point x="270" y="21.7" />
+    <point x="280" y="21.2" />
+    <point x="290" y="20.8" />
+    <point x="299" y="20.4" />
   </curve>
   <curve id="managed_prop_BA_CWHvm_CW_HW_M_985522002001">
     <point x="1" y="0" />

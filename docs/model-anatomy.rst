@@ -105,7 +105,7 @@ Additional state/config artifacts for that variant:
 - silviculture configs for the shipped CT/fert SI-profile subvariants:
   - ``config/silviculture.k3z.ctfert_l15h5.yaml``
   - ``config/silviculture.k3z.ctfert_l20h0.yaml``
-- provisional QMD outputs:
+- approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
 - treatment-path states:

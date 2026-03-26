@@ -62,13 +62,13 @@ Variant Matrix
    * - ``ctfert_l15h5``
      - ``config/patchworks.runtime.ctfert_l15h5.windows.yaml`` + ``analysis/ctfert_l15h5.pin``
      - ``tracks_ctfert_l15h5/`` + ``yield/forestmodel_ctfert_l15h5.xml`` + ``output/patchworks_k3z_ctfert_l15h5_validated/fragments/fragments.shp``
-     - Keeps the CT/QMD/F1/F2/F3 chain, expands eligibility to six ``L/M/H`` SI AUs, applies fert boosts ``L=15%``, ``M=10%``, ``H=5%``, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
+     - Keeps the CT/QMD/F1/F2/F3 chain, expands eligibility to six ``L/M/H`` SI AUs, applies fert boosts ``L=15%``, ``M=10%``, ``H=5%``, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, rebuilds QMD from accepted yield/height/TPH support inputs instead of the old placeholder age heuristic, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - CT/F1/F2/F3 treated products plus SI-profile-specific managed account surfaces.
      - CT/fert teaching scaffold with explicit low/medium/high SI fert response differences.
    * - ``ctfert_l20h0``
      - ``config/patchworks.runtime.ctfert_l20h0.windows.yaml`` + ``analysis/ctfert_l20h0.pin``
      - ``tracks_ctfert_l20h0/`` + ``yield/forestmodel_ctfert_l20h0.xml`` + ``output/patchworks_k3z_ctfert_l20h0_validated/fragments/fragments.shp``
-     - Keeps CT on six ``L/M/H`` SI AUs, applies fert boosts ``L=20%`` and ``M=10%``, disables fert on ``H``-class AUs, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
+     - Keeps CT on six ``L/M/H`` SI AUs, applies fert boosts ``L=20%`` and ``M=10%``, disables fert on ``H``-class AUs, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, rebuilds QMD from accepted yield/height/TPH support inputs instead of the old placeholder age heuristic, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - CT/F1/F2/F3 treated products on eligible AUs plus CT-only surfaces on the ``H`` cohort.
      - CT/fert teaching scaffold for comparing a stronger low-SI response with no fertilization on high-SI AUs.
    * - ``pct_light``
