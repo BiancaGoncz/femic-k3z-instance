@@ -41,16 +41,17 @@ if (useRoutes) {
    destinations = roads_path_prefix+"destinations.csv";
    linkages = roads_path_prefix+"linkages.csv";
 }
-
+   
 int Patchworks_TargetInit() {
    control.calculateGroups("AU");
    control.calculateGroups("IFM");
    setupYieldFlowTargets(control, periods, tracks_path_prefix);
+   control.duplicateAccount("product.Yield.managed.Total", "log.revenue.Total", 266.37f);
    validateSeralStageAttributes();
    control.inputTopology("../blocks/topology_blocks_200r.csv", 100d);
    return 1;
 }
-
+	
 int PatchWorks_Init() {
    classic_GUI(control);
 
@@ -126,6 +127,7 @@ int PatchWorks_Init() {
 	     Horizon.periodList,
 	     null,
 	     false));
+		 
 
     return 1;
 }
