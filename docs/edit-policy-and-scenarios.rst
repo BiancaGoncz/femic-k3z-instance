@@ -53,18 +53,16 @@ pull it.
 Recommended workflow:
 
 1. Start from a clean, accepted ``main`` baseline.
-2. If your group needs the legacy CT/fert scaffold, use the CT/fert variant
-   spec and launch ``analysis/ctfert.pin``.
-3. If your group needs SI-specific CT/fert behavior, launch either
+2. If your group needs SI-specific CT/fert behavior, launch either
    ``analysis/ctfert_l15h5.pin`` or ``analysis/ctfert_l20h0.pin``.
-4. If your group needs the PCT-only teaching scaffold, choose one of
+3. If your group needs the PCT-only teaching scaffold, choose one of
    ``pct_light``, ``pct_moderate``, or ``pct_heavy`` and launch the
    matching ``analysis/pct_*.pin`` surface.
-5. Rebuild before interpreting any optional-variant surfaces.
-6. Keep variant choice explicit in reports, screenshots, and classroom notes.
-7. Use the overlay subvariants only when the question is about retained-area
+4. Rebuild before interpreting any optional-variant surfaces.
+5. Keep variant choice explicit in reports, screenshots, and classroom notes.
+6. Use the overlay subvariants only when the question is about retained-area
    sensitivity on top of baseline.
-8. Keep any K3Z-specific VDYP fit exceptions in ``config/vdyp_fit_policy.yaml``
+7. Keep any K3Z-specific VDYP fit exceptions in ``config/vdyp_fit_policy.yaml``
    so DR+HW tail-policy changes remain auditable and do not require parent
    source edits.
 

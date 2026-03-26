@@ -22,9 +22,6 @@ Quick Launch Selector
    * - "What does the accepted K3Z baseline do?"
      - ``base``
      - ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
-   * - "What changes if we add CT plus repeated fertilization?"
-     - ``ctfert``
-     - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
    * - "What changes if CT/fert expands to L/M/H SI classes with profile ``L15/M10/H5``?"
      - ``ctfert_l15h5``
      - ``config/patchworks.runtime.ctfert_l15h5.windows.yaml`` + ``analysis/ctfert_l15h5.pin``
@@ -62,22 +59,16 @@ Variant Matrix
      - Nothing beyond the accepted teaching baseline.
      - Baseline managed/unmanaged accounts, species-wise managed yield, seral, and ``og1`` / ``og2``.
      - Default teaching and comparison surface.
-   * - ``ctfert``
-     - ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
-     - ``tracks_ctfert/`` + ``yield/forestmodel_ctfert.xml`` + ``output/patchworks_k3z_ctfert_validated/fragments/fragments.shp``
-     - Adds ``SILV_STATE``, CT, synthetic QMD, and the ``F1 -> F2 -> F3`` treatment chain.
-     - CT/F1/F2/F3 treated products plus variant-specific managed account surfaces.
-     - Intensive-silviculture teaching scaffold with fertilization.
    * - ``ctfert_l15h5``
      - ``config/patchworks.runtime.ctfert_l15h5.windows.yaml`` + ``analysis/ctfert_l15h5.pin``
      - ``tracks_ctfert_l15h5/`` + ``yield/forestmodel_ctfert_l15h5.xml`` + ``output/patchworks_k3z_ctfert_l15h5_validated/fragments/fragments.shp``
-     - Keeps the CT/QMD/F1/F2/F3 chain, expands eligibility to six ``L/M/H`` SI AUs, applies fert boosts ``L=15%``, ``M=10%``, ``H=5%``, and ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``.
+     - Keeps the CT/QMD/F1/F2/F3 chain, expands eligibility to six ``L/M/H`` SI AUs, applies fert boosts ``L=15%``, ``M=10%``, ``H=5%``, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - CT/F1/F2/F3 treated products plus SI-profile-specific managed account surfaces.
      - CT/fert teaching scaffold with explicit low/medium/high SI fert response differences.
    * - ``ctfert_l20h0``
      - ``config/patchworks.runtime.ctfert_l20h0.windows.yaml`` + ``analysis/ctfert_l20h0.pin``
      - ``tracks_ctfert_l20h0/`` + ``yield/forestmodel_ctfert_l20h0.xml`` + ``output/patchworks_k3z_ctfert_l20h0_validated/fragments/fragments.shp``
-     - Keeps CT on six ``L/M/H`` SI AUs, applies fert boosts ``L=20%`` and ``M=10%``, disables fert on ``H``-class AUs, and ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``.
+     - Keeps CT on six ``L/M/H`` SI AUs, applies fert boosts ``L=20%`` and ``M=10%``, disables fert on ``H``-class AUs, ramps the CT final-felling gap to ``0.0`` by ``cmai_argmax``, and uses the student-provided curated ``RETENTION`` overlay instead of the old uniform ``0.05`` placeholder.
      - CT/F1/F2/F3 treated products on eligible AUs plus CT-only surfaces on the ``H`` cohort.
      - CT/fert teaching scaffold for comparing a stronger low-SI response with no fertilization on high-SI AUs.
    * - ``pct_light``
@@ -128,14 +119,12 @@ How to Choose a Surface
 
 1. Start with ``base`` unless you explicitly need a treatment scaffold or an
    overlay sensitivity surface.
-2. Choose ``ctfert`` when the class exercise needs the legacy two-AU
-   ``CT -> F1 -> F2 -> F3`` scaffold.
-3. Choose ``ctfert_l15h5`` or ``ctfert_l20h0`` when the class exercise is
+2. Choose ``ctfert_l15h5`` or ``ctfert_l20h0`` when the class exercise is
    about SI-specific fertilization response across the six ``L/M/H`` CT-eligible
    ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs.
-4. Choose one of ``pct_light``, ``pct_moderate``, or ``pct_heavy`` when
+3. Choose one of ``pct_light``, ``pct_moderate``, or ``pct_heavy`` when
    the class exercise needs PCT intensity comparison without CT or fertilization.
-5. Choose one of the four overlay subvariants only when the exercise is about
+4. Choose one of the four overlay subvariants only when the exercise is about
    alternative retained-area policy on top of the accepted baseline.
 
 Overlay Provenance and Join Contract

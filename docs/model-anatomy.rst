@@ -23,7 +23,6 @@ Safe to edit directly:
 - ``config/run_profile.k3z.yaml``
 - ``config/seral.k3z.yaml``
 - ``config/tipsy/tsak3z.yaml``
-- ``config/silviculture.k3z.ctfert.yaml`` for the optional CT/fert variant
 - ``config/silviculture.k3z.ctfert_l15h5.yaml`` for the optional CT/fert
   ``L15/M10/H5`` subvariant
 - ``config/silviculture.k3z.ctfert_l20h0.yaml`` for the optional CT/fert
@@ -103,8 +102,7 @@ instance on ``main``.
 Additional state/config artifacts for that variant:
 
 - fragment/XML state field: ``SILV_STATE``
-- silviculture config: ``config/silviculture.k3z.ctfert.yaml``
-- silviculture configs for the SI-profiled CT/fert subvariants:
+- silviculture configs for the shipped CT/fert SI-profile subvariants:
   - ``config/silviculture.k3z.ctfert_l15h5.yaml``
   - ``config/silviculture.k3z.ctfert_l20h0.yaml``
 - provisional QMD outputs:

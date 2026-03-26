@@ -32,8 +32,6 @@ CT/Fert Variant Family
 
 Canonical control files:
 
-- ``config/patchworks.variant.ctfert.yaml``
-- ``config/silviculture.k3z.ctfert.yaml``
 - ``config/patchworks.variant.ctfert_l15h5.yaml`` +
   ``config/silviculture.k3z.ctfert_l15h5.yaml``
 - ``config/patchworks.variant.ctfert_l20h0.yaml`` +
@@ -94,6 +92,10 @@ SI-profile notes:
    to ``0.0``, so the immediate CT harvest still occurs at age 40 but the
    residual final-felling volume gap is forced to taper to zero by
    ``cmai_argmax`` instead of remaining fixed forever.
+5. That curated fragments source replaces the old placeholder
+   ``RETENTION = 0.05`` pattern with the student-provided per-fragment
+   ``RETENTION`` values on the shipped validated ``ctfert_l15h5`` and
+   ``ctfert_l20h0`` surfaces.
 
 Sequencing logic:
 
@@ -163,7 +165,7 @@ Sequencing logic:
 State Machines
 --------------
 
-``ctfert`` / ``ctfert_l15h5`` / ``ctfert_l20h0`` states:
+``ctfert_l15h5`` / ``ctfert_l20h0`` states:
 
 - ``baseline``
 - ``cc_pl``
@@ -181,8 +183,6 @@ State Machines
 Interpretation Notes
 --------------------
 
-- Use ``ctfert`` when the teaching question is about the original two-AU
-  compounded treatment scaffold.
 - Use ``ctfert_l15h5`` or ``ctfert_l20h0`` when the teaching question is about
   SI-specific fertilization response differences across the six eligible
   ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs.

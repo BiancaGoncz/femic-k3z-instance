@@ -16,10 +16,6 @@ Current variants:
   - no separate variant spec file; baseline is the default runtime surface
   - runtime config: ``config/patchworks.runtime.windows.yaml``
   - Patchworks PIN: ``models/k3z_patchworks_model/analysis/base.pin``
-- optional legacy CT/QMD/fert variant
-  - variant spec: ``config/patchworks.variant.ctfert.yaml``
-  - runtime config: ``config/patchworks.runtime.ctfert.windows.yaml``
-  - Patchworks PIN: ``models/k3z_patchworks_model/analysis/ctfert.pin``
 - optional CT/QMD/fert SI-profile subvariant ``ctfert_l15h5``
   - variant spec: ``config/patchworks.variant.ctfert_l15h5.yaml``
   - runtime config: ``config/patchworks.runtime.ctfert_l15h5.windows.yaml``
@@ -55,7 +51,6 @@ Students should choose a variant by config/PIN, not by switching git branches.
 The intended launch pairings are:
 
 - baseline: ``config/patchworks.runtime.windows.yaml`` + ``analysis/base.pin``
-- legacy CT/fert variant: ``config/patchworks.runtime.ctfert.windows.yaml`` + ``analysis/ctfert.pin``
 - CT/fert SI profile ``L15/M10/H5``: ``config/patchworks.runtime.ctfert_l15h5.windows.yaml`` + ``analysis/ctfert_l15h5.pin``
 - CT/fert SI profile ``L20/M10/H0``: ``config/patchworks.runtime.ctfert_l20h0.windows.yaml`` + ``analysis/ctfert_l20h0.pin``
 - PCT-only light subvariant: ``config/patchworks.runtime.pct_light.windows.yaml`` + ``analysis/pct_light.pin``
@@ -77,8 +72,6 @@ Quick Surface Picker
      - Recommended surface
    * - Default teaching runs, baseline comparisons, and old-growth review
      - ``base``
-   * - Legacy CT plus fertilization teaching exercise
-     - ``ctfert``
    * - CT plus fertilization across L/M/H SI classes
      - ``ctfert_l15h5`` or ``ctfert_l20h0``
    * - PCT-only teaching exercise
@@ -129,7 +122,6 @@ Quickstart
 
    .. code-block:: bash
 
-      femic patchworks matrix-build --config config/patchworks.runtime.ctfert.windows.yaml --run-id k3z_ctfert
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert_l15h5.windows.yaml --run-id k3z_ctfert_l15h5
       femic patchworks matrix-build --config config/patchworks.runtime.ctfert_l20h0.windows.yaml --run-id k3z_ctfert_l20h0
 
@@ -152,8 +144,6 @@ Baseline teaching variant:
 
 Optional CT/fert variant family:
 
-- ``config/patchworks.variant.ctfert.yaml``
-- ``config/silviculture.k3z.ctfert.yaml``
 - ``config/patchworks.variant.ctfert_l15h5.yaml`` +
   ``config/silviculture.k3z.ctfert_l15h5.yaml``
 - ``config/patchworks.variant.ctfert_l20h0.yaml`` +
@@ -163,6 +153,7 @@ The CT/fert YAML surfaces control:
 
 - CT eligibility AUs,
 - CT age and removal assumptions,
+- CT post-thinning final-felling gap target,
 - provisional BA:volume conversion,
 - fertilization response window and speedup fraction,
 - ``F1`` / ``F2`` / ``F3`` timing rules.
@@ -171,8 +162,13 @@ The CT/fert YAML surfaces control:
 - ``ctfert_l15h5`` uses fert boosts ``L=15%``, ``M=10%``, ``H=5%``.
 - ``ctfert_l20h0`` uses fert boosts ``L=20%``, ``M=10%``, and disables fert
   entirely on ``H``-class AUs while still leaving CT available there.
+- both SI-profile subvariants set ``commercial_thinning.final_felling_gap_factor``
+  to ``0.0``, so the CT-induced final-felling gap tapers to zero by
+  ``cmai_argmax``.
 - Both SI-profile subvariants use the curated CT/fert retention overlay from
-  ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``.
+  ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``, replacing
+  the old uniform ``RETENTION = 0.05`` placeholder with the student-provided
+  per-fragment values.
 - deep reference: :doc:`silviculture-logic`
 
 Optional PCT-only subvariants:
@@ -217,8 +213,6 @@ Authoritative Paths
   ``models/k3z_patchworks_model/``
 - Baseline tracks:
   ``models/k3z_patchworks_model/tracks/``
-- CT/fert tracks:
-  ``models/k3z_patchworks_model/tracks_ctfert/``
 - CT/fert ``L15/M10/H5`` tracks:
   ``models/k3z_patchworks_model/tracks_ctfert_l15h5/``
 - CT/fert ``L20/M10/H0`` tracks:
