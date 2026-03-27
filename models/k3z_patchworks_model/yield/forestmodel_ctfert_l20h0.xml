@@ -18334,7 +18334,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_L.CC">
         <curve idref="au_CWHvm_HW_FDC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -18547,7 +18547,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_L.CC">
         <curve idref="au_CWHvm_HW_FDC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -18757,7 +18757,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -18978,7 +18978,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -19196,7 +19196,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CT">
         <curve idref="au_CWHvm_FDC_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -19260,7 +19260,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -19488,7 +19488,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -19716,7 +19716,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -19936,7 +19936,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_L.CC">
         <curve idref="au_CWHvm_FDC_HW_L_managed_cc_pl_ct_f1_f2_f3_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -20149,7 +20149,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -20358,7 +20358,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -20558,7 +20558,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CT">
         <curve idref="au_CWHvm_CW_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -20616,7 +20616,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -20829,7 +20829,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -21042,7 +21042,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -21247,7 +21247,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_L.CC">
         <curve idref="au_CWHvm_CW_HW_L_managed_cc_pl_ct_f1_f2_f3_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -21454,7 +21454,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_L.CC">
         <curve idref="au_CWHvm_HW_CW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -21667,7 +21667,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_L.CC">
         <curve idref="au_CWHvm_HW_CW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -21877,7 +21877,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_L.CC">
         <curve idref="au_CWHvm_DR_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.DR">
@@ -22078,7 +22078,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_L.CC">
         <curve idref="au_CWHvm_DR_HW_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.DR">
@@ -22279,7 +22279,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_L.CC">
         <curve idref="au_CWHvm_HW_SS_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.HW">
@@ -22480,7 +22480,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_L.CC">
         <curve idref="au_CWHvm_HW_SS_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.HW">
@@ -22693,7 +22693,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_L.CC">
         <curve idref="au_CWHvm_CW_YC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -22915,7 +22915,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_L.CC">
         <curve idref="au_CWHvm_CW_YC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -23125,7 +23125,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_L.CC">
         <curve idref="au_CWHvm_HW_BA_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.BA">
@@ -23326,7 +23326,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_L.CC">
         <curve idref="au_CWHvm_HW_BA_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.BA">
@@ -23551,7 +23551,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_L.CC">
         <curve idref="au_CWHvm_CW_PLC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -23794,7 +23794,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_L.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_L.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_L.CC">
         <curve idref="au_CWHvm_CW_PLC_L_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -24013,7 +24013,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_M.CC">
         <curve idref="au_CWHvm_HW_FDC_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -24214,7 +24214,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_M.CC">
         <curve idref="au_CWHvm_HW_FDC_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -24415,7 +24415,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -24636,7 +24636,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -24854,7 +24854,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CT">
         <curve idref="au_CWHvm_FDC_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -24918,7 +24918,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -25146,7 +25146,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -25374,7 +25374,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -25594,7 +25594,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_M.CC">
         <curve idref="au_CWHvm_FDC_HW_M_managed_cc_pl_ct_f1_f2_f3_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -25807,7 +25807,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26028,7 +26028,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26246,7 +26246,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CT">
         <curve idref="au_CWHvm_CW_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26310,7 +26310,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26538,7 +26538,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26766,7 +26766,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -26986,7 +26986,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_M.CC">
         <curve idref="au_CWHvm_CW_HW_M_managed_cc_pl_ct_f1_f2_f3_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -27199,7 +27199,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_M.CC">
         <curve idref="au_CWHvm_HW_CW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -27412,7 +27412,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_M.CC">
         <curve idref="au_CWHvm_HW_CW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -27622,7 +27622,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_M.CC">
         <curve idref="au_CWHvm_DR_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.DR">
@@ -27835,7 +27835,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_M.CC">
         <curve idref="au_CWHvm_DR_HW_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -28045,7 +28045,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_M.CC">
         <curve idref="au_CWHvm_HW_SS_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.HW">
@@ -28258,7 +28258,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_M.CC">
         <curve idref="au_CWHvm_HW_SS_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -28480,7 +28480,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_M.CC">
         <curve idref="au_CWHvm_CW_YC_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -28702,7 +28702,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_M.CC">
         <curve idref="au_CWHvm_CW_YC_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -28912,7 +28912,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_M.CC">
         <curve idref="au_CWHvm_HW_BA_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.BA">
@@ -29125,7 +29125,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_M.CC">
         <curve idref="au_CWHvm_HW_BA_M_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -29347,7 +29347,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_M.CC">
         <curve idref="au_CWHvm_CW_PLC_M_managed_qmd" />
       </attribute>
       <attribute label="product.SpeciesProp.managed.CW">
@@ -29545,7 +29545,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_M.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_M.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_M.CC">
         <curve idref="au_CWHvm_CW_PLC_M_managed_qmd" />
       </attribute>
       <attribute label="product.SpeciesProp.managed.CW">
@@ -29737,7 +29737,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_H.CC">
         <curve idref="au_CWHvm_HW_FDC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -29950,7 +29950,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_FDC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_FDC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_FDC_H.CC">
         <curve idref="au_CWHvm_HW_FDC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -30160,7 +30160,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.FDC">
@@ -30381,7 +30381,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -30591,7 +30591,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_H.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_H.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_H.CT">
         <curve idref="au_CWHvm_FDC_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -30655,7 +30655,7 @@
       <attribute label="product.Treated.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_FDC_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_FDC_HW_H.CC">
         <curve idref="au_CWHvm_FDC_HW_H_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -30868,7 +30868,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_H.CC">
         <curve idref="au_CWHvm_CW_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31077,7 +31077,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_H.CC">
         <curve idref="au_CWHvm_CW_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31269,7 +31269,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_H.CT">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_H.CT">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_H.CT">
         <curve idref="au_CWHvm_CW_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31327,7 +31327,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_HW_H.CC">
         <curve idref="au_CWHvm_CW_HW_H_managed_cc_pl_ct_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31534,7 +31534,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_H.CC">
         <curve idref="au_CWHvm_HW_CW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31747,7 +31747,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_CW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_CW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_CW_H.CC">
         <curve idref="au_CWHvm_HW_CW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -31957,7 +31957,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_H.CC">
         <curve idref="au_CWHvm_DR_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.DR">
@@ -32158,7 +32158,7 @@
       <attribute label="product.Treated.managed.CWHvm_DR_HW_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_DR_HW_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_DR_HW_H.CC">
         <curve idref="au_CWHvm_DR_HW_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.DR">
@@ -32359,7 +32359,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_H.CC">
         <curve idref="au_CWHvm_HW_SS_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.HW">
@@ -32560,7 +32560,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_SS_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_SS_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_SS_H.CC">
         <curve idref="au_CWHvm_HW_SS_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.HW">
@@ -32773,7 +32773,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_H.CC">
         <curve idref="au_CWHvm_CW_YC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -32995,7 +32995,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_YC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_YC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_YC_H.CC">
         <curve idref="au_CWHvm_CW_YC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -33205,7 +33205,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_H.CC">
         <curve idref="au_CWHvm_HW_BA_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.BA">
@@ -33406,7 +33406,7 @@
       <attribute label="product.Treated.managed.CWHvm_HW_BA_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_HW_BA_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_HW_BA_H.CC">
         <curve idref="au_CWHvm_HW_BA_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.BA">
@@ -33631,7 +33631,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_H.CC">
         <curve idref="au_CWHvm_CW_PLC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">
@@ -33874,7 +33874,7 @@
       <attribute label="product.Treated.managed.CWHvm_CW_PLC_H.CC">
         <curve idref="unity" />
       </attribute>
-      <attribute label="product.QMD.managed.CWHvm_CW_PLC_H.CC">
+      <attribute label="product.QMDNumerator.managed.CWHvm_CW_PLC_H.CC">
         <curve idref="au_CWHvm_CW_PLC_H_managed_qmd" />
       </attribute>
       <attribute label="product.Yield.managed.CW">

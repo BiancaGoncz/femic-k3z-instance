@@ -105,15 +105,17 @@ Variant review points:
   ``H=5%``.
 - ``tracks_ctfert_l20h0`` should compile CT across the same six AUs but
   materialize ``F1`` / ``F2`` / ``F3`` only on the ``L/M`` cohort.
-- The CT/fert tracks now also expose AU-wise harvested-stem QMD product rows:
-- ``product.QMD.managed.<au_token>.CC``
-- ``product.QMD.managed.<au_token>.CT`` on the CT-eligible AUs
+- The CT/fert tracks now expose AU-wise harvested-stem QMD numerator rows:
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+  - ``product.QMDNumerator.managed.<au_token>.CT`` on the CT-eligible AUs
 - Matching denominator rows:
-  ``product.Treated.managed.<au_token>.CC`` and
-  ``product.Treated.managed.<au_token>.CT``
-- Read these as numerator + treated-area companion surfaces; mean harvested
-  diameter for a given AU/treatment is the QMD product account divided by the
-  matching treated-area product account.
+  - ``product.Treated.managed.<au_token>.CC``
+  - ``product.Treated.managed.<au_token>.CT``
+- The live `ctfert_*` Patchworks PIN files register user-facing ratio accounts:
+  - ``product.QMD.managed.<au_token>.CC``
+  - ``product.QMD.managed.<au_token>.CT``
+- Read those live ``product.QMD.*`` ratio accounts directly as mean harvested
+  diameter in ``cm``.
 - The two SI-profiled subvariants should use the curated retention overlay in
   ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp`` rather than
   the old uniform ``RETENTION = 0.05`` placeholder. In other words, the
