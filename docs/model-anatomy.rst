@@ -108,6 +108,8 @@ Additional state/config artifacts for that variant:
 - approximate QMD outputs:
   - ``feature.QMD.managed.<au_token>``
   - ``feature.QMD.unmanaged.<au_token>``
+  - ``product.QMD.managed.<au_token>.CC``
+  - ``product.QMD.managed.<au_token>.CT`` on the CT-eligible AU cohort
 - treatment-path states:
   - ``baseline``
   - ``cc_pl``
@@ -125,6 +127,14 @@ Optional treatment surfaces for that variant:
   - ``product.Treated.managed.F1``
   - ``product.Treated.managed.F2``
   - ``product.Treated.managed.F3``
+  - ``product.Treated.managed.<au_token>.CC``
+  - ``product.Treated.managed.<au_token>.CT``
+
+The AU-wise harvested-stem QMD product rows are event-level numerator surfaces,
+not pre-normalized means. To recover mean harvested-stem diameter for a given
+AU/treatment combination, divide the matching
+``product.QMD.managed.<au_token>.<treatment>`` account by the corresponding
+``product.Treated.managed.<au_token>.<treatment>`` account.
 
 The SI-profiled CT/fert subvariants extend that same state machine across the
 six ``L/M/H`` SI-class ``CWHvm_FDC+HW`` / ``CWHvm_CW+HW`` AUs, but change the
