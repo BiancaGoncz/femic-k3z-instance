@@ -45,6 +45,7 @@ if (useRoutes) {
 int Patchworks_TargetInit() {
    control.calculateGroups("AU");
    control.calculateGroups("IFM");
+   control.inputGroups("../tracks_pct_heavy/groups_zones.csv");
    setupYieldFlowTargets(control, periods, tracks_path_prefix);
    control.duplicateAccount("product.Yield.managed.Total", "log.revenue.Total", 266.37f);
    validateSeralStageAttributes();

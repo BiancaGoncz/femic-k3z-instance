@@ -73,6 +73,7 @@ int Patchworks_TargetInit() {
    */
    control.calculateGroups("AU");
    control.calculateGroups("IFM");
+   control.inputGroups("../tracks_pct_heavy/groups1.csv");
 
    setupYieldFlowTargets(control, periods, tracks_path_prefix);
    validateSeralStageAttributes();

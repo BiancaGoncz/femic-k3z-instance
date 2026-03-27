@@ -228,3 +228,12 @@ _MANAGED_,product.Yield.managed.HW,product.Yield.managed.HW,1
 _MANAGED_,product.Yield.managed.SS,product.Yield.managed.SS,1
 _MANAGED_,product.Yield.managed.Total,product.Yield.managed.Total,1
 _MANAGED_,product.Yield.managed.YC,product.Yield.managed.YC,1
+zone1,product.Yield.managed.Total,zone1harvestvol,1
+zone2,product.Yield.managed.Total,zone2harvestvol,1
+zone3,product.Yield.managed.Total,zone3harvestvol,1
+zone1,feature.Area.managed,zone1inventoryarea,1
+zone2,feature.Area.managed,zone2inventoryarea,1
+zone3,feature.Area.managed,zone3inventoryarea,1
+zone1,feature.Yield.managed.Total,zone1inventoryvol,1
+zone2,feature.Yield.managed.Total,zone2inventoryvol,1
+zone3,feature.Yield.managed.Total,zone3inventoryvol,1
