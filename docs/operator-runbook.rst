@@ -30,17 +30,19 @@ Rebuild Workflow
 
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_full_rebuild
 
-At this point FEMIC is expected to stop at the BatchTIPSY freshness boundary.
+At this point FEMIC is expected to stop at the BTC freshness boundary.
 The canonical handoff files are:
 
-- `data/02_input-tsak3z.dat`
+- `data/03_input-tsak3z.csv`
 - `data/tipsy_params_tsak3z.xlsx`
+- optional legacy mirror: `data/02_input-tsak3z.dat`
 
-Run BatchTIPSY manually on Windows, refresh `data/04_output-tsak3z.out`, then resume:
+Run the default unattended BTC seam on Windows, refresh
+`data/04_output-tsak3z.csv` / `data/04_error-tsak3z.csv`, then resume:
 
 .. code-block:: bash
 
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_full_rebuild
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_full_rebuild
    femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_full_rebuild
 
@@ -50,7 +52,7 @@ Diagnostics Workflow
 .. code-block:: bash
 
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_reprocheck
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_reprocheck
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_reprocheck
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_reprocheck
 
 On the shipped Windows runtime configs, FEMIC now supervises the noninteractive

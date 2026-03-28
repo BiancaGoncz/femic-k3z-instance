@@ -36,7 +36,7 @@ Manual equivalent command sequence (mirrors rebuild spec):
    femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
    femic prep geospatial-preflight
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_rebuild_check
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_rebuild_check
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_rebuild_check
    femic patchworks preflight --config config/patchworks.runtime.windows.yaml
    femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_rebuild_check
