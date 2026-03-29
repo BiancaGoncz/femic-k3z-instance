@@ -130,17 +130,21 @@ void femicConfigureHeadlessScenario() {
       throw new IllegalStateException("Unsupported FEMIC headless scenario mode: " + mode);
 }
 
-void femicActivateHeadlessMinimumTarget(String targetLabel, double minAnnual, boolean maxActive) {
+void femicConfigureHeadlessBaseHarvestTarget(String targetLabel, double minAnnual) {
    Target target = control.getTarget(targetLabel);
    if (target == null)
       throw new IllegalStateException("Missing headless scenario target: " + targetLabel);
 
    target.setActive(true);
    target.setMinActive(true);
-   target.setMaxActive(maxActive);
+   target.setMaxActive(true);
+   target.setLinear(true);
 
-   for (int i = 1; i < Horizon.periods; i++)
+   target.setMaximum(200000f, 0);
+   for (int i = 1; i < Horizon.periods; i++) {
       target.setMinimum((float)(minAnnual * Horizon.intervals[i]), i);
+      target.setMaximum(200000f, i);
+   }
 }
 
 void femicConfigureHeadlessEvenFlowTarget(String targetLabel) {
@@ -201,11 +205,12 @@ void femicRunHeadlessStage() {
          if (femicHeadlessScenarioMinAnnual != null)
             minAnnual = femicHeadlessScenarioMinAnnual.doubleValue();
 
-         femicActivateHeadlessMinimumTarget(baseTargetLabel, minAnnual, false);
+         femicConfigureHeadlessBaseHarvestTarget(baseTargetLabel, minAnnual);
          femicHeadlessTrace("seeded underlying harvest target="
                             + baseTargetLabel
                             + " minAnnual="
-                            + minAnnual);
+                            + minAnnual
+                            + " linear=true max=200000");
 
          int seedIterations = femicHeadlessIterations;
          int flowIterations = 0;
