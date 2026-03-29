@@ -338,6 +338,14 @@ Variant review points:
   - ``feature.StemCount000.managed.<au_token>``
   - ``feature.StemCount125.managed.<au_token>``
   - ``feature.StemCount175.managed.<au_token>``
+- On this proving-ground surface, managed QMD should now prefer the richer
+  BTC-native managed diameter signal rather than only the older
+  volume/height/stems approximation. Preference order:
+  ``feature.DBHg000.managed.<au_token>`` first; then the QMD implied by
+  ``feature.BasalArea000.managed.<au_token>`` plus
+  ``feature.SPH000.managed.<au_token>`` or
+  ``feature.StemCount000.managed.<au_token>``; and only then the older
+  approximation path.
 - These rows should appear only on the proving-ground surface during the first
   rollout; the ordinary ``base``, ``ctfert_*``, ``pct_*``, and
   ``intensive_*`` tracks should remain free of these new Patchworks bindings.
@@ -345,6 +353,23 @@ Variant review points:
   feature values because the ``protoaccounts.csv -> accounts.csv`` promotion
   layer applies the same area-normalization contract used by QMD, height, and
   standing stems-per-ha feature surfaces.
+- For direct runtime QA after a rebuild, use the headless proving-ground seam
+  and inspect the saved HTML/CSV outputs:
+
+  .. code-block:: bash
+
+     femic patchworks run-headless models/k3z_patchworks_model/analysis/intensive_light_standstructure.pin --config config/patchworks.runtime.intensive_light_standstructure.windows.yaml --scenario-mode max-even-flow-smoke
+
+  Then inspect:
+
+  - by default, FEMIC saves the headless stage under
+    ``vdyp_io/logs/headless_stage/<run_id>/`` so report exports stay out of the
+    tracked ``analysis/`` tree; override with ``--stage-label`` only when a
+    different save location is intentional
+  - ``vdyp_io/logs/headless_stage/<run_id>/scenario/{targetStatus,targetSummary,schedule}.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/feature_QMD_managed_*.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/product_QMD_managed_*.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/product_QMDNumerator_managed_*.csv``
 
 Baseline Overlay Subvariant Workflow
 ------------------------------------
