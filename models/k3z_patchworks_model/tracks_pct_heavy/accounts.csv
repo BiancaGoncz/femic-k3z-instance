@@ -237,3 +237,8 @@ zone3,feature.Area.managed,zone3inventoryarea,1
 zone1,feature.Yield.managed.Total,zone1inventoryvol,1
 zone2,feature.Yield.managed.Total,zone2inventoryvol,1
 zone3,feature.Yield.managed.Total,zone3inventoryvol,1
+zone1,feature.Area.og1.CWHvm_CW_HW_M,zone1og1CW_HW,1
+zone1,feature.Area.og1.CWHvm_HW_CW_H,zone1og1HW_CW_H,1
+zone1,feature.Area.og1.CWHvm_HW_CW_L,zone1og1HW_CW_L,1
+zone1,feature.Area.og1.CWHvm_HW_CW_M,zone1og1HW_CW_M,1
+zone3,product.Treated.managed.PCT,zone3PCT,1
