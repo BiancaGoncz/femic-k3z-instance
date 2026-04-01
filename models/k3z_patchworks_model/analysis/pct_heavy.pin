@@ -13,6 +13,7 @@ boolean usePatches = false;
 sourceRelative("../scripts/targets/flowTargets.bsh");
 sourceRelative("../scripts/targets/qmdRatioAccounts.bsh");
 sourceRelative("../scripts/targets/seralStages.bsh");
+sourceRelative("headless_runtime_common.bsh");
 
 String tracks_path_prefix = "../tracks_pct_heavy/";
 
@@ -54,7 +55,10 @@ int Patchworks_TargetInit() {
 }
 
 int PatchWorks_Init() {
-   classic_GUI(control);
+   femicConfigureHeadlessFromArgs();
+
+   if (!femicHeadlessMode) {
+      classic_GUI(control);
 
     DefaultTheme def = new DefaultTheme(blockData, new PolygonSymbol(new Color(204, 204, 255)));
     Layer defLayer = new GeoRelLayer(blockData, def);
@@ -90,20 +94,21 @@ int PatchWorks_Init() {
     latestTreatLayer.setVisible(false);
     layers.add(latestTreatLayer);
 
-    AlphaComposite alpha = AlphaComposite.SrcOver;
-    global.seral2 = new DitherTheme(blockData, "feature.Seral.");
-    seral2.setCaption("Dithered Seral Stage");
-    seral2.setAlpha(alpha);
-    seral2.setIsScaled(false);
-    seral2.addElement("Regen", new Color (250, 230, 0), "feature.Seral.regenerating");
-    seral2.addElement("Young", new Color (200, 250, 200), "feature.Seral.young");
-    seral2.addElement("Immature", new Color (160, 220, 160), "feature.Seral.immature");
-    seral2.addElement("Mature", new Color (100, 190, 100), "feature.Seral.mature");
-    seral2.addElement("Old", new Color (128, 64, 64), "feature.Seral.overmature");
-    blockData.addTheme(seral2,"Dithered Seral Stage");
-    Layer seral2Layer = new GeoRelLayer(blockData,seral2);
-    seral2Layer.setTitle("Seral Stages");
-    layers.add(seral2Layer);
+      AlphaComposite alpha = AlphaComposite.SrcOver;
+      global.seral2 = new DitherTheme(blockData, "feature.Seral.");
+      seral2.setCaption("Dithered Seral Stage");
+      seral2.setAlpha(alpha);
+      seral2.setIsScaled(false);
+      seral2.addElement("Regen", new Color (250, 230, 0), "feature.Seral.regenerating");
+      seral2.addElement("Young", new Color (200, 250, 200), "feature.Seral.young");
+      seral2.addElement("Immature", new Color (160, 220, 160), "feature.Seral.immature");
+      seral2.addElement("Mature", new Color (100, 190, 100), "feature.Seral.mature");
+      seral2.addElement("Old", new Color (128, 64, 64), "feature.Seral.overmature");
+      blockData.addTheme(seral2,"Dithered Seral Stage");
+      Layer seral2Layer = new GeoRelLayer(blockData,seral2);
+      seral2Layer.setTitle("Seral Stages");
+      layers.add(seral2Layer);
+   }
 
     RangeLabel[] ageClass = new RangeLabel[] {
       new RangeLabel("Regen", -5, 0),
@@ -128,6 +133,9 @@ int PatchWorks_Init() {
 	     Horizon.periodList,
 	     null,
 	     false));
+
+    if (femicHeadlessMode)
+       femicQueueHeadlessStage();
 
     return 1;
 }
