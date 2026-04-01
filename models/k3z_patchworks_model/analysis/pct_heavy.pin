@@ -47,7 +47,12 @@ int Patchworks_TargetInit() {
    control.calculateGroups("IFM");
    control.inputGroups("../tracks_pct_heavy/groups_zones.csv");
    setupYieldFlowTargets(control, periods, tracks_path_prefix);
-   control.duplicateAccount("product.Yield.managed.Total", "log.revenue.Total", 266.37f);
+   control.duplicateAccount("product.Yield.managed.CW", "log.revenue.CW", 288.16f);
+   control.duplicateAccount("product.Yield.managed.HW", "log.revenue.HW", 93.73f);
+   control.duplicateAccount("product.Yield.managed.FDC", "log.revenue.FDC", 108.05f);
+   control.duplicateAccount("product.Yield.managed.SS", "log.revenue.SS", 73.10f);
+   control.duplicateAccount("product.Yield.managed.BA", "log.revenue.BA", 75.76f);
+// Total Revenue
    validateSeralStageAttributes();
    control.inputTopology("../blocks/topology_blocks_200r.csv", 100d);
    return 1;
