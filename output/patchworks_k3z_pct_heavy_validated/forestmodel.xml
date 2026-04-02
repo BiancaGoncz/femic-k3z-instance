@@ -86205,6 +86205,7 @@
         <curve idref="au_CWHvm_HW_FDC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501000 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -86312,6 +86313,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -86787,6 +86789,7 @@
         <curve idref="au_CWHvm_HW_FDC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501000 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -86894,6 +86897,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -87369,6 +87373,7 @@
         <curve idref="au_CWHvm_FDC_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501001 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -87476,6 +87481,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -87951,6 +87957,7 @@
         <curve idref="au_CWHvm_FDC_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501001 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -88058,6 +88065,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -88539,6 +88547,7 @@
         <curve idref="au_CWHvm_CW_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501002 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -88649,6 +88658,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -88875,6 +88885,7 @@
         <curve idref="au_CWHvm_CW_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501002 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -88985,6 +88996,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -89211,6 +89223,7 @@
         <curve idref="au_CWHvm_HW_CW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501003 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -89324,6 +89337,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -89886,6 +89900,7 @@
         <curve idref="au_CWHvm_HW_CW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501003 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -89999,6 +90014,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -90543,6 +90559,7 @@
         <curve idref="au_CWHvm_DR_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501004 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -90635,6 +90652,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="40" maxage="1000">
         <produce>
@@ -90816,6 +90834,7 @@
         <curve idref="au_CWHvm_DR_HW_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501004 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -90908,6 +90927,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="40" maxage="1000">
         <produce>
@@ -91089,6 +91109,7 @@
         <curve idref="au_CWHvm_HW_SS_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501005 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -91181,6 +91202,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -91362,6 +91384,7 @@
         <curve idref="au_CWHvm_HW_SS_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501005 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -91454,6 +91477,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -91629,6 +91653,7 @@
         <curve idref="au_CWHvm_CW_YC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501006 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -91715,6 +91740,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -91881,6 +91907,7 @@
         <curve idref="au_CWHvm_CW_YC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501006 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -91967,6 +91994,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -92127,6 +92155,7 @@
         <curve idref="au_CWHvm_HW_BA_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501007 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -92207,6 +92236,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -92358,6 +92388,7 @@
         <curve idref="au_CWHvm_HW_BA_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501007 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -92438,6 +92469,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -92595,6 +92627,7 @@
         <curve idref="au_CWHvm_CW_PLC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501008 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -92681,6 +92714,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -92847,6 +92881,7 @@
         <curve idref="au_CWHvm_CW_PLC_L_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985501008 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -92933,6 +92968,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -93117,6 +93153,7 @@
         <curve idref="au_CWHvm_HW_FDC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502000 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -93221,6 +93258,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -93432,6 +93470,7 @@
         <curve idref="au_CWHvm_HW_FDC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502000 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -93536,6 +93575,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -93755,6 +93795,7 @@
         <curve idref="au_CWHvm_HW_FDC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502000 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl_pct'">
@@ -93823,6 +93864,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -94023,6 +94065,7 @@
         <curve idref="au_CWHvm_FDC_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502001 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -94130,6 +94173,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -94605,6 +94649,7 @@
         <curve idref="au_CWHvm_FDC_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502001 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -94712,6 +94757,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -95195,6 +95241,7 @@
         <curve idref="au_CWHvm_FDC_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502001 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl_pct'">
@@ -95266,6 +95313,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -95736,6 +95784,7 @@
         <curve idref="au_CWHvm_CW_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502002 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -95849,6 +95898,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -96411,6 +96461,7 @@
         <curve idref="au_CWHvm_CW_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502002 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -96524,6 +96575,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -97086,6 +97138,7 @@
         <curve idref="au_CWHvm_HW_CW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502003 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -97199,6 +97252,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -97761,6 +97815,7 @@
         <curve idref="au_CWHvm_HW_CW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502003 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -97874,6 +97929,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -98418,6 +98474,7 @@
         <curve idref="au_CWHvm_DR_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502004 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -98513,6 +98570,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -98910,6 +98968,7 @@
         <curve idref="au_CWHvm_DR_HW_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502004 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -99005,6 +99064,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -99402,6 +99462,7 @@
         <curve idref="au_CWHvm_HW_SS_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502005 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -99497,6 +99558,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -99876,6 +99938,7 @@
         <curve idref="au_CWHvm_HW_SS_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502005 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -99977,6 +100040,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -100401,6 +100465,7 @@
         <curve idref="au_CWHvm_CW_YC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502006 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -100490,6 +100555,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="190" maxage="1000">
         <produce>
@@ -100872,6 +100938,7 @@
         <curve idref="au_CWHvm_CW_YC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502006 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -100961,6 +101028,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="190" maxage="1000">
         <produce>
@@ -101337,6 +101405,7 @@
         <curve idref="au_CWHvm_HW_BA_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502007 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -101420,6 +101489,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -101721,6 +101791,7 @@
         <curve idref="au_CWHvm_HW_BA_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502007 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -101810,6 +101881,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -102165,6 +102237,7 @@
         <curve idref="au_CWHvm_CW_PLC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502008 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -102242,6 +102315,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="0" maxage="1000">
         <produce>
@@ -102597,6 +102671,7 @@
         <curve idref="au_CWHvm_CW_PLC_M_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985502008 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -102674,6 +102749,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="0" maxage="1000">
         <produce>
@@ -103050,6 +103126,7 @@
         <curve idref="au_CWHvm_HW_FDC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503000 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -103157,6 +103234,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -103632,6 +103710,7 @@
         <curve idref="au_CWHvm_HW_FDC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503000 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -103739,6 +103818,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -104222,6 +104302,7 @@
         <curve idref="au_CWHvm_HW_FDC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503000 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl_pct'">
@@ -104293,6 +104374,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -104757,6 +104839,7 @@
         <curve idref="au_CWHvm_FDC_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503001 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -104864,6 +104947,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -105339,6 +105423,7 @@
         <curve idref="au_CWHvm_FDC_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503001 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -105446,6 +105531,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -105929,6 +106015,7 @@
         <curve idref="au_CWHvm_FDC_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503001 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl_pct'">
@@ -106000,6 +106087,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="70" maxage="1000">
         <produce>
@@ -106470,6 +106558,7 @@
         <curve idref="au_CWHvm_CW_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503002 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -106580,6 +106669,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -106806,6 +106896,7 @@
         <curve idref="au_CWHvm_CW_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503002 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -106916,6 +107007,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -107142,6 +107234,7 @@
         <curve idref="au_CWHvm_HW_CW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503003 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -107255,6 +107348,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -107817,6 +107911,7 @@
         <curve idref="au_CWHvm_HW_CW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503003 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -107930,6 +108025,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -108474,6 +108570,7 @@
         <curve idref="au_CWHvm_DR_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503004 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -108566,6 +108663,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="40" maxage="1000">
         <produce>
@@ -108747,6 +108845,7 @@
         <curve idref="au_CWHvm_DR_HW_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503004 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -108839,6 +108938,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="40" maxage="1000">
         <produce>
@@ -109017,6 +109117,7 @@
         <curve idref="au_CWHvm_HW_SS_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503005 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -109109,6 +109210,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -109287,6 +109389,7 @@
         <curve idref="au_CWHvm_HW_SS_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503005 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -109379,6 +109482,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="80" maxage="1000">
         <produce>
@@ -109551,6 +109655,7 @@
         <curve idref="au_CWHvm_CW_YC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503006 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -109637,6 +109742,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -109800,6 +109906,7 @@
         <curve idref="au_CWHvm_CW_YC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503006 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -109886,6 +109993,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="100" maxage="1000">
         <produce>
@@ -110046,6 +110154,7 @@
         <curve idref="au_CWHvm_HW_BA_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503007 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -110126,6 +110235,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -110277,6 +110387,7 @@
         <curve idref="au_CWHvm_HW_BA_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503007 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -110357,6 +110468,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -110511,6 +110623,7 @@
         <curve idref="au_CWHvm_CW_PLC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503008 and IFM eq 'managed' and ORIGIN eq 'natural' and SILV_STATE eq 'baseline'">
@@ -110597,6 +110710,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>
@@ -110760,6 +110874,7 @@
         <curve idref="au_CWHvm_CW_PLC_H_seral_overmature" />
       </attribute>
     </features>
+    <succession breakup="1000" renew="1000" />
     <track />
   </select>
   <select statement="AU eq 985503008 and IFM eq 'managed' and ORIGIN eq 'planted' and SILV_STATE eq 'cc_pl'">
@@ -110846,6 +110961,7 @@
     <retention factor="RETENTION">
       <assign field="IFM" value="'unmanaged'" />
     </retention>
+    <succession breakup="1000" renew="1000" />
     <track>
       <treatment label="CC" minage="90" maxage="1000">
         <produce>

@@ -220,3 +220,25 @@ Deep references:
 
 - :doc:`variants-and-subvariants`
 - :doc:`overlay-subvariants-workflow`
+
+Succession QA Note
+------------------
+
+K3Z now relies on explicit pass-through ``<succession>`` nodes in the compiled
+ForestModel XML:
+
+.. code-block:: xml
+
+   <succession breakup="1000" renew="1000" />
+
+These are emitted on state-bearing ``select`` elements only and carry no
+``assign`` children. The intent is not to change modeled state, but to make
+the succession contract explicit so Matrix Builder does not need to infer or
+complain about missing succession paths.
+
+Current acceptance signal for the rebuilt K3Z family is:
+
+- Matrix Builder completes with ``returncode=0``.
+- ``tracks*/messages.csv`` is header-only (no emitted ``succession`` rows).
+- stderr contains no substantive warning/error text beyond Patchworks' stock
+  footer telling the user to review warnings before exit.
