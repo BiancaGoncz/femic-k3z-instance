@@ -168,7 +168,8 @@ Legacy note:
 
 - The older `02_input-*.dat` / `04_output-*.out` seam remains compatibility-only.
 - The default supported K3Z rebuild path is now `03_input-tsak3z.csv` plus
-  `femic tsa btc-post-tipsy ...`.
+  `femic tsa btc-post-tipsy ...` (legacy command/flag naming retained even
+  though this K3Z case is a named FMU-style unit rather than a literal BC TSA).
 
 Variant-Specific Operator Inputs
 --------------------------------

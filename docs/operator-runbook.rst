@@ -40,6 +40,9 @@ The canonical handoff files are:
 Run the default unattended BTC seam on Windows, refresh
 `data/04_output-tsak3z.csv` / `data/04_error-tsak3z.csv`, then resume:
 
+The command group and flag still use the legacy ``tsa`` naming seam for
+compatibility. In K3Z they should be read as the selected FMU/code target.
+
 .. code-block:: bash
 
    femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_full_rebuild

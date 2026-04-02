@@ -31,6 +31,10 @@ Preview planned step order without mutation:
 
 Manual equivalent command sequence (mirrors rebuild spec):
 
+The command group and flag still use the legacy ``tsa`` naming seam for
+compatibility. In this instance they should be read generically as the
+selected K3Z FMU/code target.
+
 .. code-block:: bash
 
    femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
