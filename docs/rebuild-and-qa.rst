@@ -31,12 +31,16 @@ Preview planned step order without mutation:
 
 Manual equivalent command sequence (mirrors rebuild spec):
 
+The command group and flag still use the legacy ``tsa`` naming seam for
+compatibility. In this instance they should be read generically as the
+selected K3Z FMU/code target.
+
 .. code-block:: bash
 
    femic prep validate-case --run-config config/run_profile.k3z.yaml --tipsy-config-dir config/tipsy
    femic prep geospatial-preflight
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_rebuild_check
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_rebuild_check
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_rebuild_check
    femic patchworks preflight --config config/patchworks.runtime.windows.yaml
    femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_rebuild_check
@@ -138,10 +142,12 @@ Variant-specific expectations:
   ``cc_pl_pct_ct`` as the treatment-history state.
 - the accepted PCT-only fragments surfaces preserve the baseline 218-fragment
   geometry footprint exactly.
-- PCT-only fragment differences are limited to treatment-path consequences in
-  the exported ForestModel/tracks surface; the checked-in fragments surface
-  itself should not diverge from baseline in
-  ``AU`` / ``IFM`` / ``RETENTION`` / ``ORIGIN`` / ``SILV_STATE``.
+- the accepted PCT-only fragments surfaces now use the tracked student
+  thinners overlay in ``tmp/k3z_pct_thinners_retention_join.csv`` instead of
+  the old uniform ``RETENTION = 0.05`` placeholder.
+- PCT-only fragment differences relative to baseline should therefore be
+  limited to ``RETENTION``; the checked-in fragments surface itself should not
+  diverge from baseline in ``AU`` / ``IFM`` / ``ORIGIN`` / ``SILV_STATE``.
 - Refresh the PCT-only ForestModel from canonical bundle/checkpoint inputs, but
   do not replace the checked-in PCT-only fragments surface blindly with raw
   export fragments unless the baseline-footprint invariants still hold.
@@ -149,6 +155,43 @@ Variant-specific expectations:
   accounts in addition to the ``Total`` surfaces.
 - Live Patchworks smoke should show that pulling on a minimum ``PCT``
   treated-area target induces upstream ``CC`` in earlier periods.
+
+Deep reference: :doc:`silviculture-logic`
+
+Optional Full-Intensive Subvariant QA
+-------------------------------------
+
+These checks apply only to the three full-intensive subvariants
+(``intensive_light``, ``intensive_moderate``, ``intensive_heavy``).
+
+Variant command pattern:
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light.windows.yaml --run-id k3z_intensive_light
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_heavy.windows.yaml --run-id k3z_intensive_heavy
+
+Variant-specific expectations:
+
+- each ``tracks_intensive_*`` ``treatments.csv`` includes ``PCT``, ``CT``,
+  ``F1``, ``F2``, and ``F3``.
+- each ``tracks_intensive_*`` surface materializes ``cc_pl_pct`` and
+  ``cc_pl_pct_ct`` in the treatment-history state chain.
+- the combined treatment family is centered on the full 8-AU union of the
+  current ``pct_*`` and ``ctfert_l15h5`` families:
+  ``985501001``, ``985502001``, ``985503001``, ``985501002``, ``985502002``,
+  ``985503002``, ``985502000``, and ``985503000``.
+- each ``tracks_intensive_*`` surface exposes AU-wise harvested-QMD numerator /
+  denominator / ratio-account support for ``PCT``, ``CT``, and downstream
+  ``CC``.
+- each ``tracks_intensive_*`` surface exposes AU-wise standing stems-per-ha
+  feature accounts on both the managed and unmanaged side.
+- the accepted validated fragments surfaces preserve the curated 218-fragment
+  geometry footprint from
+  ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp`` exactly.
+- live Patchworks smoke should show that pulling on a minimum ``F3``
+  treated-area target induces ``F2`` -> ``F1`` -> ``CT`` -> ``PCT`` -> ``CC``.
 
 Deep reference: :doc:`silviculture-logic`
 
@@ -168,7 +211,8 @@ Variant command pattern:
 
 Variant-specific expectations:
 
-- overlay builds still use baseline ``yield/forestmodel.xml``;
+- overlay builds still use baseline
+  ``output/patchworks_k3z_validated/forestmodel.xml``;
 - only fragment ``RETENTION`` and resulting managed/unmanaged area balance
   should differ from baseline;
 - the student join contract still resolves through ``blocks.shp`` without nulls
@@ -180,3 +224,25 @@ Deep references:
 
 - :doc:`variants-and-subvariants`
 - :doc:`overlay-subvariants-workflow`
+
+Succession QA Note
+------------------
+
+K3Z now relies on explicit pass-through ``<succession>`` nodes in the compiled
+ForestModel XML:
+
+.. code-block:: xml
+
+   <succession breakup="1000" renew="1000" />
+
+These are emitted on state-bearing ``select`` elements only and carry no
+``assign`` children. The intent is not to change modeled state, but to make
+the succession contract explicit so Matrix Builder does not need to infer or
+complain about missing succession paths.
+
+Current acceptance signal for the rebuilt K3Z family is:
+
+- Matrix Builder completes with ``returncode=0``.
+- ``tracks*/messages.csv`` is header-only (no emitted ``succession`` rows).
+- stderr contains no substantive warning/error text beyond Patchworks' stock
+  footer telling the user to review warnings before exit.

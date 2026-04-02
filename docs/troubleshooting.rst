@@ -38,6 +38,17 @@ Actions:
      species label signal.
    - Inspect matrix manifest ``accounts_sync.excluded_patterns`` for accidental
      over-filtering.
+   - Inspect `data/model_input_bundle/curve_table.csv` for missing
+     ``treated_species_prop_*`` / ``untreated_species_prop_*`` rows; if they
+     are absent, confirm the active post-TIPSY species-universe loader can see
+     the shipped checkpoint artifact (for K3Z this is now
+     ``data/ria_vri_vclr1p_checkpoint1-tsak3z.feather`` rather than only the
+     old generic ``checkpoint8`` path).
+   - If ``01a`` prep checkpoints are missing but ``au_table.csv`` persists,
+     confirm the post-TIPSY fallback rebuilt unmanaged species proportions from
+     ``data/vdyp_lyr-tsak3z.feather`` rather than dropping them to empty maps.
+     The repaired fallback is what restores companion ctfert species such as
+     ``DR``, ``BA``, and ``SS`` in the shipped K3Z teaching surfaces.
 3. Re-run deterministic rebuild with Patchworks enabled:
 
    .. code-block:: bash
@@ -77,7 +88,7 @@ Actions:
 2. Inspect the matching ``models/k3z_patchworks_model/tracks_pct_*/accounts.csv``
    and ``products.csv`` files to confirm whether only total managed yield
    surfaces were compiled.
-3. Inspect the matching ``models/k3z_patchworks_model/yield/forestmodel_pct_*.xml``
+3. Inspect the matching ``output/patchworks_k3z_pct_*/forestmodel.xml``
    file to see whether species-wise managed yield surfaces were exported
    upstream.
 4. Treat this as a regression if the treatment path is otherwise correct. Do

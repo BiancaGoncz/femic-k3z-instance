@@ -30,17 +30,22 @@ Rebuild Workflow
 
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_full_rebuild
 
-At this point FEMIC is expected to stop at the BatchTIPSY freshness boundary.
+At this point FEMIC is expected to stop at the BTC freshness boundary.
 The canonical handoff files are:
 
-- `data/02_input-tsak3z.dat`
+- `data/03_input-tsak3z.csv`
 - `data/tipsy_params_tsak3z.xlsx`
+- optional legacy mirror: `data/02_input-tsak3z.dat`
 
-Run BatchTIPSY manually on Windows, refresh `data/04_output-tsak3z.out`, then resume:
+Run the default unattended BTC seam on Windows, refresh
+`data/04_output-tsak3z.csv` / `data/04_error-tsak3z.csv`, then resume:
+
+The command group and flag still use the legacy ``tsa`` naming seam for
+compatibility. In K3Z they should be read as the selected FMU/code target.
 
 .. code-block:: bash
 
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_full_rebuild
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_full_rebuild
    femic patchworks build-blocks --config config/patchworks.runtime.windows.yaml
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_full_rebuild
 
@@ -50,12 +55,49 @@ Diagnostics Workflow
 .. code-block:: bash
 
    femic run --run-config config/run_profile.k3z.yaml --run-id k3z_reprocheck
-   femic tsa post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_reprocheck
+   femic tsa btc-post-tipsy --run-config config/run_profile.k3z.yaml --tsa k3z --run-id k3z_reprocheck
    femic patchworks matrix-build --config config/patchworks.runtime.windows.yaml --run-id k3z_reprocheck
+
+On the shipped Windows runtime configs, FEMIC now supervises the noninteractive
+Matrix Builder launch and automatically closes the spawned Matrix Builder GUI
+window after fresh output activity has stabilized. This is intended to remove
+the routine manual "close the Matrix Builder window so the workflow can
+continue" step from local rebuilds.
 
 Review:
 
 - ``vdyp_io/logs/patchworks_matrixbuilder_manifest-<run_id>.json``
+
+Runtime account assumptions
+---------------------------
+
+The shipped K3Z runtime configs now also carry a downstream recovered-volume
+assumption in the ``protoaccounts.csv -> accounts.csv`` promotion layer:
+
+- ``CC`` harvested volume uses utilization ``0.85``
+- ``CT`` harvested volume uses utilization ``0.75`` on CT-enabled variants
+
+This is a runtime-account policy only. It does not change standing yield
+curves, ForestModel XML, or fragment-level ``RETENTION``.
+
+Standing stems-per-ha account contract
+--------------------------------------
+
+The active K3Z launch surfaces now also ship AU-wise standing stems-per-ha
+feature accounts:
+
+- ``feature.StemsPerHa.managed.<au_token>``
+- ``feature.StemsPerHa.unmanaged.<au_token>``
+- ``feature.Height.managed.<au_token>``
+- ``feature.Height.unmanaged.<au_token>``
+
+These are exported from ForestModel as feature attributes, then normalized
+downstream during ``protoaccounts.csv -> accounts.csv`` promotion using the
+AU-wise managed/unmanaged area implied by the validated fragments plus
+``RETENTION``. Read the live ``feature.StemsPerHa.*`` accounts directly as mean
+standing stems per hectare, not total stem counts.
+Read the live ``feature.Height.*`` accounts directly as mean standing height in
+``m``.
 
 Surface Selection Cheatsheet
 ----------------------------
@@ -77,6 +119,14 @@ Surface Selection Cheatsheet
      - ``config/patchworks.runtime.pct_moderate.windows.yaml`` + ``analysis/pct_moderate.pin``
    * - heavy PCT-only surface
      - ``config/patchworks.runtime.pct_heavy.windows.yaml`` + ``analysis/pct_heavy.pin``
+   * - full-intensive light surface
+     - ``config/patchworks.runtime.intensive_light.windows.yaml`` + ``analysis/intensive_light.pin``
+   * - full-intensive moderate surface
+     - ``config/patchworks.runtime.intensive_moderate.windows.yaml`` + ``analysis/intensive_moderate.pin``
+   * - full-intensive heavy surface
+     - ``config/patchworks.runtime.intensive_heavy.windows.yaml`` + ``analysis/intensive_heavy.pin``
+   * - stand-structure proving ground
+     - ``config/patchworks.runtime.intensive_light_standstructure.windows.yaml`` + ``analysis/intensive_light_standstructure.pin``
    * - retained-area sensitivity only
      - one of the overlay runtime configs + the matching ``analysis/overlay_*.pin``
 
@@ -105,6 +155,59 @@ Variant review points:
   ``H=5%``.
 - ``tracks_ctfert_l20h0`` should compile CT across the same six AUs but
   materialize ``F1`` / ``F2`` / ``F3`` only on the ``L/M`` cohort.
+- The CT/fert tracks now expose AU-wise harvested-stem QMD numerator rows:
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+  - ``product.QMDNumerator.managed.<au_token>.CT`` on the CT-eligible AUs
+- The CT/fert tracks now expose normalized explicit BTC log-grade harvested
+  products on both ``CC`` and ``CT`` treatment surfaces:
+  ``product.Logs_Grade_{D,F,H,I,J,U,X,Y}.managed.Total.{CC,CT}``.
+- ``Logs_Grade_All`` is intentionally excluded from the shipped additive family
+  because it behaves like a separate scaled-log metric rather than the additive
+  parent of the explicit grades.
+- The explicit grades are compiled so they sum to the corresponding
+  ``product.HarvestedVolume.*`` account instead of raw BTC merchantable yield.
+- The current ``CT`` recipe intentionally biases the mix toward lower-grade
+  ``J/U/X/Y`` material to reflect early-age thinning from below. This is a
+  teaching-instance bridge between forest-growth and product-outturn logic, not
+  a claim that FEMIC directly observes CT log grades in primary BTC output.
+- The shipped value side uses FEMIC-owned coast-market reference matrices under
+  ``src/femic/resources/patchworks/log_grade_price_matrices.yaml``.
+- Managed / treatment-driven harvest defaults to the
+  ``second_growth_coast_2025`` matrix.
+- Unmanaged / natural-origin harvest defaults to the
+  ``old_growth_coast_2025`` matrix.
+- Those matrices are a teaching/default contract, not a locked institutional
+  truth surface. Users can override them through FEMIC recipe overlays when
+  they want a different market story.
+- Some K3Z species do not appear as direct rows in the coast market reports.
+  FEMIC therefore applies explicit documented proxy mappings in the shipped
+  recipe rather than silently averaging or dropping those species. Read the
+  AU/species/log-grade value accounts as modeled teaching outputs built from
+  those proxy choices.
+- The full AU/species/log-grade volume and value families are compiled into the
+  rebuilt track surfaces, but the shipped PIN files now keep canonical
+  ``products.csv`` live and hide the large teaching surface only through
+  ``accounts.default.csv`` so students are not flooded by default.
+- To opt into the full log-grade teaching surface in a live Patchworks session,
+  set ``boolean enableLogGradeAccounts = true;`` near the top of the relevant
+  ``analysis/*.pin`` file before launch.
+- The CT/fert tracks also expose AU-wise standing stems-per-ha feature rows:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
+- The CT/fert tracks also expose AU-wise standing stem-height feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
+- Matching denominator rows:
+  - ``product.Treated.managed.<au_token>.CC``
+  - ``product.Treated.managed.<au_token>.CT``
+- The live `ctfert_*` Patchworks PIN files register user-facing ratio accounts:
+  - ``product.QMD.managed.<au_token>.CC``
+  - ``product.QMD.managed.<au_token>.CT``
+- Read those live ``product.QMD.*`` ratio accounts directly as mean harvested
+  diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume,
+  not perfect-recovery standing merchantable volume; ``CC`` uses downstream
+  utilization ``0.85`` and ``CT`` uses downstream utilization ``0.75``.
 - The two SI-profiled subvariants should use the curated retention overlay in
   ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp`` rather than
   the old uniform ``RETENTION = 0.05`` placeholder. In other words, the
@@ -143,17 +246,181 @@ Variant review points:
   - silviculture config: ``config/silviculture.k3z.pct_heavy.yaml``
   - launch entrypoint: ``models/k3z_patchworks_model/analysis/pct_heavy.pin``
   - tracks surface: ``models/k3z_patchworks_model/tracks_pct_heavy/``
+- `pct_heavy_zones`:
+  - variant spec: ``config/patchworks.variant.pct_heavy_zones.yaml``
+  - silviculture config: ``config/silviculture.k3z.pct_heavy.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/pct_heavy_zones.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_pct_heavy_zones/``
+  - note: this sibling surface reuses the validated heavy-PCT ForestModel and fragments, but swaps in Bianca's alternate ``groups_zones.csv`` grouping
 - Each ``tracks_pct_*`` surface should materialize ``PCT`` and not ``CT``.
 - Each ``tracks_pct_*`` ``accounts.csv`` / ``products.csv`` should include
   ``product.Treated.managed.PCT`` and exclude ``product.Treated.managed.CT``.
+- Each ``tracks_pct_*`` surface should also expose AU-wise harvested-stem QMD
+  numerator rows:
+  - ``product.QMDNumerator.managed.<au_token>.PCT``
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+- Each ``tracks_pct_*`` surface should also expose AU-wise standing
+  stems-per-ha feature rows:
+  - ``feature.StemsPerHa.managed.<au_token>``
+  - ``feature.StemsPerHa.unmanaged.<au_token>``
+- Each ``tracks_pct_*`` surface should also expose AU-wise standing stem-height
+  feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
+- Matching denominator rows:
+  - ``product.Treated.managed.<au_token>.PCT``
+  - ``product.Treated.managed.<au_token>.CC``
+- The live ``pct_*`` Patchworks PIN files should register user-facing ratio
+  accounts:
+  - ``product.QMD.managed.<au_token>.PCT``
+  - ``product.QMD.managed.<au_token>.CC``
+- Read those live ``product.QMD.*`` ratio accounts directly as mean harvested
+  diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume;
+  ``CC`` uses downstream utilization ``0.85``. The shipped ``pct_*`` surfaces
+  do not expose ``CT``, but the runtime layer reserves ``CT = 0.75`` for
+  CT-enabled variants.
 - Each ``output/patchworks_k3z_pct_*_validated/fragments/`` surface should
   preserve the accepted baseline 218-fragment geometry footprint exactly.
+- The accepted ``pct_*`` validated fragments now use the tracked student
+  thinners overlay in ``tmp/k3z_pct_thinners_retention_join.csv`` instead of
+  the old uniform ``RETENTION = 0.05`` placeholder. Refresh them reproducibly
+  with:
+
+  .. code-block:: bash
+
+     python tools/apply_pct_retention_overlay.py --instance-root .
+
 - Patchworks smoke expectation: pulling on the ``PCT`` treated-area target
   should induce the upstream chain ``CC``.
 - Each ``tracks_pct_*`` ``accounts.csv`` / ``products.csv`` should also
   retain species-wise managed yield / harvest-volume surfaces, not just
   ``Total``.
 - Deep reference: :doc:`silviculture-logic`
+
+Optional Full-Intensive Subvariant Workflow
+-------------------------------------------
+
+Use this only if you intentionally want the full teaching scaffold with
+``PCT -> CT -> F1 -> F2 -> F3`` on one launchable surface.
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light.windows.yaml --run-id k3z_intensive_light
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_moderate.windows.yaml --run-id k3z_intensive_moderate
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_heavy.windows.yaml --run-id k3z_intensive_heavy
+
+Variant review points:
+
+- `intensive_light`:
+  - variant spec: ``config/patchworks.variant.intensive_light.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_light.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_light.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_light/``
+- `intensive_moderate`:
+  - variant spec: ``config/patchworks.variant.intensive_moderate.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_moderate.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_moderate.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_moderate/``
+- `intensive_heavy`:
+  - variant spec: ``config/patchworks.variant.intensive_heavy.yaml``
+  - silviculture config: ``config/silviculture.k3z.intensive_heavy.yaml``
+  - launch entrypoint: ``models/k3z_patchworks_model/analysis/intensive_heavy.pin``
+  - tracks surface: ``models/k3z_patchworks_model/tracks_intensive_heavy/``
+- Each ``tracks_intensive_*`` surface should materialize the full
+  ``PCT -> CT -> F1 -> F2 -> F3`` chain.
+- Each ``tracks_intensive_*`` surface should expose AU-wise harvested-stem QMD
+  numerator rows for ``PCT``, ``CT``, and downstream ``CC``:
+  - ``product.QMDNumerator.managed.<au_token>.PCT``
+  - ``product.QMDNumerator.managed.<au_token>.CT``
+  - ``product.QMDNumerator.managed.<au_token>.CC``
+- Each ``tracks_intensive_*`` surface should also expose AU-wise standing
+  stem-height feature rows:
+  - ``feature.Height.managed.<au_token>``
+  - ``feature.Height.unmanaged.<au_token>``
+- Matching denominator rows:
+  - ``product.Treated.managed.<au_token>.PCT``
+  - ``product.Treated.managed.<au_token>.CT``
+  - ``product.Treated.managed.<au_token>.CC``
+- The live ``intensive_*`` Patchworks PIN files should register user-facing
+  ratio accounts:
+  - ``product.QMD.managed.<au_token>.PCT``
+  - ``product.QMD.managed.<au_token>.CT``
+  - ``product.QMD.managed.<au_token>.CC``
+- Read the live ``product.QMD.*`` ratio accounts directly as mean harvested
+  diameter in ``cm``.
+- Read ``product.HarvestedVolume.*`` accounts as recovered merchantable volume:
+  ``CC`` uses downstream utilization ``0.85`` and ``CT`` uses downstream
+  utilization ``0.75``.
+- The ``intensive_*`` family reuses the curated CT/fert retained-area overlay
+  from ``tmp/CTFert Fragments/fragments_updated3_Usedinbasecase.shp``.
+- Patchworks smoke expectation: pulling on ``F3`` treated area should induce
+  ``F2`` -> ``F1`` -> ``CT`` -> ``PCT`` -> ``CC``.
+- Deep reference: :doc:`silviculture-logic`
+
+Optional Stand-Structure Proving-Ground Workflow
+------------------------------------------------
+
+Use this only when you intentionally want the first optional unattended BTC
+stand-structure bank on a safe K3Z proving-ground surface rather than on the
+ordinary student-facing variants.
+
+.. code-block:: bash
+
+   femic patchworks matrix-build --config config/patchworks.runtime.intensive_light_standstructure.windows.yaml --run-id k3z_intensive_light_standstructure
+
+Variant review points:
+
+- ``config/patchworks.variant.intensive_light_standstructure.yaml`` is the
+  proving-ground variant spec.
+- ``config/silviculture.k3z.intensive_light_standstructure.yaml`` enables the
+  first optional BTC indicator bank:
+  - ``stand-structure-basic``
+- ``models/k3z_patchworks_model/analysis/intensive_light_standstructure.pin``
+  is the Patchworks launch entrypoint.
+- ``models/k3z_patchworks_model/tracks_intensive_light_standstructure/`` is
+  the compiled proving-ground surface.
+- The proving-ground tracks should now expose AU-wise managed stand-structure
+  feature rows:
+  - ``feature.MAI.managed.<au_token>``
+  - ``feature.BasalArea000.managed.<au_token>``
+  - ``feature.DBHg000.managed.<au_token>``
+  - ``feature.SPH000.managed.<au_token>``
+  - ``feature.StemCount000.managed.<au_token>``
+  - ``feature.StemCount125.managed.<au_token>``
+  - ``feature.StemCount175.managed.<au_token>``
+- On this proving-ground surface, managed QMD should now prefer the richer
+  BTC-native managed diameter signal rather than only the older
+  volume/height/stems approximation. Preference order:
+  ``feature.DBHg000.managed.<au_token>`` first; then the QMD implied by
+  ``feature.BasalArea000.managed.<au_token>`` plus
+  ``feature.SPH000.managed.<au_token>`` or
+  ``feature.StemCount000.managed.<au_token>``; and only then the older
+  approximation path.
+- These rows should appear only on the proving-ground surface during the first
+  rollout; the ordinary ``base``, ``ctfert_*``, ``pct_*``, and
+  ``intensive_*`` tracks should remain free of these new Patchworks bindings.
+- Read the live proving-ground accounts directly as AU-wise mean managed
+  feature values because the ``protoaccounts.csv -> accounts.csv`` promotion
+  layer applies the same area-normalization contract used by QMD, height, and
+  standing stems-per-ha feature surfaces.
+- For direct runtime QA after a rebuild, use the headless proving-ground seam
+  and inspect the saved HTML/CSV outputs:
+
+  .. code-block:: bash
+
+     femic patchworks run-headless models/k3z_patchworks_model/analysis/intensive_light_standstructure.pin --config config/patchworks.runtime.intensive_light_standstructure.windows.yaml --scenario-mode max-even-flow-smoke
+
+  Then inspect:
+
+  - by default, FEMIC saves the headless stage under
+    ``vdyp_io/logs/headless_stage/<run_id>/`` so report exports stay out of the
+    tracked ``analysis/`` tree; override with ``--stage-label`` only when a
+    different save location is intentional
+  - ``vdyp_io/logs/headless_stage/<run_id>/scenario/{targetStatus,targetSummary,schedule}.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/feature_QMD_managed_*.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/product_QMD_managed_*.csv``
+  - ``vdyp_io/logs/headless_stage/<run_id>/targets/product_QMDNumerator_managed_*.csv``
 
 Baseline Overlay Subvariant Workflow
 ------------------------------------
@@ -177,6 +444,12 @@ Review points:
 - confirm only fragment ``RETENTION`` differs from baseline;
 - confirm managed/unmanaged area shifts are explainable from the selected
   overlay retention column;
+- confirm the AU-wise harvested-stem QMD ``CC`` numerator / denominator /
+  ratio-account contract still matches baseline;
+- confirm the AU-wise standing stems-per-ha feature accounts still match the
+  baseline contract;
+- confirm the AU-wise standing stem-height feature accounts still match the
+  baseline contract;
 - confirm any missing managed species accounts are consistent with high
   retained area, not with a bad tracks surface.
 
@@ -210,6 +483,22 @@ Troubleshooting Workflow
 5. On the selected ``pct_*`` subvariant, confirm the matching
    ``config/silviculture.k3z.pct_*.yaml`` matches the expected treatment-path
    build and that the corresponding ``tracks_pct_*`` surface is active.
+6. On ``pct_heavy_zones``, the default account surface now includes a small
+   set of summary gross-revenue rollups even when the full log-grade teaching
+   family is off:
+   - ``product.Logs_Grade_Value_Total.managed.CW.CC``
+   - ``product.Logs_Grade_Value_Total.managed.FDC.CC``
+   - ``product.Logs_Grade_Value_Total.managed.HW.CC``
+   - ``product.Logs_Grade_Value_Total.managed.PLC.CC``
+   - ``product.Logs_Grade_Value_Total.managed.YC.CC``
+   - ``product.Logs_Grade_Value_Total.managed.Total.CC``
+7. On ``pct_heavy_zones``, the default account surface also includes the
+   carried-forward zone overlay accounts from the archived Bianca fork:
+   ``zone1harvestvol``, ``zone2harvestvol``, ``zone3harvestvol``,
+   ``zone1inventoryarea``, ``zone2inventoryarea``, ``zone3inventoryarea``,
+   ``zone1inventoryvol``, ``zone2inventoryvol``, ``zone3inventoryvol``,
+   ``zone1og1CW_HW``, ``zone1og1HW_CW_H``, ``zone1og1HW_CW_L``,
+   ``zone1og1HW_CW_M``, and ``zone3PCT``.
 
 Release Checklist
 -----------------
@@ -225,6 +514,10 @@ Release Checklist
 - If releasing the optional PCT-only subvariants, confirm the light/moderate/
   heavy variant specs, runtime configs, and ``pct_*.pin`` launch
   instructions are documented for student groups.
+- If releasing the optional full-intensive subvariants, confirm the
+  ``intensive_light`` / ``intensive_moderate`` / ``intensive_heavy`` variant
+  specs, runtime configs, curated ``RETENTION`` provenance, and
+  ``intensive_*.pin`` launch instructions are documented for student groups.
 
 Publication Checklist
 ---------------------

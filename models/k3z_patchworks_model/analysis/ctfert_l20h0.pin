@@ -25,9 +25,25 @@ Horizon.setHorizon(periods, 10);
  */
 boolean useRoutes = false;
 boolean usePatches = false;
+/*
+ * Keep the very large AU/species/log-grade teaching surfaces hidden by
+ * default. Set true when you explicitly want the full log-grade volume and
+ * value bridge in the Patchworks UI.
+ */
+boolean enableLogGradeAccounts = false;
 
 sourceRelative("../scripts/targets/flowTargets.bsh");
+sourceRelative("../scripts/targets/qmdRatioAccounts.bsh");
 sourceRelative("../scripts/targets/seralStages.bsh");
+sourceRelative("headless_runtime_common.bsh");
+
+String femicAccountCsv() {
+   String defaultPath = tracks_path_prefix + "accounts.default.csv";
+   if (!enableLogGradeAccounts && AttributeStore.absoluteFile(defaultPath).exists()) {
+      return defaultPath;
+   }
+   return tracks_path_prefix + "accounts.csv";
+}
 
 
 
@@ -42,7 +58,7 @@ features = tracks_path_prefix+"features.csv";
 products = tracks_path_prefix+"products.csv";
 tracknames = tracks_path_prefix+"tracknames.csv";
 treatments = tracks_path_prefix+"treatments.csv";
-accounts = tracks_path_prefix+"accounts.csv";
+accounts = femicAccountCsv();
 stratas = tracks_path_prefix+"strata.csv";
 if (AttributeStore.absoluteFile(tracks_path_prefix+"packages.csv").exists() &&
     AttributeStore.absoluteFile(tracks_path_prefix+"packageSequences.csv").exists()) {
@@ -84,6 +100,7 @@ int Patchworks_TargetInit() {
    control.calculateGroups("IFM");
 
    setupYieldFlowTargets(control, periods, tracks_path_prefix);
+   setupHarvestedQmdRatioAccounts(control, tracks_path_prefix);
    validateSeralStageAttributes();
 
    /*
@@ -129,6 +146,9 @@ int PatchWorks_Init() {
    /*
     * Load the default user interface
     */
+   femicConfigureHeadlessFromArgs();
+
+   if (!femicHeadlessMode) {
    classic_GUI(control);
 
 
@@ -230,6 +250,7 @@ int PatchWorks_Init() {
     Layer seral2Layer = new GeoRelLayer(blockData,seral2);
     seral2Layer.setTitle("Seral Stages");
     layers.add(seral2Layer);
+   }
 
    /*
     * Put patch maps here.
@@ -272,6 +293,9 @@ int PatchWorks_Init() {
 	     null,
 	     false));
 
+
+   if (femicHeadlessMode)
+      femicQueueHeadlessStage();
 
    /*
     * Put route reports here.

@@ -1,4 +1,5 @@
 TYPE,ROTATION,treatment,AU,IFM,ORIGIN,SILV_STATE,RETENTION
+<<<<<<< HEAD
 succession,0,,9.85502004E8,unmanaged,planted,cc_pl,0.092696812276
 succession,0,,9.85502004E8,managed,planted,cc_pl,0.092696812276
 succession,0,,9.85503001E8,unmanaged,planted,cc_pl,0.07
@@ -731,3 +732,5 @@ succession,5,,9.85503E8,managed,planted,cc_pl_ct_f1_f2_f3,0.141228957222
 succession,0,,9.85501E8,unmanaged,natural,baseline,0.366709767087
 succession,0,,9.85501E8,managed,natural,baseline,0.366709767087
 succession,1,,9.85501E8,managed,planted,cc_pl,0.366709767087
+=======
+>>>>>>> efc06db00839ec5c562c646de9a049e2f302b35e
